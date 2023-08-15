@@ -3,15 +3,15 @@
   (descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
   (tags "USB C Type-C Receptacle SMD USB 2.0")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c7d67a2-2d36-4939-8a8b-3adf045277c7)
   )
-  (fp_text value "USB-C Socket DX07S016JA1R1500" (at 0 5) (layer "F.Fab")
+  (fp_text value "USB-C Socket DX07S016JA1R1500" (at 0 5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e709cb90-96ed-4a5b-b4ec-af99615c5a49)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 709a5f4f-0146-4f4e-9521-74d025522729)
   )

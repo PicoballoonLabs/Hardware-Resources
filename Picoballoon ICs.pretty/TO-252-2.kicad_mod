@@ -3,15 +3,15 @@
   (descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
   (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -4.5) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -4.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 988305a9-3171-4eef-a848-6345ab50f567)
   )
-  (fp_text value "TO-252-2" (at 0 4.5) (layer "F.Fab")
+  (fp_text value "TO-252-2" (at 0 4.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e9fd3fba-c7b1-40d1-b38c-0e37d2488d4b)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ce5daf07-3b81-48bc-afd7-e08abe987d55)
   )

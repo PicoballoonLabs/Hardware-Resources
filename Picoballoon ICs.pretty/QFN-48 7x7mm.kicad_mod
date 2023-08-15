@@ -3,15 +3,15 @@
   (descr "QFN, 48 Pin (https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py")
   (tags "QFN NoLead")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -4.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -4.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9b629bac-0a8e-410c-bcbf-b7e364c333ec)
   )
-  (fp_text value "QFN-48 7x7mm" (at 0 4.8) (layer "F.Fab")
+  (fp_text value "QFN-48 7x7mm" (at 0 4.8) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 267e4ab2-1154-43e0-8b4d-a7223570ab78)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 768bba14-85a6-46cd-be24-0a8c383266d3)
   )

@@ -3,15 +3,15 @@
   (descr "Mounting Hole 3.2mm, M3, DIN965")
   (tags "mounting hole 3.2mm m3 din965")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -3.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -3.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b9876f71-0e96-425b-9bd7-06557d4a46aa)
   )
-  (fp_text value "Hole M3 Grounded" (at 0 3.8) (layer "F.Fab")
+  (fp_text value "Hole M3 Grounded" (at 0 3.8) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6900a814-a5b2-45eb-bb93-b38f9327f7b4)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fadc61ba-f885-4643-a287-3b23f9f82685)
   )
