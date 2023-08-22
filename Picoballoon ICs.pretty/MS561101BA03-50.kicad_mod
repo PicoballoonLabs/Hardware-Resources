@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "MS561101BA03-50")
   (tags "Integrated Circuit")
+  (zone_connect 1)
   (attr smd)
   (fp_text reference "IC**" (at -0.372 -5.08) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
