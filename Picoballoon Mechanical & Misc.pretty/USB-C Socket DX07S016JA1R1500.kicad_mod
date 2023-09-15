@@ -65,7 +65,7 @@
   (pad "S1" thru_hole oval (at -4.32 1.15) (size 1.3 2.6) (drill oval 0.6 1.9) (layers "*.Cu" "*.Mask") (tstamp da983741-fad0-4de2-b833-a46faf9a2ff4))
   (pad "S1" thru_hole oval (at 4.32 -2.675) (size 1.3 2.3) (drill oval 0.6 1.6) (layers "*.Cu" "*.Mask") (tstamp 96e0337a-6126-4068-a46f-af44032bbc73))
   (pad "S1" thru_hole oval (at 4.32 1.15) (size 1.3 2.6) (drill oval 0.6 1.9) (layers "*.Cu" "*.Mask") (tstamp 4ab489a4-51fe-4d65-82eb-b3732aedf23f))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/DX07S016JA1R1500--3DModel-STEP-1.STEP"
+  (model "${PICOBALLOON_LIBRARY}/3D Models/DX07S016JA1R1500.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
