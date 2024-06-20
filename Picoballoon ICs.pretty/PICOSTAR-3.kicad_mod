@@ -1,0 +1,220 @@
+(footprint "PICOSTAR-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CSD25480F3-1")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 4.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa347f8d-de04-4e1c-8976-0dbad466449e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PICOSTAR-3"
+		(at 0 2.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9a822eb2-b9ec-402c-852c-c98a158adffb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "PICOSTAR-3"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c7bb1e1-2559-40fc-81ff-f4a39cd55528")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3482b8e-9190-47de-919f-e70ff263cdd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "075001fd-59b0-4fbc-9c2d-5dbcfe62437a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.2)
+		(end -0.7 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c2567e-7a62-4959-9c2e-7b15afc3847f")
+	)
+	(fp_line
+		(start -0.6 -0.2)
+		(end -0.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "234f16e0-accb-4f06-89fc-665813537b99")
+	)
+	(fp_arc
+		(start -0.7 -0.2)
+		(mid -0.65 -0.25)
+		(end -0.6 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4883950-43ad-4e79-a934-7d2e12b2bb65")
+	)
+	(fp_arc
+		(start -0.6 -0.2)
+		(mid -0.65 -0.15)
+		(end -0.7 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76250c9a-223f-42cd-b8fb-02e69d9d65ee")
+	)
+	(fp_line
+		(start -0.845 -0.8)
+		(end 0.845 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1423cc7-e6a0-4850-a8bc-21b1622eff84")
+	)
+	(fp_line
+		(start -0.845 0.8)
+		(end -0.845 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8912c927-50cf-4e10-90d9-b1c9f896548c")
+	)
+	(fp_line
+		(start 0.845 -0.8)
+		(end 0.845 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "079b9029-1e9c-429b-9887-a8f7d5d0f64f")
+	)
+	(fp_line
+		(start 0.845 0.8)
+		(end -0.845 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7441678-32e4-4dc1-ac5e-96c33da4745b")
+	)
+	(fp_line
+		(start -0.345 -0.3)
+		(end 0.345 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fec2120c-9991-4bf6-b21b-43915becdf11")
+	)
+	(fp_line
+		(start -0.345 0.3)
+		(end -0.345 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a85960e0-b9d4-488f-b3e9-9f0894c2b6ed")
+	)
+	(fp_line
+		(start 0.345 -0.3)
+		(end 0.345 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d52839b-0f49-4efc-8383-deb782f4855e")
+	)
+	(fp_line
+		(start 0.345 0.3)
+		(end -0.345 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b1bb752-f164-40f8-a0fe-b2099a1b5e7f")
+	)
+	(pad "1" smd rect
+		(at -0.2 -0.175 90)
+		(size 0.15 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "41373acb-e953-480a-890f-e6d2b975802b")
+	)
+	(pad "2" smd rect
+		(at -0.2 0.175 90)
+		(size 0.15 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "08a67f1c-954e-4a15-aedd-735b0c878f51")
+	)
+	(pad "3" smd rect
+		(at 0.2 0)
+		(size 0.15 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "abe886ae-ea7d-4ea0-9bc7-d395a0306239")
+	)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/PICOSTAR-3.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,4 +1,4 @@
-(footprint "DMN2991UDA7B"
+(footprint "X2-DFN0806-6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "DMN2991UDA7B"
+	(property "Value" "X2-DFN0806-6"
 		(at 0 -2.4 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "DMN2991UDA7B"
+	(property "Footprint" "X2-DFN0806-6"
 		(at 0 2.7 0)
 		(unlocked yes)
 		(layer "F.Fab")

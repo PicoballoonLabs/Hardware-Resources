@@ -1,4 +1,4 @@
-(footprint "BQ25120AYFPR"
+(footprint "DSBGA-25"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "BQ25120AYFPR"
+	(property "Value" "DSBGA-25"
 		(at 6.985 3.175 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "BQ25120AYFPR"
+	(property "Footprint" "DSBGA-25"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

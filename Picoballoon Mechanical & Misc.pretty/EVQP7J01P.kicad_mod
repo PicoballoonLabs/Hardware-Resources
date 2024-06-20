@@ -129,7 +129,7 @@
 		(uuid "9d89cea5-c939-4a5e-9c1a-e5b913c42e7f")
 	)
 	(fp_line
-		(start -4.1 -2.45)
+		(start -3.5 -2.45)
 		(end 3.5 -2.45)
 		(stroke
 			(width 0.1)
@@ -139,8 +139,8 @@
 		(uuid "39bdb6e0-59bb-43ff-91f1-ee962e73f6b9")
 	)
 	(fp_line
-		(start -4.1 2.45)
-		(end -4.1 -2.45)
+		(start -3.5 2.45)
+		(end -3.5 -2.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -160,7 +160,7 @@
 	)
 	(fp_line
 		(start 3.5 2.45)
-		(end -4.1 2.45)
+		(end -3.5 2.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -234,7 +234,7 @@
 	)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/EVQ-P7J01P.stp"
 		(offset
-			(xyz 0.3300000082 0 1.190000039)
+			(xyz 0 0 1.19)
 		)
 		(scale
 			(xyz 1 1 1)
