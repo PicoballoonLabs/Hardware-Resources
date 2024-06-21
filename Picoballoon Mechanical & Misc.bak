@@ -3424,7 +3424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3433,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,9 +3442,33 @@
 			)
 		)
 		(symbol "NN02-201_0_1"
+			(arc
+				(start -0.508 0.127)
+				(mid -0.8485 -0.8332)
+				(end 0 -1.397)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.397)
+				(mid 0.8046 -0.8185)
+				(end 0.508 0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 0 -1.905) (xy 0 0.635)
+					(xy 0 -1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3456,7 +3480,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 5.715) (xy 0 -3.175)
+					(xy 0 6.35) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3468,7 +3492,31 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 5.715) (xy 0 0.635) (xy -1.27 5.715)
+					(xy 0.762 -0.635) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.35) (xy 0 1.27) (xy -1.27 6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -3478,12 +3526,23 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 0.762 -0.635)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 		)
 		(symbol "NN02-201_1_1"
 			(pin input line
-				(at 0 -4.445 90)
+				(at 0 -3.81 90)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3491,6 +3550,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

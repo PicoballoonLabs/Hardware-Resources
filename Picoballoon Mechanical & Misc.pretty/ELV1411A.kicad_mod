@@ -7,6 +7,7 @@
 		(at -5 -6.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "93a87bba-264a-4a24-ad4c-df2566c68f00")
 		(effects
 			(font
@@ -69,8 +70,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7 -5.5)
-		(end -7 5.5)
+		(start -7.2 -5.7)
+		(end -7.2 5.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,8 +80,8 @@
 		(uuid "235bea0c-f30c-473b-9cb8-7fc3cc1c4257")
 	)
 	(fp_line
-		(start -7 5.5)
-		(end 7 5.5)
+		(start -7.2 5.7)
+		(end 7.2 5.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,8 +90,8 @@
 		(uuid "730574f5-4df1-4fe7-aded-fde896b4fea7")
 	)
 	(fp_line
-		(start 7 -5.5)
-		(end -7 -5.5)
+		(start 7.2 -5.7)
+		(end -7.2 -5.7)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -99,18 +100,8 @@
 		(uuid "316d98d5-74b1-4ef1-8882-46d3f0b9a520")
 	)
 	(fp_line
-		(start 7 -5)
-		(end 7 -5.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "00e48424-638a-4d4b-bc0c-22cbfbfaa558")
-	)
-	(fp_line
-		(start 7 5.5)
-		(end 7 -5)
+		(start 7.2 5.7)
+		(end 7.2 -5.7)
 		(stroke
 			(width 0.1)
 			(type default)
