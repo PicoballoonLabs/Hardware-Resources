@@ -250,4 +250,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "f6465e4c-c209-48e3-bc60-ca49b4ab0766")
 	)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/ELV1411A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
