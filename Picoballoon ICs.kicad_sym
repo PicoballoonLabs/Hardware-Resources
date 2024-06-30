@@ -3511,7 +3511,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 11.16 0)
+			(at -7.62 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,8 +3519,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LDO TPS7A26 3.3V"
-			(at -12.7 -14.16 0)
+		(property "Value" "TPS7A2633DRVR"
+			(at -7.62 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3529,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:WSON-6 2x2mm"
-			(at 0 -17.018 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 10.16 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Description" "500-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good 6-WSON -40 to 125"
-			(at 0 -19.558 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3558,7 @@
 			)
 		)
 		(property "MPN" "TPS7A2633DRVR"
-			(at 0 0 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,8 +3569,8 @@
 		)
 		(symbol "LDO TPS7A26 3.3V_0_0"
 			(rectangle
-				(start -12.7 10.16)
-				(end 12.7 -10.16)
+				(start -7.62 8.89)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3580,8 +3580,8 @@
 				)
 			)
 			(pin output line
-				(at 17.78 7.62 180)
-				(length 5.08)
+				(at 10.16 6.35 180)
+				(length 2.54)
 				(name "OUT"
 					(effects
 						(font
@@ -3597,9 +3597,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -2.54 180)
-				(length 5.08)
+			(pin no_connect line
+				(at 10.16 3.81 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -3616,8 +3616,8 @@
 				)
 			)
 			(pin output line
-				(at 17.78 2.54 180)
-				(length 5.08)
+				(at 10.16 -1.27 180)
+				(length 2.54)
 				(name "PG"
 					(effects
 						(font
@@ -3634,8 +3634,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 2.54 0)
-				(length 5.08)
+				(at -10.16 3.81 0)
+				(length 2.54)
 				(name "EN"
 					(effects
 						(font
@@ -3652,8 +3652,8 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -7.62 180)
-				(length 5.08)
+				(at -10.16 -1.27 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -3670,8 +3670,8 @@
 				)
 			)
 			(pin input line
-				(at -17.78 7.62 0)
-				(length 5.08)
+				(at -10.16 6.35 0)
+				(length 2.54)
 				(name "IN"
 					(effects
 						(font
@@ -3688,8 +3688,8 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -5.08 180)
-				(length 5.08)
+				(at -10.16 -1.27 0)
+				(length 2.54) hide
 				(name "EXP"
 					(effects
 						(font

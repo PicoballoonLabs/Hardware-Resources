@@ -7082,6 +7082,7 @@
 		(on_board yes)
 		(property "Reference" "U"
 			(at -6.35 5.715 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,6 +7092,7 @@
 		)
 		(property "Value" "TPS22914"
 			(at -6.35 -4.445 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)

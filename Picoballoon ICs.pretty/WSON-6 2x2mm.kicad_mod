@@ -97,8 +97,8 @@
 		(uuid "055c650e-962a-4be2-a8e0-bcd565caf16d")
 	)
 	(fp_circle
-		(center -1.91 -0.65)
-		(end -1.81 -0.65)
+		(center -0.8 -1.6)
+		(end -0.7 -1.6)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -186,17 +186,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "6a933f23-55e7-4016-8ee7-b5c32099b8fb")
-	)
-	(fp_circle
-		(center -1.91 -0.65)
-		(end -1.81 -0.65)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.Fab")
-		(uuid "67d59709-e6e1-46f0-80d4-501f11365365")
 	)
 	(pad "1" smd rect
 		(at -1.02 -0.65)
