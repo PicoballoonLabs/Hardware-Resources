@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "J"
-		(at 0 -5 0)
+		(at 0 3.9 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "1d22e43d-01b0-4635-8c29-da036d44eaa3")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "B2B-XH-A (LF)(SN)"
-		(at 0 6.4 0)
+		(at 0 6.8 0)
 		(layer "F.Fab")
 		(uuid "e4ea265d-3370-4195-bfa1-d5e8a4e92a0e")
 		(effects
@@ -27,7 +27,7 @@
 		)
 	)
 	(property "Footprint" "B2B-XH-A (LF)(SN)"
-		(at 0 4.6 0)
+		(at 0 5.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -39,7 +39,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 -0.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -51,7 +51,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -0.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,8 +64,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.7 -2.875)
-		(end 3.7 -2.875)
+		(start -3.7 -3.4)
+		(end 3.7 -3.4)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "81d7c8ee-760e-44c3-9121-1ee17f4a16d7")
 	)
 	(fp_line
-		(start -3.7 2.875)
-		(end -3.7 -2.875)
+		(start -3.7 2.35)
+		(end -3.7 -3.4)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "2e106384-04d8-4003-baac-8e9deb7e9139")
 	)
 	(fp_line
-		(start 3.7 -2.875)
-		(end 3.7 2.875)
+		(start 3.7 -3.4)
+		(end 3.7 2.35)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -94,8 +94,8 @@
 		(uuid "7665b942-edce-4303-bfd3-46a1a7643e89")
 	)
 	(fp_line
-		(start 3.7 2.875)
-		(end -3.7 2.875)
+		(start 3.7 2.35)
+		(end -3.7 2.35)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -104,8 +104,8 @@
 		(uuid "ea8616cb-1a5f-4052-8f18-30ef85bae325")
 	)
 	(fp_line
-		(start -3.95 -3.125)
-		(end -3.95 3.125)
+		(start -3.95 -3.65)
+		(end -3.95 2.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -114,8 +114,8 @@
 		(uuid "8dd72205-f067-44d9-b4df-58fba017f7b8")
 	)
 	(fp_line
-		(start -3.95 3.125)
-		(end 3.95 3.125)
+		(start -3.95 2.6)
+		(end 3.95 2.6)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -124,8 +124,8 @@
 		(uuid "a1b42c22-71ac-4b2a-8b61-6738716149a9")
 	)
 	(fp_line
-		(start 3.95 -3.125)
-		(end -3.95 -3.125)
+		(start 3.95 -3.65)
+		(end -3.95 -3.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -134,8 +134,8 @@
 		(uuid "dc39cb04-f422-4fbf-9c06-ebbad9b81ff1")
 	)
 	(fp_line
-		(start 3.95 3.125)
-		(end 3.95 -3.125)
+		(start 3.95 2.6)
+		(end 3.95 -3.65)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -144,8 +144,8 @@
 		(uuid "600da051-1d92-4bec-a712-081094d7bef3")
 	)
 	(fp_line
-		(start -3.7 -2.875)
-		(end 3.7 -2.875)
+		(start -3.7 -3.4)
+		(end 3.7 -3.4)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -154,8 +154,8 @@
 		(uuid "fe29c488-a82c-4c52-b251-924a14dbb840")
 	)
 	(fp_line
-		(start -3.7 2.875)
-		(end -3.7 -2.875)
+		(start -3.7 2.35)
+		(end -3.7 -3.4)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -164,8 +164,8 @@
 		(uuid "06a5d8dd-8e8f-4b71-b741-8c2ac45d97d8")
 	)
 	(fp_line
-		(start 3.7 -2.875)
-		(end 3.7 2.875)
+		(start 3.7 -3.4)
+		(end 3.7 2.35)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -174,8 +174,8 @@
 		(uuid "8884dd13-bde7-4c02-b72d-ca8ff69d0361")
 	)
 	(fp_line
-		(start 3.7 2.875)
-		(end -3.7 2.875)
+		(start 3.7 2.35)
+		(end -3.7 2.35)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -184,7 +184,7 @@
 		(uuid "7f5e6d67-7f05-4460-812e-b7bc0da6866a")
 	)
 	(pad "1" thru_hole rect
-		(at 1.25 0.525)
+		(at 1.25 0)
 		(size 1.575 1.575)
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
@@ -193,7 +193,7 @@
 		(uuid "d13689ae-8764-481b-8bd9-cbd704541822")
 	)
 	(pad "2" thru_hole circle
-		(at -1.25 0.525)
+		(at -1.25 0)
 		(size 1.575 1.575)
 		(drill 1.05)
 		(layers "*.Cu" "*.Mask")
@@ -203,7 +203,7 @@
 	)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/B2B-XH-A (LF)(SN).STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
