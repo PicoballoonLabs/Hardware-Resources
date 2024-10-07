@@ -9681,7 +9681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,7 +9690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,19 +9699,21 @@
 			)
 		)
 		(property "MPN" "MPRLS0300YG0001B"
-			(at 0 0 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part #" "C2887940"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Pressure Sensor MPRLS0300_1_0"
