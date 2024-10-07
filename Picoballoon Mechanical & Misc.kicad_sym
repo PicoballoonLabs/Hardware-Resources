@@ -553,6 +553,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "B2B-XH-A (LF)(SN)"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C158012"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "connector"
 			(at 0 0 0)
 			(effects

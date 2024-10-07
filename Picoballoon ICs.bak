@@ -2035,14 +2035,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSZ040N06LS5ATMA1"
-			(at -8.89 -19.05 0)
+		(property "Value" "BSZ040N06LS5"
+			(at 5.08 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:TSDSON-8"
@@ -2065,6 +2064,24 @@
 		)
 		(property "Description" "MOSFETs MV POWER MOS"
 			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSZ040N06LS5"
+			(at 2.54 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C534659"
+			(at 3.81 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,6 +3200,24 @@
 		)
 		(property "Description" ""
 			(at 0 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CP2102N-A02-GQFN24R"
+			(at 0 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C969151"
+			(at 0 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,6 +9698,22 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MPRLS0300YG0001B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C2887940"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "Pressure Sensor MPRLS0300_1_0"
 			(pin power_in line
 				(at 12.7 -7.62 180)
@@ -9895,7 +9946,7 @@
 			)
 		)
 	)
-	(symbol "Pressure Sensor MS561101BA03-50"
+	(symbol "Pressure Sensor MS560702BA03-50"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9925,7 +9976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/418/6/ENG_DS_MS5611_01BA03_B3-1134567.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2010281834_TE-Connectivity-MS560702BA03-50_C97627.pdf"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -9934,8 +9985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" " 1Kpa~120Kpa SMD-8P Pressure Sensors ROHS "
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,7 +9994,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "Pressure Sensor MS561101BA03-50_1_0"
+		(property "MPN" "MS560702BA03-50"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C97627"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Pressure Sensor MS560702BA03-50_1_0"
 			(pin power_in line
 				(at 12.7 7.62 180)
 				(length 2.54)
@@ -10089,7 +10158,7 @@
 				)
 			)
 		)
-		(symbol "Pressure Sensor MS561101BA03-50_1_1"
+		(symbol "Pressure Sensor MS560702BA03-50_1_1"
 			(rectangle
 				(start -10.16 10.16)
 				(end 10.16 -10.16)
@@ -11875,6 +11944,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2876338"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

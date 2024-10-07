@@ -524,7 +524,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:B2B-XH-A (LF)(SN)"
