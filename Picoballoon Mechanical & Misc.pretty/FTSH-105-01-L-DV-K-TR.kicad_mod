@@ -1,9 +1,9 @@
-(footprint "Box SWD connector 2x5"
+(footprint "FTSH-105-01-L-DV-K-TR"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "ESHF-105-01-L-D-SM-K-TR-3")
+	(descr "SMD,P=1.27mm ")
 	(tags "Connector")
 	(property "Reference" "J**"
 		(at 0 11.3 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Box SWD connector 2x5"
+	(property "Value" "FTSH-105-01-L-DV-K-TR"
 		(at 0 7.2 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Box SWD connector 2x5"
+	(property "Footprint" "FTSH-105-01-L-DV-K-TR"
 		(at 0 9.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,10 +65,36 @@
 			)
 		)
 	)
+	(property "MPN" "FTSH-105-01-L-DV-K-TR"
+		(at 0 5.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3a53240-eea3-4a6b-85e9-fc83045051cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC Part #" "C448647"
+		(at 0 12.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "81ed3291-d8b1-4d60-bacd-06e019fcd99d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(attr smd)
 	(fp_line
-		(start -6 -2.5)
-		(end -6 2.5)
+		(start -3 -2.5)
+		(end -3 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -77,38 +103,8 @@
 		(uuid "fd5b8862-97d1-4a81-91ae-c15db4994b61")
 	)
 	(fp_line
-		(start -6 2.5)
-		(end -3.5 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7e679d09-e98c-4b9d-9700-bf55be3a4da4")
-	)
-	(fp_line
-		(start -3.5 -2.5)
-		(end -6 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c59d5b5e-5a03-4b49-a046-066b3d092516")
-	)
-	(fp_line
-		(start 3.5 -2.5)
-		(end 6 -2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1b7b896a-9323-4ce9-92da-1374d238eb6b")
-	)
-	(fp_line
-		(start 6 -2.5)
-		(end 6 2.5)
+		(start 3 -2.5)
+		(end 3 2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -116,19 +112,9 @@
 		(layer "F.SilkS")
 		(uuid "1c420e06-1a8d-46d4-8510-d971af9fe9a6")
 	)
-	(fp_line
-		(start 6 2.5)
-		(end 3.5 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "019fbdc6-3f70-48b8-9706-e29df79430ba")
-	)
 	(fp_rect
-		(start -3.5 1.5)
-		(end 3.5 2.5)
+		(start -3 1.5)
+		(end 3 2.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -138,8 +124,8 @@
 		(uuid "a0d2898b-88a5-49b1-b22e-543343276765")
 	)
 	(fp_line
-		(start -6.5 -3.5)
-		(end 6.5 -3.5)
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -148,8 +134,8 @@
 		(uuid "fb2661aa-48be-4971-b8ee-cf785cc3eb99")
 	)
 	(fp_line
-		(start -6.5 3.5)
-		(end -6.5 -3.5)
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +144,8 @@
 		(uuid "f25a8995-6eaa-4e09-882b-da7f0b366545")
 	)
 	(fp_line
-		(start 6.5 -3.5)
-		(end 6.5 3.5)
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +154,8 @@
 		(uuid "16863be9-ba18-46cc-ae88-ef652dbdaf27")
 	)
 	(fp_line
-		(start 6.5 3.5)
-		(end -6.5 3.5)
+		(start 3.5 3.5)
+		(end -3.5 3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +164,8 @@
 		(uuid "fdbed158-1b64-49fc-ae70-86caad6c8895")
 	)
 	(fp_line
-		(start -6 -2.5)
-		(end 6 -2.5)
+		(start -3 -2.5)
+		(end 3 -2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -188,8 +174,8 @@
 		(uuid "3f5f98b3-ab7f-4232-8863-3a68528860f1")
 	)
 	(fp_line
-		(start -6 2.5)
-		(end -6 -2.5)
+		(start -3 2.5)
+		(end -3 -2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -198,8 +184,8 @@
 		(uuid "eac34040-4558-4964-b95c-4615bf09341c")
 	)
 	(fp_line
-		(start 6 -2.5)
-		(end 6 2.5)
+		(start 3 -2.5)
+		(end 3 2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -208,8 +194,8 @@
 		(uuid "5dc69814-c8f1-47d4-be34-632c49a21891")
 	)
 	(fp_line
-		(start 6 2.5)
-		(end -6 2.5)
+		(start 3 2.5)
+		(end -3 2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -277,7 +263,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cb8f9249-cc06-4b73-acc2-4802ffe21243")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/SWD 2x5 Box Connector.step"
+	(model "${PICOBALLOON_LIBRARY}/3D Models/FTSH-105-01-L-DV-K-TR.step"
 		(offset
 			(xyz -6 -2.5 0)
 		)

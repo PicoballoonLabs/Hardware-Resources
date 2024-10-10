@@ -1,9 +1,9 @@
-(footprint "24549853"
+(footprint "EM-02KP"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "2454985-3-1")
+	(descr "SMD-4P,6.1x6.3mm ")
 	(tags "Switch")
 	(property "Reference" "S**"
 		(at 0 8 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "24549853"
+	(property "Value" "EM-02KP"
 		(at 0 8 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "24549853"
+	(property "Footprint" "EM-02KP"
 		(at 0 8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -62,6 +62,32 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "EM-02KP"
+		(at 0 9.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3f84b87b-a8d8-4b4b-9984-7898521585e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC Part #" "C129078"
+		(at 0 9.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd559415-c227-46a6-971c-8d1b1ae9351a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

@@ -4328,7 +4328,7 @@
 			)
 		)
 	)
-	(symbol "Probe connector 2x5"
+	(symbol "Picoballoon connector 2x5"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4342,15 +4342,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at -3.81 2.54 0)
+		(property "Value" "20021521-00010T1LF"
+			(at 1.905 -8.89 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:Box SWD connector 2x5"
+		(property "Footprint" "Picoballoon Mechanical & Misc:20021521-00010T1LF"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -4377,7 +4378,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "Probe connector 2x5_1_1"
+		(property "MPN" "20021521-00010T1LF"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2972785"
+			(at 0 -14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Picoballoon connector 2x5_1_1"
 			(rectangle
 				(start -8.89 7.62)
 				(end 8.89 -7.62)
@@ -4585,15 +4604,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at -3.81 2.54 0)
+		(property "Value" "20021521-00010T1LF"
+			(at 1.905 -8.89 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:Box SWD connector 2x5"
+		(property "Footprint" "Picoballoon Mechanical & Misc:20021521-00010T1LF"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -4603,7 +4623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -3.81 2.54 0)
+			(at -2.54 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4632,25 @@
 			)
 		)
 		(property "Description" ""
-			(at -3.81 2.54 0)
+			(at -2.54 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021521-00010T1LF"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2972785"
+			(at 1.27 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
