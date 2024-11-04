@@ -1,0 +1,186 @@
+(footprint "Inductor 0201"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.225 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "97485850-3468-4dc5-8e3a-da676dcd7d82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Inductor 0201"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19eeeecf-902e-4a38-b630-8ea2d5cba187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Inductor 0201"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "785b413d-f3e5-4a65-9b46-e5a402cb860a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "071abd52-d294-4656-b9c5-ae8ffa98505b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dba793b3-bc56-4b14-971f-2864a506a4e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.35)
+		(end 0.7 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ad06744-ffc3-48fb-92ad-7ea8dca511c3")
+	)
+	(fp_line
+		(start -0.7 0.35)
+		(end -0.7 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1cd47d3-24a9-4b43-8414-ac7b2892a58c")
+	)
+	(fp_line
+		(start 0.7 -0.35)
+		(end 0.7 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b36018b-ca66-490a-906f-9b154ccf8fd8")
+	)
+	(fp_line
+		(start 0.7 0.35)
+		(end -0.7 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "515c0a8c-f79d-4020-a9a1-17c576688216")
+	)
+	(fp_line
+		(start -0.3 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59c3140b-328f-4152-9a4a-42673c43c7a6")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51b7cec5-8437-446c-a7ed-c247f8186d99")
+	)
+	(fp_line
+		(start 0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5b41354-c829-4b12-8560-c834ccbf69ee")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95f99d4a-f559-4c47-9c88-53d184edb498")
+	)
+	(pad "" smd roundrect
+		(at -0.34 0)
+		(size 0.28 0.32)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "46ac4aeb-6e09-4530-8ea0-d498175b76f6")
+	)
+	(pad "" smd roundrect
+		(at 0.34 0)
+		(size 0.28 0.32)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "597b193a-e6a1-4123-9d4d-bc0898d698ba")
+	)
+	(pad "1" smd rect
+		(at -0.325 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f5c2de3d-21aa-4bd0-a6d3-3e203521e0f6")
+	)
+	(pad "2" smd rect
+		(at 0.325 0)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9a58061c-a78e-4d2c-8efb-2e3a312930ad")
+	)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/Inductor 0201.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

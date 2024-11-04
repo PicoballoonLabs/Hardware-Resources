@@ -1,4 +1,4 @@
-(footprint "Diode 0201"
+(footprint "Diode 0201S"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Diode 0201"
+	(property "Value" "Diode 0201S"
 		(at 0 3.64 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Diode 0201"
+	(property "Footprint" "Diode 0201S"
 		(at 0 2.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
