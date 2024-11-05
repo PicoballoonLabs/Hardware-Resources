@@ -1,0 +1,241 @@
+(footprint "WAFER-XH2.54-4PWB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 12.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8fa04cbd-033a-4b47-afa2-5f5e6c3faa4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WAFER-XH2.54-4PWB"
+		(at 0 8.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee3038f4-44b2-4f6d-91a0-ede5f022dc64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "WAFER-XH2.54-4PWB"
+		(at 0 10.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8814b2e-604b-4201-a57d-56cfaa0a8e26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbdab07b-4265-410b-a7bf-49f89a06b3cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "1x4P 4P 1 2.5mm 4 -25℃~+85℃ 3A Horizontal attachment SMD,P=2.5mm,Surface Mount，Right Angle Wire To Board Connector ROHS "
+		(at 0 18.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "357bd65b-ebab-480f-bbc7-38d317ac7055")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "WAFER-XH2.54-4PWB"
+		(at 0 15.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3a53240-eea3-4a6b-85e9-fc83045051cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "LCSC Part #" "C3029478"
+		(at 0 14.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "81ed3291-d8b1-4d60-bacd-06e019fcd99d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -2)
+		(end 6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c420e06-1a8d-46d4-8510-d971af9fe9a6")
+	)
+	(fp_line
+		(start 7.5 5.5)
+		(end -7.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd5b8862-97d1-4a81-91ae-c15db4994b61")
+	)
+	(fp_line
+		(start -7.5 -3.5)
+		(end 7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "650373e6-e260-46d6-aea4-a5f2903d8c19")
+	)
+	(fp_line
+		(start -7.5 5.5)
+		(end -7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06641d79-3d9b-48fa-9352-e8c29580a450")
+	)
+	(fp_line
+		(start 7.5 -3.5)
+		(end 7.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15f3499f-c641-43a9-ad8f-3b49b77f901d")
+	)
+	(fp_line
+		(start 7.5 5.5)
+		(end -7.5 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ea30cc3-e161-46d4-accf-660d3c85db92")
+	)
+	(fp_line
+		(start -7.5 -3.5)
+		(end 7.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f5f98b3-ab7f-4232-8863-3a68528860f1")
+	)
+	(fp_line
+		(start -7.5 5.5)
+		(end -7.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eac34040-4558-4964-b95c-4615bf09341c")
+	)
+	(fp_line
+		(start 7.5 5.5)
+		(end -7.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bda13cc-fc5d-4659-a2f5-76e1e85cf582")
+	)
+	(fp_line
+		(start 7.5 5.5)
+		(end 7.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dc69814-c8f1-47d4-be34-632c49a21891")
+	)
+	(pad "1" smd rect
+		(at -3.75 -3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c9f4d23b-d3af-43e2-8f43-bc6e291b0eae")
+	)
+	(pad "2" smd rect
+		(at -1.25 -3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "496e5dc5-73ff-47f8-bc2f-823ead3dd56e")
+	)
+	(pad "3" smd rect
+		(at 1.25 -3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "989cf438-73c1-48ab-a258-8beb546c6fc8")
+	)
+	(pad "4" smd rect
+		(at 3.75 -3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e5d85b2-3111-4887-ae11-8e5657d1d837")
+	)
+	(pad "S1" smd rect
+		(at -6.73 3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1b6f706d-dc9d-47b5-aeea-99b29fdd6975")
+	)
+	(pad "S2" smd rect
+		(at 6.73 3.7)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "519e128e-beca-4c1a-b237-e162b0aeab47")
+	)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/WAFER-XH2.54-4PWB.stp"
+		(offset
+			(xyz -7.625 10 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
