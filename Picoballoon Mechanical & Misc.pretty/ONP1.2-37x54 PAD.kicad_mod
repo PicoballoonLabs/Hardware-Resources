@@ -1,0 +1,177 @@
+(footprint "ONP1.2-37x54 PAD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SC"
+		(at 0.1 27.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1d22e43d-01b0-4635-8c29-da036d44eaa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ONP1.2-37x54 PAD"
+		(at 0.1 30.6 0)
+		(layer "F.Fab")
+		(uuid "e4ea265d-3370-4195-bfa1-d5e8a4e92a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ONP1.2-37x54 PAD"
+		(at 0.1 29.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eefd3ecc-ecc2-4473-a178-f8bb3e6f513c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 27.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14e03f9a-ea5f-443e-a33f-24ce146520b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 27.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a2b4069-dfb0-4517-ad3e-6672d79252ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -24.38 14.25)
+		(end -22.38 16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "219c6b41-fec7-47e4-9baa-39fe71b1d994")
+	)
+	(fp_rect
+		(start 22.38 14.25)
+		(end 24.38 16.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b32f31a6-b234-44fe-9801-6ad2f4b08050")
+	)
+	(fp_line
+		(start -27 -18.25)
+		(end 27 -18.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe29c488-a82c-4c52-b251-924a14dbb840")
+	)
+	(fp_line
+		(start -27 18.25)
+		(end -27 -18.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06a5d8dd-8e8f-4b71-b741-8c2ac45d97d8")
+	)
+	(fp_line
+		(start 27 -18.25)
+		(end 27 18.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8884dd13-bde7-4c02-b72d-ca8ff69d0361")
+	)
+	(fp_line
+		(start 27 18.25)
+		(end -27 18.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f5e6d67-7f05-4460-812e-b7bc0da6866a")
+	)
+	(fp_text user "-"
+		(at 23.38 12.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "225b27b5-6355-4614-9bcf-0fec01ce8db7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -23.38 12.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75c82be0-605d-4db4-9cce-4c57b9784a0f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -28.6 15.25)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "ce7eadbe-8b65-4b83-8435-edfade66e22a")
+	)
+	(pad "2" smd roundrect
+		(at 28.6 15.25)
+		(size 2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2)
+		(uuid "dee21271-26e2-44f2-ba2c-fa39476c520d")
+	)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/ONP1.2-37x54.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

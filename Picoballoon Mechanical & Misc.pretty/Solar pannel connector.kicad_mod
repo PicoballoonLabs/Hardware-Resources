@@ -1,0 +1,245 @@
+(footprint "Solar pannel connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J"
+		(at 0 20.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1d22e43d-01b0-4635-8c29-da036d44eaa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Solar pannel connector"
+		(at 0 23.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4ea265d-3370-4195-bfa1-d5e8a4e92a0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Solar pannel connector"
+		(at 0 21.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eefd3ecc-ecc2-4473-a178-f8bb3e6f513c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 27.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14e03f9a-ea5f-443e-a33f-24ce146520b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 27.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a2b4069-dfb0-4517-ad3e-6672d79252ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.7 -1.2)
+		(end -2.6 -0.6)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "676fc006-f74f-4e0c-9fbe-5f6497de7919")
+	)
+	(fp_rect
+		(start -3.7 0.6)
+		(end -2.6 1.2)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "f1495ec5-c3f1-4fac-9e76-c374c3923da8")
+	)
+	(fp_rect
+		(start 2.6 -1.2)
+		(end 3.7 -0.6)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "ca722a13-276e-43b5-81b8-8c751ae7b611")
+	)
+	(fp_rect
+		(start 2.6 0.6)
+		(end 3.7 1.2)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "85f42ffd-bc81-4915-bf76-ded0a83a4bc3")
+	)
+	(fp_rect
+		(start -3.85 0.45)
+		(end -2.45 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a9e0d5b5-bd5f-4ea7-a539-06b3ce31c745")
+	)
+	(fp_rect
+		(start -1.75 -0.45)
+		(end 1.75 0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "211fd24b-c4f5-4150-8ed3-375fb012a9ca")
+	)
+	(fp_rect
+		(start 2.45 0.45)
+		(end 3.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3dc76360-977a-4e4f-bd8b-456620d7bb71")
+	)
+	(fp_rect
+		(start -4.25 -1.75)
+		(end 4.25 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4d67ddfa-ccba-49ef-889a-a95a055afdf1")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.3 -0.9)
+		(size 0.75 0.75)
+		(drill 0.75)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2588a1a6-63cb-4786-8eeb-8f66ee5427b8")
+	)
+	(pad "1" smd custom
+		(at -4.3 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.35) (xy -0.488582 -0.407403) (xy -0.456066 -0.456066) (xy -0.407403 -0.488582) (xy -0.35 -0.5)
+					(xy 0.35 -0.5) (xy 0.407403 -0.488582) (xy 0.456066 -0.456066) (xy 0.488582 -0.407403) (xy 0.5 -0.35)
+					(xy 0.5 0.35) (xy 0.488582 0.407403) (xy 0.456066 0.456066) (xy 0.407403 0.488582) (xy 0.35 0.5)
+					(xy -0.35 0.5) (xy -0.407403 0.488582) (xy -0.456066 0.456066) (xy -0.488582 0.407403) (xy -0.5 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.7 0.6) (xy 1.7 1.2) (xy 0.6 1.2) (xy -0.3 0.4) (xy -0.3 -0.4) (xy 0.6 -1.2) (xy 1.7 -1.2)
+					(xy 1.7 -0.6) (xy 0.3 -0.6) (xy 0.3 0.6)
+				)
+				(width 0.4)
+				(fill yes)
+			)
+		)
+		(uuid "b18053d4-4f4b-49bb-b69d-27e3c902eb80")
+	)
+	(pad "2" smd roundrect
+		(at 0 -0.9)
+		(size 3.6 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "8699e3c7-4bcb-455c-b961-910d4cdbe02f")
+	)
+	(pad "3" smd roundrect
+		(at -1 0.9)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "bee4f7b9-f6b2-44c7-9f61-29aaadfd3715")
+	)
+	(pad "4" smd roundrect
+		(at 1 0.9)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "3dedc7fb-236c-4e04-a401-0214af872190")
+	)
+	(pad "5" smd custom
+		(at 4.25 0)
+		(size 1 1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.5 -0.35) (xy -0.488582 -0.407403) (xy -0.456066 -0.456066) (xy -0.407403 -0.488582) (xy -0.35 -0.5)
+					(xy 0.35 -0.5) (xy 0.407403 -0.488582) (xy 0.456066 -0.456066) (xy 0.488582 -0.407403) (xy 0.5 -0.35)
+					(xy 0.5 0.35) (xy 0.488582 0.407403) (xy 0.456066 0.456066) (xy 0.407403 0.488582) (xy 0.35 0.5)
+					(xy -0.35 0.5) (xy -0.407403 0.488582) (xy -0.456066 0.456066) (xy -0.488582 0.407403) (xy -0.5 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.7 -0.6) (xy -1.7 -1.2) (xy -0.6 -1.2) (xy 0.3 -0.4) (xy 0.3 0.4) (xy -0.6 1.2) (xy -1.7 1.2)
+					(xy -1.7 0.6) (xy -0.3 0.6) (xy -0.3 -0.6)
+				)
+				(width 0.4)
+				(fill yes)
+			)
+		)
+		(uuid "79673134-25cb-4c13-9803-377e9d4af3f0")
+	)
+)
