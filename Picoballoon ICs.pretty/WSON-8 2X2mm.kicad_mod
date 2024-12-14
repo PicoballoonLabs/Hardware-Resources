@@ -213,7 +213,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "f8c4ce3f-a92f-4af1-8a31-35420b9dd4d1")
 	)
 	(pad "2" smd roundrect
@@ -221,7 +221,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "060a9915-b947-40f3-a2c9-d63200662cb3")
 	)
 	(pad "3" smd roundrect
@@ -229,7 +229,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "399d14f6-72d3-4515-af83-215789e3a698")
 	)
 	(pad "4" smd roundrect
@@ -237,7 +237,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "bdd1e2f6-a8f5-44d4-877c-3b25ff38bd35")
 	)
 	(pad "5" smd roundrect
@@ -245,7 +245,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "23143bf8-5dc1-4a4d-ba64-af4ccd0001b8")
 	)
 	(pad "6" smd roundrect
@@ -253,7 +253,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "d46414d1-6145-4cd0-b03c-c0af5aeb145c")
 	)
 	(pad "7" smd roundrect
@@ -261,7 +261,7 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "07a33b00-2c69-4c1c-a6fa-1a805084e6f5")
 	)
 	(pad "8" smd roundrect
@@ -269,14 +269,14 @@
 		(size 0.76 0.28)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.125)
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "cf5fca85-6521-45de-9551-799d07d69fdc")
 	)
 	(pad "9" smd rect
 		(at 0 0)
 		(size 0.9 1.6)
 		(layers "F.Cu" "F.Mask")
-		(solder_mask_margin 0.102)
+		(solder_mask_margin 0.075)
 		(uuid "d3754661-6f4e-44f0-baff-943021d063c0")
 	)
 	(pad "10" thru_hole circle
