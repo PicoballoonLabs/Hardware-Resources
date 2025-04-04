@@ -5729,7 +5729,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 14.605 0)
+			(at -8.89 18.415 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -5739,7 +5739,7 @@
 			)
 		)
 		(property "Value" "TPS61089RNRR"
-			(at -8.89 -16.51 0)
+			(at -8.89 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,8 +5795,8 @@
 		)
 		(symbol "DCDC TPS61089RNRR_0_0"
 			(rectangle
-				(start -8.89 13.97)
-				(end 8.89 -13.97)
+				(start -8.89 17.78)
+				(end 8.89 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5806,7 +5806,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 1.27 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "FSW"
 					(effects
@@ -5824,7 +5824,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 3.81 0)
+				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -5842,7 +5842,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 -1.27 0)
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -5860,7 +5860,7 @@
 				)
 			)
 			(pin power_out line
-				(at -11.43 -11.43 0)
+				(at -11.43 -12.7 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -5878,7 +5878,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 3.81 180)
+				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -5896,7 +5896,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -3.81 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -5914,7 +5914,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -11.43 180)
+				(at 11.43 -12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5932,7 +5932,7 @@
 				)
 			)
 			(pin power_out line
-				(at 11.43 11.43 180)
+				(at 11.43 15.24 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -5950,7 +5950,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -6.35 0)
+				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -5968,7 +5968,7 @@
 				)
 			)
 			(pin output line
-				(at 11.43 -6.35 180)
+				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -5986,7 +5986,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 11.43 0)
+				(at -11.43 15.24 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
