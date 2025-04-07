@@ -422,9 +422,9 @@
 		)
 		(symbol "Capacitor polarized_0_1"
 			(arc
-				(start 1.27 -0.635)
-				(mid 0 -0.1089)
-				(end -1.27 -0.635)
+				(start 1.778 -1.384)
+				(mid 0 -0.4192)
+				(end -1.778 -1.384)
 				(stroke
 					(width 0.254)
 					(type default)

@@ -1,7 +1,7 @@
-(footprint "B2B-XH-A (LF)(SN)"
-	(version 20240108)
+(footprint "JST B2B-XH-A (LF)(SN)"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J"
 		(at 0 3.9 0)
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "B2B-XH-A (LF)(SN)"
+	(property "Value" "JST B2B-XH-A (LF)(SN)"
 		(at 0 6.8 0)
 		(layer "F.Fab")
 		(uuid "e4ea265d-3370-4195-bfa1-d5e8a4e92a0e")
@@ -23,18 +23,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "B2B-XH-A (LF)(SN)"
-		(at 0 5.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eefd3ecc-ecc2-4473-a178-f8bb3e6f513c")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -201,6 +191,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "938409b0-6d5d-4ffe-9840-fa22127c7efc")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/B2B-XH-A (LF)(SN).STEP"
 		(offset
 			(xyz 0 0.5 0)

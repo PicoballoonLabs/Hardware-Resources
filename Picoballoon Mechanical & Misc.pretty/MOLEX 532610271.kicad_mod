@@ -1,0 +1,270 @@
+(footprint "MOLEX 532610271"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1x2P PicoBlade(MX 1.25) 2P Tin 2 -40℃~+105℃ 1A 1 1.25mm Phosphor Bronze Horizontal attachment SMD,P=1.25mm Wire To Board Connector ROHS")
+	(property "Reference" "J"
+		(at -1.577 -5.67 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "adb22a90-9b1e-457a-a300-214d067a2be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOLEX 532610271"
+		(at 4.9 4.965 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7d1996b-de09-4672-bb6a-dc0b5f97f254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/532/53261/532610271_sd.pdf?inline"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04853842-b0d5-4d53-87b7-828716b768a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1x2P PicoBlade(MX 1.25) 2P Tin 2 -40℃~+105℃ 1A 1 1.25mm Phosphor Bronze Horizontal attachment SMD,P=1.25mm Wire To Board Connector ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e57becde-70f7-4a73-8dec-1dbbdc7817c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -4.3012 -1.0762) (xy -2.0488 -1.0762) (xy -2.0488 2.0762) (xy -4.3012 2.0762)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "e9488ad4-2958-42ce-aa31-e4a81cf79b36")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1012 -3.2762) (xy -0.1488 -3.2762) (xy -0.1488 -1.5238) (xy -1.1012 -1.5238)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "12dac775-e401-4415-a1d4-9b8b71fe4153")
+	)
+	(fp_poly
+		(pts
+			(xy 0.1488 -3.2762) (xy 1.1012 -3.2762) (xy 1.1012 -1.5238) (xy 0.1488 -1.5238)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "278355ec-36a1-4388-9f75-3d22d15f811e")
+	)
+	(fp_poly
+		(pts
+			(xy 2.0488 -1.0762) (xy 4.3012 -1.0762) (xy 4.3012 2.0762) (xy 2.0488 2.0762)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "ded6c6bf-f1c1-426c-8881-52dd7fd3ca8a")
+	)
+	(fp_line
+		(start -2.2 -2.2)
+		(end -1.36 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bef0be4-819b-4c05-aacb-6447d36122e6")
+	)
+	(fp_line
+		(start -2.2 -1.3)
+		(end -2.2 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45aa2174-7720-45f9-880f-b73f95b4a429")
+	)
+	(fp_line
+		(start -2.1 2.2)
+		(end 2.1 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b48866ca-104e-466a-b39a-6be359e26d45")
+	)
+	(fp_line
+		(start 2.2 -2.2)
+		(end 1.36 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d40a13e-824a-4e64-b5bd-dc1544939767")
+	)
+	(fp_line
+		(start 2.2 -1.3)
+		(end 2.2 -2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f79bb3f-0167-48ae-811a-cafd1d67edd1")
+	)
+	(fp_line
+		(start -4.25 2.6)
+		(end -4.25 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff63c0f3-0c83-48ce-8f6d-eaaa9c6b6c1a")
+	)
+	(fp_line
+		(start 4.25 -3)
+		(end -4.25 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "abf9cc7b-57b2-41ef-8116-4c2ff0df6a54")
+	)
+	(fp_line
+		(start 4.25 -3)
+		(end 4.25 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20268635-bbb1-4630-8c4d-32bbb16ed817")
+	)
+	(fp_line
+		(start 4.25 2.6)
+		(end -4.25 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71f51576-086c-424b-9084-a37ce9df174e")
+	)
+	(fp_line
+		(start -3.825 -2.6)
+		(end 3.825 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daaa8a11-242c-4f0a-b7b9-da756e43c6e4")
+	)
+	(fp_line
+		(start -3.825 2.1)
+		(end -3.825 -2.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a127e3ac-eb7f-468d-9a81-a4c258863da2")
+	)
+	(fp_line
+		(start 3.825 -2.6)
+		(end 3.825 2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ace23ef7-136c-413b-9971-82f1718011bf")
+	)
+	(fp_line
+		(start 3.825 2.1)
+		(end -3.825 2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "046c71ab-9d87-4de4-aa32-9a75fbf8e1f3")
+	)
+	(pad "1" smd rect
+		(at -0.625 -2.4)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste")
+		(uuid "20a2ee8e-1298-4bfb-a7c8-10be284033d2")
+	)
+	(pad "2" smd rect
+		(at 0.625 -2.4)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste")
+		(uuid "43fc62a0-66ba-42b1-8c11-aa9c58ce95cd")
+	)
+	(pad "S1" smd rect
+		(at -3.175 0.5)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Paste")
+		(uuid "72f111a0-45d6-48cc-ac5d-166c63e969b3")
+	)
+	(pad "S2" smd rect
+		(at 3.175 0.5)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Paste")
+		(uuid "a0e79ba2-a015-4a34-9cd2-f63c44a42125")
+	)
+	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/MOLEX 532610271.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
