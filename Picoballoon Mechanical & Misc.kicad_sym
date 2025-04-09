@@ -7544,18 +7544,6 @@
 			)
 		)
 		(symbol "SIM Card_0_1"
-			(polyline
-				(pts
-					(xy -12.7 8.89) (xy 13.97 8.89) (xy 13.97 -5.08) (xy 10.16 -8.89) (xy -12.7 -8.89) (xy -12.7 8.89)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(rectangle
 				(start -2.54 2.54)
 				(end 1.27 3.81)
@@ -7620,6 +7608,21 @@
 				)
 				(fill
 					(type outline)
+				)
+			)
+		)
+		(symbol "SIM Card_1_1"
+			(polyline
+				(pts
+					(xy -12.7 8.89) (xy 13.97 8.89) (xy 13.97 -5.08) (xy 10.16 -8.89) (xy -12.7 -8.89) (xy -12.7 8.89)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)

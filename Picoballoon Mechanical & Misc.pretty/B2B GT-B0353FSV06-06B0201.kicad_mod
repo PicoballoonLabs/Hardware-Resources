@@ -76,126 +76,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -1.12 -0.96) (xy -0.56 -0.96) (xy -0.56 -0.54) (xy -1.12 -0.54)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "3bdcacca-9408-4308-a911-425c8496ee34")
-	)
-	(fp_poly
-		(pts
-			(xy -1.12 0.54) (xy -0.56 0.54) (xy -0.56 0.96) (xy -1.12 0.96)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "2196d635-48cc-4531-93a6-bd810b955ebf")
-	)
-	(fp_poly
-		(pts
-			(xy -0.49 -0.96) (xy -0.21 -0.96) (xy -0.21 -0.54) (xy -0.49 -0.54)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "9edc275c-7692-4713-a2ba-70ccbe136106")
-	)
-	(fp_poly
-		(pts
-			(xy -0.49 0.54) (xy -0.21 0.54) (xy -0.21 0.96) (xy -0.49 0.96)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "ca7294dd-ab35-42eb-b3a8-597c2d7f4ee6")
-	)
-	(fp_poly
-		(pts
-			(xy -0.14 -0.96) (xy 0.14 -0.96) (xy 0.14 -0.54) (xy -0.14 -0.54)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "d7dff474-140e-4b2e-aa0f-d37852e0c01f")
-	)
-	(fp_poly
-		(pts
-			(xy -0.14 0.54) (xy 0.14 0.54) (xy 0.14 0.96) (xy -0.14 0.96)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "95901e0e-4235-404c-88c1-87f1337d7411")
-	)
-	(fp_poly
-		(pts
-			(xy 0.21 -0.96) (xy 0.49 -0.96) (xy 0.49 -0.54) (xy 0.21 -0.54)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "c7ea242b-63f2-40a4-838d-696c8824d5da")
-	)
-	(fp_poly
-		(pts
-			(xy 0.21 0.54) (xy 0.49 0.54) (xy 0.49 0.96) (xy 0.21 0.96)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "5b1fc786-7349-4dcd-a222-7bec83036d0e")
-	)
-	(fp_poly
-		(pts
-			(xy 0.56 -0.96) (xy 1.12 -0.96) (xy 1.12 -0.54) (xy 0.56 -0.54)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "bc32e6d5-54e4-4bd1-857f-c3b9b2fcf0f5")
-	)
-	(fp_poly
-		(pts
-			(xy 0.56 0.54) (xy 1.12 0.54) (xy 1.12 0.96) (xy 0.56 0.96)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "379349f7-6049-476b-9deb-183104a3b760")
-	)
 	(fp_line
 		(start -1.58 -0.15)
 		(end -1.58 0.15)
@@ -321,61 +201,71 @@
 	(pad "1" smd rect
 		(at -0.35 0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "2c532e86-28a1-4160-82e7-17b2be261533")
 	)
 	(pad "2" smd rect
 		(at -0.35 -0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "272d496f-9dfc-4efa-912c-5a01a94c8f8f")
 	)
 	(pad "3" smd rect
 		(at 0 0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "0cb01774-e4ee-42b4-9b5c-2ef329875667")
 	)
 	(pad "4" smd rect
 		(at 0 -0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "a16d0789-d663-458a-ad80-a662bd324dd5")
 	)
 	(pad "5" smd rect
 		(at 0.35 0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "0539bc80-61f8-4fe5-bafc-24a1ec980757")
 	)
 	(pad "6" smd rect
 		(at 0.35 -0.75)
 		(size 0.18 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "357fc9d7-52b9-43eb-bcb6-980e8050423a")
 	)
 	(pad "P1" smd rect
 		(at -0.84 0.75)
 		(size 0.46 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "3a848958-a9c0-4383-8644-6752ea48bfbb")
 	)
 	(pad "P1_2" smd rect
 		(at -0.84 -0.75)
 		(size 0.46 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "82e5c605-0acc-4c46-8ce0-3e19db1b2362")
 	)
 	(pad "P2" smd rect
 		(at 0.84 0.75)
 		(size 0.46 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "710af4e4-5793-47d8-a865-3a28bb48cc15")
 	)
 	(pad "P2_2" smd rect
 		(at 0.84 -0.75)
 		(size 0.46 0.32)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
 		(uuid "082fddce-c5ca-4db7-a052-9bd6a69ecc3f")
 	)
 	(pad "S1" smd rect
