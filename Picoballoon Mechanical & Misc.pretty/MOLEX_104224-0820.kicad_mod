@@ -1,7 +1,7 @@
 (footprint "MOLEX_104224-0820"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "J"
 		(at 0 13.55 0)
@@ -18,23 +18,12 @@
 	(property "Value" "MOLEX_104224-0820"
 		(at 0 11.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c2e4787f-f250-496c-93dc-1de61b990921")
 		(effects
 			(font
 				(size 1.000102 1.000102)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "MOLEX_104224-0820"
-		(at 0 8.85 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb5e7bd2-9d12-4e6a-a2fe-b12c619c2885")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -47,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -150,7 +141,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7e74d4d0-cd40-4305-91ee-8941d437afce")
 	)
@@ -637,84 +628,84 @@
 	(pad "G1" smd rect
 		(at -5.1 4.75)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "5e376bb5-4879-4ad2-971e-610b32e68a98")
 	)
 	(pad "G2" smd rect
 		(at -5.1 -2.45)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "b836ee11-d2e4-40a8-be5b-e625c3c0123d")
 	)
 	(pad "G3" smd rect
 		(at 5.1 -2.45)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "8f8df906-8888-457b-ba41-4317f541d503")
 	)
 	(pad "G4" smd rect
 		(at 5.1 4.75)
 		(size 1 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "58bc6528-61f7-4ab9-9833-28a18b77cf52")
 	)
 	(pad "R1" smd rect
 		(at -1.82 -6.375)
 		(size 1.1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "3f65f4dc-9054-4dc0-a01f-437e249ed1b8")
 	)
 	(pad "R2" smd rect
 		(at 1.82 -6.375)
 		(size 1.1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "9ea44c9b-2a13-405f-b1da-e9f336a5b160")
 	)
 	(pad "S1" smd rect
 		(at 4.9 1.9)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "d08b62b6-0704-42a9-8ef1-359495d5eb0b")
 	)
 	(pad "S2" smd rect
 		(at 4.9 0.7)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "06b6dcd1-ea3b-4978-b9c8-349a48ffac4e")
 	)
 	(pad "S3" smd rect
 		(at -4.9 1.9)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "28b2b81d-8d8e-45c9-b1ed-e9b32783a764")
 	)
 	(pad "S4" smd rect
 		(at 4.9 -0.5)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "fb70c6de-e156-482a-bc71-ed6b8deba970")
 	)
 	(pad "S5" smd rect
 		(at -4.9 0.7)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "accda564-710b-49d4-b840-3fea6a68ea86")
 	)
 	(pad "S6" smd rect
 		(at -4.9 -0.5)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0762)
 		(uuid "0be203ad-6847-43f0-844a-e724cbaa3868")
 	)
@@ -735,6 +726,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -764,6 +759,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -791,6 +790,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -820,6 +823,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -847,6 +854,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -876,6 +887,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -886,6 +901,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/104224-0820.step"
 		(offset
 			(xyz 0 0 0)

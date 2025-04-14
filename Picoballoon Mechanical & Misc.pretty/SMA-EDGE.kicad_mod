@@ -1,7 +1,7 @@
 (footprint "SMA-EDGE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://www.amphenolrf.com/132289.html")
 	(tags "SMA")
@@ -18,25 +18,13 @@
 		)
 	)
 	(property "Value" "SMA-EDGE"
-		(at 0 12.5 0)
-		(layer "F.Fab")
+		(at -4.75 0 90)
+		(layer "F.SilkS")
 		(uuid "c4f521e5-db6e-4dcf-9ed9-003e94aca6ab")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "SMA-EDGE"
-		(at 0 10 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "05506428-ea2c-4a85-af9b-a2bd5ed0214b")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -298,33 +288,34 @@
 	(pad "1" smd rect
 		(at 0 0 90)
 		(size 1.2 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "857f349d-4148-4b06-baf7-6c4b56c08011")
 	)
 	(pad "2" smd rect
 		(at 0 -2.55 90)
 		(size 1.2 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "37edef0f-e8a6-4de9-a1fe-3dc77e3f8a40")
 	)
 	(pad "2" smd rect
 		(at 0 -2.55 90)
 		(size 1.2 4.8)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "9115563a-5c91-4d9e-9fd6-c4788995231b")
 	)
 	(pad "2" smd rect
 		(at 0 2.55 90)
 		(size 1.2 4.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "33892e3b-37da-4b85-911e-04c2d2279e8b")
 	)
 	(pad "2" smd rect
 		(at 0 2.55 90)
 		(size 1.2 4.8)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "e18fd33f-be34-4a66-a5ae-cfc11eff5687")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/BWSMA-KE-P001.stp"
 		(offset
 			(xyz -3.2 8.44 -1.6)

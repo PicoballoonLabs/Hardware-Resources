@@ -1,7 +1,7 @@
 (footprint "WAFER-XH2.54-4PWB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Connector")
 	(property "Reference" "J**"
@@ -17,26 +17,13 @@
 		)
 	)
 	(property "Value" "WAFER-XH2.54-4PWB"
-		(at 0 8.5 0)
+		(at 0 -7 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "ee3038f4-44b2-4f6d-91a0-ede5f022dc64")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" "WAFER-XH2.54-4PWB"
-		(at 0 10.6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a8814b2e-604b-4201-a57d-56cfaa0a8e26")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -49,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -184,39 +173,40 @@
 	(pad "1" smd rect
 		(at -3.75 -3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c9f4d23b-d3af-43e2-8f43-bc6e291b0eae")
 	)
 	(pad "2" smd rect
 		(at -1.25 -3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "496e5dc5-73ff-47f8-bc2f-823ead3dd56e")
 	)
 	(pad "3" smd rect
 		(at 1.25 -3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "989cf438-73c1-48ab-a258-8beb546c6fc8")
 	)
 	(pad "4" smd rect
 		(at 3.75 -3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e5d85b2-3111-4887-ae11-8e5657d1d837")
 	)
 	(pad "S1" smd rect
 		(at -6.73 3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1b6f706d-dc9d-47b5-aeea-99b29fdd6975")
 	)
 	(pad "S2" smd rect
 		(at 6.73 3.7)
 		(size 1.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "519e128e-beca-4c1a-b237-e162b0aeab47")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/WAFER-XH2.54-4PWB.stp"
 		(offset
 			(xyz -7.625 10 -1.6)

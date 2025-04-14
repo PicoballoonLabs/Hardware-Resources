@@ -20,6 +20,7 @@
 	(property "Value" "Inductor 1008"
 		(at 0 2.05 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "70cbf408-1c5c-4e3a-af89-1637c6e3b488")
 		(effects
 			(font

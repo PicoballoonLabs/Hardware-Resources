@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Bidirectional Diode"
+	(symbol "Bidirectional diode"
 		(pin_numbers
 			(hide yes)
 		)
@@ -74,7 +74,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Bidirectional Diode_0_1"
+		(symbol "Bidirectional diode_0_1"
 			(polyline
 				(pts
 					(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -130,7 +130,7 @@
 				)
 			)
 		)
-		(symbol "Bidirectional Diode_1_1"
+		(symbol "Bidirectional diode_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 1.27)
@@ -877,7 +877,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Ferrite Bead"
+	(symbol "Ferrite bead"
 		(pin_numbers
 			(hide yes)
 		)
@@ -961,7 +961,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Ferrite Bead_1_1"
+		(symbol "Ferrite bead_1_1"
 			(polyline
 				(pts
 					(xy -1.905 0.254) (xy -1.1938 1.4732) (xy 1.7526 -0.2286) (xy 1.0414 -1.4478) (xy -1.905 0.254)
@@ -1969,7 +1969,161 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Schottky Diode"
+	(symbol "Schottky diode"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Schottky diode"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, filled shape"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Schottky diode_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Schottky diode_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Zener diode"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2042,10 +2196,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Schottky Diode_0_1"
+		(symbol "Zener diode_0_1"
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy -1.27 1.27) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2083,7 +2237,7 @@
 				)
 			)
 		)
-		(symbol "Schottky Diode_1_1"
+		(symbol "Zener diode_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
