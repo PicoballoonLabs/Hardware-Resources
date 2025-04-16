@@ -1,7 +1,7 @@
 (footprint "Inductor 7678"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Inductor, Wuerth Elektronik, Wuerth_HCI-7050, 6.9mmx6.9mm")
 	(tags "inductor Wuerth hci smd")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Inductor 7678"
-		(at 0 8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e9673928-850e-49b1-99b8-720ac37d7daf")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,13 +51,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -4 -3.9)
-		(end 4 -3.9)
+		(start -4 -4)
+		(end 4 -4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,7 +68,7 @@
 	)
 	(fp_line
 		(start -4 -1.5)
-		(end -4 -3.9)
+		(end -4 -4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,7 +78,7 @@
 	)
 	(fp_line
 		(start -4 1.5)
-		(end -4 3.9)
+		(end -4 4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -97,8 +87,8 @@
 		(uuid "f80175a0-cfef-407e-9511-eb0756d1152e")
 	)
 	(fp_line
-		(start -4 3.9)
-		(end 4 3.9)
+		(start -4 4)
+		(end 4 4)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,7 +97,7 @@
 		(uuid "b2c6b411-dcfc-47f2-aaaa-6998387b5ff7")
 	)
 	(fp_line
-		(start 4 -3.9)
+		(start 4 -4)
 		(end 4 -1.5)
 		(stroke
 			(width 0.12)
@@ -117,7 +107,7 @@
 		(uuid "8104ed37-b50b-4429-aac8-a8a2e81856be")
 	)
 	(fp_line
-		(start 4 3.9)
+		(start 4 4)
 		(end 4 1.5)
 		(stroke
 			(width 0.12)
@@ -209,17 +199,18 @@
 	(pad "1" smd roundrect
 		(at 0 -2.65 270)
 		(size 2.5 6.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "deadf372-ecd0-43b4-bf24-dc805e9ba381")
 	)
 	(pad "2" smd roundrect
 		(at 0 2.65 270)
 		(size 2.5 6.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "6b7c725d-2117-42b5-aea7-b9508761378c")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/Inductor 7678.stp"
 		(offset
 			(xyz 0 0 -1.6)
