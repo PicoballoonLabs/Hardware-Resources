@@ -1,7 +1,7 @@
 (footprint "VQFN-11"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RNR0011A, VQFN-11 (https://www.ti.com/lit/ds/symlink/tps61089.pdf#Page=27)")
 	(tags "TI RNR0011A")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "VQFN-11"
-		(at 0 5.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7aa96daa-221e-4792-9707-58ae2bd6a389")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,10 +51,33 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
+	(fp_arc
+		(start -0.2 -0.77)
+		(mid -0.270711 -0.799289)
+		(end -0.3 -0.87)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "cf6599ce-4c2a-447e-9ff4-ec834ecbdac9")
+	)
+	(fp_arc
+		(start 0.3 -0.87)
+		(mid 0.270711 -0.799289)
+		(end 0.2 -0.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "af098c08-7606-48ed-8d94-14fdea37b2e3")
+	)
 	(fp_line
 		(start -1.3 1.16)
 		(end -0.835 1.16)
@@ -105,40 +117,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6d8967a4-542c-471f-86cd-d56ea2fd9bcb")
-	)
-	(fp_poly
-		(pts
-			(xy -1.3 -1.16) (xy -1.54 -1.49) (xy -1.06 -1.49) (xy -1.3 -1.16)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "a43cb88d-d097-400c-a690-8660f8268ab8")
-	)
-	(fp_arc
-		(start -0.2 -0.77)
-		(mid -0.270711 -0.799289)
-		(end -0.3 -0.87)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Mask")
-		(uuid "cf6599ce-4c2a-447e-9ff4-ec834ecbdac9")
-	)
-	(fp_arc
-		(start 0.3 -0.87)
-		(mid 0.270711 -0.799289)
-		(end 0.2 -0.77)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Mask")
-		(uuid "af098c08-7606-48ed-8d94-14fdea37b2e3")
 	)
 	(fp_line
 		(start -1.7 -1.45)
@@ -294,28 +272,28 @@
 	(pad "1" smd roundrect
 		(at -1.175 -0.75)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f13291f9-8228-4179-9c5c-93f7268ec123")
 	)
 	(pad "2" smd roundrect
 		(at -1.175 -0.25)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8fb951f7-1046-489e-99ef-f9b3bf90fc90")
 	)
 	(pad "3" smd roundrect
 		(at -1.175 0.25)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "01f13a4f-cbb2-4d22-83e5-e3ee5708d4a8")
 	)
 	(pad "4" smd roundrect
 		(at -1.175 0.75)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7d06ec11-7070-40e6-af85-683521a21f8e")
 	)
@@ -338,28 +316,28 @@
 	(pad "7" smd roundrect
 		(at 1.175 0.75 180)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4d822f89-428c-4a1c-b3ae-b8cc80006013")
 	)
 	(pad "8" smd roundrect
 		(at 1.175 0.25 180)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4e6188f0-4b33-404a-bc6e-51455bc38f50")
 	)
 	(pad "9" smd roundrect
 		(at 1.175 -0.25 180)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cdde8b06-6962-417b-89b2-9e395131503c")
 	)
 	(pad "10" smd roundrect
 		(at 1.175 -0.75 180)
 		(size 0.55 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0d33be70-bf76-41ce-81bd-8e756abc6f6a")
 	)
@@ -370,6 +348,7 @@
 		(roundrect_rratio 0.05)
 		(uuid "5c47da2b-caef-463d-85e9-9acc3bb0aaf6")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/VQFN-11.STEP"
 		(offset
 			(xyz 0 0 0)
