@@ -1,7 +1,7 @@
 (footprint "DSBGA-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "YFP0004-")
 	(tags "Integrated Circuit")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "DSBGA-4"
-		(at 0 4 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb435dcb-d374-4e37-aacf-55a0a74db38f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 90)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,21 +51,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -0.663 0.663)
-		(end -0.563 0.663)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "55575f15-a5eb-4263-b7a6-2ad333e1ac65")
-	)
 	(fp_line
 		(start -0.889 -0.889)
 		(end 0.889 -0.889)
@@ -167,30 +146,42 @@
 		(layer "F.Fab")
 		(uuid "f18a3b38-3f94-495f-b29b-4377f7a08d7b")
 	)
+	(fp_circle
+		(center -0.663 0.663)
+		(end -0.563 0.663)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "55575f15-a5eb-4263-b7a6-2ad333e1ac65")
+	)
 	(pad "A1" smd circle
 		(at -0.2 0.2 180)
 		(size 0.226 0.226)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9bc2de68-bc17-416b-b364-e011b81b0614")
 	)
 	(pad "A2" smd circle
 		(at -0.2 -0.2 180)
 		(size 0.226 0.226)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1a1ee930-0c35-4f18-8594-00b90a896b84")
 	)
 	(pad "B1" smd circle
 		(at 0.2 0.2 180)
 		(size 0.226 0.226)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b2ceaf83-7c4e-4077-be88-76e8408fb56c")
 	)
 	(pad "B2" smd circle
 		(at 0.2 -0.2 180)
 		(size 0.226 0.226)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eb043057-57e3-4a4e-a0ae-31f9d475cd11")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/DSBGA-4.stp"
 		(offset
 			(xyz 0 0 0)

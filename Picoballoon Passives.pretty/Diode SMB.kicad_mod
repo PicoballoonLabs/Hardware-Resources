@@ -1,7 +1,7 @@
 (footprint "Diode SMB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode SMB (DO-214AA)")
 	(tags "Diode SMB (DO-214AA)")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Diode SMB"
-		(at 0 4.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0f168f72-767e-45a3-ab79-f9676e457d08")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -239,17 +229,18 @@
 	(pad "1" smd roundrect
 		(at -2.15 0)
 		(size 2.5 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
 		(uuid "4c545c05-8272-419a-979f-2ddaea156b0f")
 	)
 	(pad "2" smd roundrect
 		(at 2.15 0)
 		(size 2.5 2.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1086956522)
 		(uuid "5eaf5a49-7165-4f57-975c-242c3a4d2fd0")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/Diode SMB.step"
 		(offset
 			(xyz 0 0 0)

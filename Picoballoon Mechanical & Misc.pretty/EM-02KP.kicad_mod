@@ -1,7 +1,7 @@
 (footprint "EM-02KP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD-4P,6.1x6.3mm ")
 	(tags "Switch")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "EM-02KP"
-		(at 0 8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ebbea7e6-cfa5-48e9-a11a-e59f353b1d99")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 8 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -113,26 +103,6 @@
 		(uuid "dcd08787-24de-4dd2-a7f6-a3a6560331b8")
 	)
 	(fp_line
-		(start -1.27 5.7)
-		(end -1.27 5.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5e884703-2ed6-4907-9ed4-890569d00cbd")
-	)
-	(fp_line
-		(start -1.27 5.8)
-		(end -1.27 5.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "76fc46a3-5c5c-4c78-b7f8-81d8c2140c9f")
-	)
-	(fp_line
 		(start 3.04 -3.1)
 		(end 3.04 3.1)
 		(stroke
@@ -151,28 +121,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b476cc4d-91f9-4f1a-bf41-065d262c9249")
-	)
-	(fp_arc
-		(start -1.27 5.7)
-		(mid -1.22 5.75)
-		(end -1.27 5.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8f40125e-3af9-4904-a28d-46f5150c5a52")
-	)
-	(fp_arc
-		(start -1.27 5.8)
-		(mid -1.32 5.75)
-		(end -1.27 5.7)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ae471258-6bef-4e2a-90b4-8557a2015be2")
 	)
 	(fp_line
 		(start -4.04 -6.2)
@@ -257,27 +205,28 @@
 	(pad "1" smd rect
 		(at -1.27 4.45)
 		(size 1.1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd26227b-ae5c-4f71-973d-999bc745aea6")
 	)
 	(pad "2" smd rect
 		(at 1.27 4.45)
 		(size 1.1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "627430a7-2920-467a-b0d8-53ca4962302f")
 	)
 	(pad "3" smd rect
 		(at 1.27 -4.45)
 		(size 1.1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3b413ce4-1738-40db-a3b8-d3752c7b046a")
 	)
 	(pad "4" smd rect
 		(at -1.27 -4.45)
 		(size 1.1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef5bb42e-4ebe-4b0b-ae5a-914b5bfe78b6")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/2454985-3.stp"
 		(offset
 			(xyz 0 0 3.99999994)
