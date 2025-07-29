@@ -1,0 +1,222 @@
+(footprint "470531000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.9116 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59fda7f6-cc01-47a3-9f47-e10c857d3339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "470531000"
+		(at 12.2428 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61032066-49f9-4633-ac36-cb8827c53e52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1803b54-15b1-4808-bd97-5bbdc3d5831c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "294ad486-6c30-4abe-9a66-12a61dd40159")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.2224 -3.429)
+		(end -5.2224 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f049e0ff-e038-4f60-9f08-cdf2b350c3df")
+	)
+	(fp_line
+		(start -5.2224 2.667)
+		(end -2.0982 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "807a9c1d-8846-45d8-b7b1-476c5bb05f08")
+	)
+	(fp_line
+		(start -0.4218 2.667)
+		(end 5.2424 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddabf13d-e8dd-490f-8d4b-474eaad44285")
+	)
+	(fp_line
+		(start 5.2424 -3.429)
+		(end -5.2224 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c26bdd43-601a-4d7e-ae26-9786fcaa1de6")
+	)
+	(fp_line
+		(start 5.2424 2.667)
+		(end 5.2424 -3.429)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28fa75e7-2f62-48fd-aa49-c8a51f876984")
+	)
+	(fp_line
+		(start -5.0954 -3.302)
+		(end -5.0954 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fd972c0-b627-4ca1-8379-c2170c3adf6a")
+	)
+	(fp_line
+		(start -5.0954 2.54)
+		(end 5.1154 2.54)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f681e782-38a4-4e80-a4f6-d89c293ba5ca")
+	)
+	(fp_line
+		(start 5.1154 -3.302)
+		(end -5.0954 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "118d06fe-db07-4d1c-a877-d5a2fc299acf")
+	)
+	(fp_line
+		(start 5.1154 2.54)
+		(end 5.1154 -3.302)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c3818f3-a569-473f-8957-312a28138a50")
+	)
+	(fp_arc
+		(start 3.439 -1.905)
+		(mid 3.82 -2.286)
+		(end 4.201 -1.905)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70fe354c-aa9d-4f8b-87b8-dc64b72ec4a3")
+	)
+	(fp_arc
+		(start 4.201 -1.905)
+		(mid 3.82 -1.524)
+		(end 3.439 -1.905)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45ee60d0-3a8f-4e90-bdc4-7f7feff32e85")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.26 2.159)
+		(size 1.2954 1.2954)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ab5157b3-dbf7-41a5-ba53-4240e8dabec8")
+	)
+	(pad "1" thru_hole circle
+		(at 3.82 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1238d115-13e4-452d-859c-856a2726f4f5")
+	)
+	(pad "2" thru_hole circle
+		(at 1.28 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0e8ed407-b56a-4196-b62d-90c45393b82a")
+	)
+	(pad "3" thru_hole circle
+		(at -1.26 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9924aa1b-5512-4029-9031-3c6400322e97")
+	)
+	(pad "4" thru_hole circle
+		(at -3.8 0)
+		(size 1.5748 1.5748)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ca4cbfb3-a84f-4a4f-9c95-38bba1d92204")
+	)
+	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/470531000.stp"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

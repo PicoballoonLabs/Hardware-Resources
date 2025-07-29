@@ -260,22 +260,6 @@
 		(solder_mask_margin 0.075)
 		(uuid "d3754661-6f4e-44f0-baff-943021d063c0")
 	)
-	(pad "10" thru_hole circle
-		(at 0 -0.5)
-		(size 0.45 0.45)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "018aa47f-1be4-42f3-a072-e3642d3bf136")
-	)
-	(pad "11" thru_hole circle
-		(at 0 0.5)
-		(size 0.45 0.45)
-		(drill 0.2)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "59dae595-5fd8-44c6-b7a3-cee688ffcdb0")
-	)
 	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/WSON-8 2x2mm.step"
 		(offset
