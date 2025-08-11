@@ -1,0 +1,29 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Picoballoon Theme",
+    "description": "Designed by PB, Inspired by Altium",
+    "description_full": "Designed by PB, Inspired by Altium",
+    "identifier": "org.picoballoon.pbscheme",
+    "type": "colortheme",
+    "author": {
+        "name": "Project Picoballoon",
+        "contact": {
+            "web": "https://github.com/PicoballoonLabs"
+        }
+    },
+    "maintainer": {
+        "name": "Project Picoballoon",
+        "contact": {
+            "web": "https://github.com/PicoballoonLabs"
+        }
+    },
+    "license": "Unlicense",
+    "resources": {
+        "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+    },
+    "versions": [{
+        "version": "9",
+        "status": "stable",
+        "kicad_version": "5.99"
+    }]
+}

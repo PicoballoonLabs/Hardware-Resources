@@ -1,0 +1,179 @@
+{
+    "packages": [
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Picoballoon ICs",
+            "description": "Integrated Circuits for Picoballoon Projects",
+            "description_full": "Integrated Circuits for Picoballoon Projects",
+            "identifier": "org.picoballoon.libs.ic",
+            "type": "library",
+            "author": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "maintainer": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "license": "Unlicense",
+            "resources": {
+                "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+            },
+            "versions": [
+                {
+                    "version": "1",
+                    "status": "stable",
+                    "kicad_version": "5.99",
+                    "download_sha256": "7659d38c0c9d41159de415eb997efea461d4ce4aee6ead560ed3bf04787a38c5",
+                    "download_size": 1397,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/KiCad-Libraries/main/Picoballoon ICs/org.picoballoon.libs.ic_v1_pcm.zip",
+                    "install_size": 2074
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Picoballoon Mechanical & Misc",
+            "description": "Parts for Picoballoon Projects",
+            "description_full": "Parts for Picoballoon Projects",
+            "identifier": "org.picoballoon.libs.mmisc",
+            "type": "library",
+            "author": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "maintainer": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "license": "Unlicense",
+            "resources": {
+                "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+            },
+            "versions": [
+                {
+                    "version": "1",
+                    "status": "stable",
+                    "kicad_version": "5.99",
+                    "download_sha256": "d5e25097a624b5a87fcb1a2a0938a86a684925388b4aac9570adb691bc2f58f4",
+                    "download_size": 1397,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/KiCad-Libraries/main/Picoballoon Mechanical & Misc/org.picoballoon.libs.mmisc_v1_pcm.zip",
+                    "install_size": 2063
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Picoballoon Passives",
+            "description": "Passive Components for Picoballoon Projects",
+            "description_full": "Passive Components for Picoballoon Projects",
+            "identifier": "org.picoballoon.libs.passives",
+            "type": "library",
+            "author": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "maintainer": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "license": "Unlicense",
+            "resources": {
+                "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+            },
+            "versions": [
+                {
+                    "version": "1",
+                    "status": "stable",
+                    "kicad_version": "5.99",
+                    "download_sha256": "bf44fcb449cd076da6cd3b864aa63b22002ec7e52febc876d8e3a1568bac6261",
+                    "download_size": 1396,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/KiCad-Libraries/main/Picoballoon Passives/org.picoballoon.libs.passives_v1_pcm.zip",
+                    "install_size": 2083
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Picoballoon Power Symbols",
+            "description": "Power Symbols for Picoballoon Projects",
+            "description_full": "Power Symbols for Picoballoon Projects",
+            "identifier": "org.picoballoon.libs.power",
+            "type": "library",
+            "author": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "maintainer": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "license": "Unlicense",
+            "resources": {
+                "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+            },
+            "versions": [
+                {
+                    "version": "1",
+                    "status": "stable",
+                    "kicad_version": "5.99",
+                    "download_sha256": "2ef8fbbb8aef36368d7e1ee7e71ae910280ba3fec411d9caaee1ba6f0830d6e3",
+                    "download_size": 1392,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/KiCad-Libraries/main/Picoballoon Power Symbols/org.picoballoon.libs.power_v1_pcm.zip",
+                    "install_size": 2075
+                }
+            ]
+        },
+        {
+            "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "Picoballoon Theme",
+            "description": "Designed by PB, Inspired by Altium",
+            "description_full": "Designed by PB, Inspired by Altium",
+            "identifier": "org.picoballoon.pbscheme",
+            "type": "colortheme",
+            "author": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "maintainer": {
+                "name": "Project Picoballoon",
+                "contact": {
+                    "web": "https://github.com/PicoballoonLabs"
+                }
+            },
+            "license": "Unlicense",
+            "resources": {
+                "Github": "https://github.com/PicoballoonLabs/Hardware-Resources"
+            },
+            "versions": [
+                {
+                    "version": "9",
+                    "status": "stable",
+                    "kicad_version": "5.99",
+                    "download_sha256": "2a8429249757ef9eda1d9637a33555d686436c5758d0e88f225c7d2af3c34abd",
+                    "download_size": 4897,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/KiCad-Libraries/main/Picoballoon Color Scheme/org.picoballoon.pbscheme_v9_pcm.zip",
+                    "install_size": 10787
+                }
+            ]
+        }
+    ]
+}
