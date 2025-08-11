@@ -12,26 +12,26 @@ METADATA_FILEAME = "metadata.json"
 
 EESCHEMA_REPLACEMENT_TABLE = {
     "#d0c5ac": "background",
-    "#00ff00": "wire",
-    "#999999": "component_body",
-    "#ff0000": "component_outline",
-    "#0000ff": "pin",
-    "#ff6600": "pin_name",
-    "#ffff00": "pin_number",
+    "#0f0": "wire",
+    "#999": "component_body",
+    "#f00": "component_outline",
+    "#00f": "pin",
+    "#f60": "pin_name",
+    "#ff0": "pin_number",
     "#000080": "reference",
     "#800080": "value"
 }
 
 PCBNEW_REPLACEMENT_TABLE = {
     "#d0c5ac": "background",
-    "#ff6600": "f_silks",
-    "#ff00ff": "f_crtyd",
+    "#f60": "f_silks",
+    "#f0f": "f_crtyd",
     "#000080": "f_fab",
     "#808000": "pad_through_hole",
-    "#ff0000": "via_hole",
-    "#ffff00": "via_through",
-    "#00ff00": "copper_b",
-    "#00ffff": "copper_f",
+    "#f00": "via_hole",
+    "#ff0": "via_through",
+    "#0f0": "copper_b",
+    "#0ff": "copper_f",
 }
 
 
