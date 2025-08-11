@@ -168,8 +168,9 @@
     "worksheet": "rgb(0, 0, 132)"
   },
   "meta": {
+    "filename": "pbscheme",
     "name": "Project Picoballoon Theme",
-    "version": 5
+    "version": 9
   },
   "schematic": {
     "anchor": "rgb(0, 0, 255)",
