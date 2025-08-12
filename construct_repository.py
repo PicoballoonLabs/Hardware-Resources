@@ -33,7 +33,7 @@ def sha256_of_file(path):
     return file_hash.hexdigest()
 
 
-def create_pcm_from_color_scheme(path, resulting_file):
+def create_pcm_from_package(path, resulting_file):
     with ZipFile(resulting_file, 'w', compression=zipfile.ZIP_DEFLATED) as zip:
         for json_file in path.glob("*.json"):
             if json_file.name == METADATA_FILEAME:
@@ -45,6 +45,24 @@ def create_pcm_from_color_scheme(path, resulting_file):
         if icon_file.exists():
             zip.write(icon_file, f"resources/{ICON_FILENAME}")
 
+        # Lib specific
+        symbols_path = path / "symbols"
+        if symbols_path.exists():
+            for symbol_file in symbols_path.glob("*.kicad_sym"):
+                zip.write(symbol_file, f"symbols/{symbol_file.name}")
+        footprints_path = path / "footprints"
+        if footprints_path.exists():
+            for pretty_folder in footprints_path.glob("*.pretty"):
+                zip.write(pretty_folder, f"footprints/{pretty_folder.name}")
+                for footprint_file in pretty_folder.glob("*.kicad_mod"):
+                    zip.write(footprint_file, f"footprints/{pretty_folder.name}/{footprint_file.name}")
+        models_path = path / "3dmodels"
+        if models_path.exists():
+            for shapes_folder in models_path.glob("*.3dshapes"):
+                zip.write(shapes_folder, f"3dmodels/{shapes_folder.name}")
+                for tp in ["*.wrl", "*.step", "*.stp", "*.WRL", "*.STEP", "*.STP"]:
+                    for model_file in shapes_folder.glob(tp):
+                        zip.write(model_file, f"3dmodels/{shapes_folder.name}/{model_file.name}")
 
 def install_size_of_zip(zip_path):
     install_size = 0
@@ -74,7 +92,7 @@ def create_and_get_pcm(path):
         # if not pkg_path.exists():
         # create new package as it does not exist yet (new version)
         print(f"  * create package: {pkg_path}")
-        create_pcm_from_color_scheme(path, pkg_path)
+        create_pcm_from_package(path, pkg_path)
 
         # fill in package data
         metadata_version['download_sha256'] = sha256_of_file(pkg_path)
