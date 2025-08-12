@@ -4,6 +4,7 @@ import datetime
 import hashlib
 import json
 import zipfile
+import urllib.parse
 
 from pathlib import Path
 from zipfile import ZipFile
@@ -78,7 +79,7 @@ def create_and_get_pcm(path):
         # fill in package data
         metadata_version['download_sha256'] = sha256_of_file(pkg_path)
         metadata_version['download_size'] = pkg_path.stat().st_size
-        metadata_version['download_url'] = f"{REPOSITORY_BASE_URI}/{path.name}/{pkg_name}"
+        metadata_version['download_url'] = f"{REPOSITORY_BASE_URI}/{urllib.parse.quote(path.name)}/{urllib.parse.quote(pkg_name)}"
         metadata_version['install_size'] = install_size_of_zip(pkg_path)
 
     return metadata_json
