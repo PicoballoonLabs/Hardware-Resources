@@ -222,7 +222,7 @@
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Button GT_TC029B-H025-L1N.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/Button GT_TC029B-H025-L1N.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

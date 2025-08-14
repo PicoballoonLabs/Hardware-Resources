@@ -209,7 +209,7 @@
 		(uuid "4f207ec4-5efb-4282-81e3-4c5e8ffaa8e4")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WSON-8 2.5x2.5mm.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/WSON-8 2.5x2.5mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -359,7 +359,7 @@
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Battery holder BH-18650-B1BA002.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery holder BH-18650-B1BA002.stp"
 		(offset
 			(xyz -2.4 8.425 -1.7)
 		)

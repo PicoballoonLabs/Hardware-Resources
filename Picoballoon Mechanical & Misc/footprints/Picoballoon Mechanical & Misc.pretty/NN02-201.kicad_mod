@@ -288,7 +288,7 @@
 			)
 		)
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/NN02-201.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/NN02-201.step"
 		(offset
 			(xyz 0 0 0)
 		)

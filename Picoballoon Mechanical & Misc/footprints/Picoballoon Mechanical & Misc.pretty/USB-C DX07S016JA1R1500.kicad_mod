@@ -362,7 +362,7 @@
 		(remove_unused_layers no)
 		(uuid "4ab489a4-51fe-4d65-82eb-b3732aedf23f")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DX07S016JA1R1500.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/DX07S016JA1R1500.step"
 		(offset
 			(xyz 0 0 0)
 		)

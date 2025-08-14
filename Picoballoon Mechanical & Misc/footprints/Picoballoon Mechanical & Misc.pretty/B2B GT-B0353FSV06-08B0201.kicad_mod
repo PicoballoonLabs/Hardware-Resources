@@ -380,7 +380,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/B2B GT-B0353FSV06-08B0201.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/B2B GT-B0353FSV06-08B0201.stp"
 		(offset
 			(xyz -0 0 -1.6)
 		)

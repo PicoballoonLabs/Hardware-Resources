@@ -233,7 +233,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "afde43e9-a032-4c54-becf-38d97549caa8")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WSON-10 2x2mm.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/WSON-10 2x2mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)

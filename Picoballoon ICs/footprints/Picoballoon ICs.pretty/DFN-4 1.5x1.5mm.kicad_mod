@@ -213,7 +213,7 @@
 		(uuid "7c177d91-86e6-42f5-bfd9-ec0f5351b0f0")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/SHT45-AD1F-R2.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/SHT45-AD1F-R2.stp"
 		(offset
 			(xyz 0 0 0)
 		)

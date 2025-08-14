@@ -330,7 +330,7 @@
 		(uuid "97fe2a5c-4eee-4c7a-9c43-47749b396494")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/XT60PW-F.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/XT60PW-F.step"
 		(offset
 			(xyz 0 0 0)
 		)

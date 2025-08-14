@@ -250,7 +250,7 @@
 		(uuid "fd50751d-a3fa-4944-9b09-1c0f872387b6")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN-4 2x2mm.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN-4 2x2mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

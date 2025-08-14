@@ -359,7 +359,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "8deecc9c-09ea-4ac1-a3c8-e87c6148fc1b")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VFDFN-8.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VFDFN-8.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

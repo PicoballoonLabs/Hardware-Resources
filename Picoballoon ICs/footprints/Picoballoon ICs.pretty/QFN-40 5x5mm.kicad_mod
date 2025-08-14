@@ -474,7 +474,7 @@
 		(uuid "a87f47e0-fec6-446f-a04e-c14488d7ee70")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN-40.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN-40.stp"
 		(offset
 			(xyz 0 0 0)
 		)

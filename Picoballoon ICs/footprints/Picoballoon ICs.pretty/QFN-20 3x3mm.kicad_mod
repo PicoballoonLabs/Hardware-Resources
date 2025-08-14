@@ -367,7 +367,7 @@
 		(uuid "8e8e22bd-2d53-40cd-9fef-716ee54ddc2c")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/CP2102N-A01-GQFN20.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/CP2102N-A01-GQFN20.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -149,7 +149,7 @@
 		(uuid "af153459-faed-42cc-a195-0647bd11399d")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/SMD2012-2P.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/SMD2012-2P.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

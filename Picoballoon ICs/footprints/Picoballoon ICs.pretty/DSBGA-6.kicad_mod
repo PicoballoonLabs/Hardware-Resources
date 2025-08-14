@@ -540,7 +540,7 @@
 		(layers "F.Cu")
 		(uuid "661fc3dc-d933-43f2-be7e-0a38194ecbf1")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DSBGA-6.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA-6.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

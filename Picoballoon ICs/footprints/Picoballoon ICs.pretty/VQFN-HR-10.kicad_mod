@@ -1386,7 +1386,7 @@
 		(uuid "108bb944-935f-4847-b735-297ef2c5dfc2")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VQFN-HR-10.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VQFN-HR-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

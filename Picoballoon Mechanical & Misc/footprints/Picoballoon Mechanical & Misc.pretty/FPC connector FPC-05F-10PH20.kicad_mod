@@ -301,7 +301,7 @@
 		(uuid "92dd80fa-7d8c-4803-b339-e65bae2fb192")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/FPC-05F-10PH20.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/FPC-05F-10PH20.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

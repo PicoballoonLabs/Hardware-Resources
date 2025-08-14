@@ -680,7 +680,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "7374e567-9334-43e5-90fe-6bc68ec7acbd")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

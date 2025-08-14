@@ -70,7 +70,7 @@
   (pad "2" smd roundrect (at 2.935 -1.525) (size 3.05 2.75) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.090909) (tstamp e0be2678-39d6-4778-ad38-3befdeeba65b))
   (pad "2" smd roundrect (at 2.935 1.525) (size 3.05 2.75) (layers "F.Cu" "F.Paste") (roundrect_rratio 0.090909) (tstamp d041b938-8fdb-4612-923f-388bfeb07c26))
   (pad "3" smd roundrect (at -5.04 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333) (tstamp 4fdfb6f4-83a7-4c0b-8e16-aa2f36ab512c))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/STD3NM60N.stp"
+  (model "../../3dmodels/Picoballoon ICs.3dshapes/STD3NM60N.stp"
     (offset (xyz 0 0 1.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

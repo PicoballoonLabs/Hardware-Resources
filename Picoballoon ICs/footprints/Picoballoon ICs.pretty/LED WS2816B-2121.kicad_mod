@@ -220,7 +220,7 @@
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/LED WS2816B-2121.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/LED WS2816B-2121.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

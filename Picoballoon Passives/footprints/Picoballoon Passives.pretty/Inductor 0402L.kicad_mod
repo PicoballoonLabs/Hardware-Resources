@@ -158,7 +158,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "07bccb1b-781c-4561-a379-63c349828818")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Inductor 0402 Coil.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Inductor 0402 Coil.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

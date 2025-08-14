@@ -355,7 +355,7 @@
 		(layers "F.Cu")
 		(uuid "3e579339-410f-47ca-b0cf-d861bcc70f2a")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DFN-4L.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN-4L.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

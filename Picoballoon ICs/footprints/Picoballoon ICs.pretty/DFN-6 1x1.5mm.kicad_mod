@@ -234,7 +234,7 @@
 		(solder_mask_margin 0.075)
 		(uuid "584d8e81-bbcb-4c93-9852-b95ec7f318f9")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DFN-6 1x1.5mm.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN-6 1x1.5mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

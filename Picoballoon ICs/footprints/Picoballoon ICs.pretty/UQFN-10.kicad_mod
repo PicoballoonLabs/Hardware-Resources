@@ -248,7 +248,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e9d529d1-5028-494d-972f-081972a87062")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/UQFN-10.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/UQFN-10.stp"
 		(offset
 			(xyz 0 0 0)
 		)

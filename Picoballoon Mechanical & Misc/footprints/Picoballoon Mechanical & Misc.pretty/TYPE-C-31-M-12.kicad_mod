@@ -510,7 +510,7 @@
 		(uuid "476f5c72-399f-4e0b-9bae-01eec00fb384")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/TYPE-C-31-M-12.STEP"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/TYPE-C-31-M-12.STEP"
 		(offset
 			(xyz 0 -2.525 0)
 		)

@@ -400,7 +400,7 @@
 		(uuid "08e8c5ce-150c-4e2f-bbcd-2e65ce330131")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Capacitor 6.3x5.9mm.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Capacitor 6.3x5.9mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

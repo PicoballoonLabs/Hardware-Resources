@@ -297,7 +297,7 @@
 		(uuid "dd6bdd19-7de1-4d17-8236-4418fb8f8858")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/B2B YXT-BB10-10P-02.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/B2B YXT-BB10-10P-02.stp"
 		(offset
 			(xyz -0 0 -1.6)
 		)

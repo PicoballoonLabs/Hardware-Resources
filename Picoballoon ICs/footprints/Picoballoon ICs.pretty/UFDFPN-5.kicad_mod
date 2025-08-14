@@ -227,7 +227,7 @@
 		(uuid "e6493e5f-edbb-4703-9052-8640ec235d3c")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/3D Model UFDFPN5.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/3D Model UFDFPN5.stp"
 		(offset
 			(xyz 0 0 0)
 		)

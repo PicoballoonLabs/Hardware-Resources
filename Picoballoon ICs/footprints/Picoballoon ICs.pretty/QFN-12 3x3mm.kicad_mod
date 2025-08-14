@@ -289,7 +289,7 @@
 		(uuid "66d2a674-ae02-4739-8386-ab84ebe35b84")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN-12 3x3mm.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN-12 3x3mm.stp"
 		(offset
 			(xyz 0 0 0)
 		)

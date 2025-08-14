@@ -203,7 +203,7 @@
 		(uuid "beb2705b-389e-4f78-9a17-5f9f7717700d")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/X2-DFN1010-3.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/X2-DFN1010-3.stp"
 		(offset
 			(xyz 0 0 0)
 		)

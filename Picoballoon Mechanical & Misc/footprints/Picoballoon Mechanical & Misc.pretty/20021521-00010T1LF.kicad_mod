@@ -294,7 +294,7 @@
 		(uuid "cb8f9249-cc06-4b73-acc2-4802ffe21243")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/20021521-00010T1LF.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/20021521-00010T1LF.step"
 		(offset
 			(xyz -6 -2.5 0)
 		)

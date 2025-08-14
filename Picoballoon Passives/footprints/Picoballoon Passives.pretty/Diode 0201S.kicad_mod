@@ -195,7 +195,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "22eef914-e704-4164-978f-d67f71abf8a4")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Diode 0201.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Diode 0201.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

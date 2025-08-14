@@ -169,7 +169,7 @@
 		(uuid "73713b7c-eb89-4ea0-9f3d-a2cd93350dad")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Polyfuse 2920.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Polyfuse 2920.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

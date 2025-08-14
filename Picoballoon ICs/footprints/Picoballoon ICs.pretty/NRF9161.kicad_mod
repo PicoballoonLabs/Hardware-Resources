@@ -1476,7 +1476,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/NRF9161.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/NRF9161.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

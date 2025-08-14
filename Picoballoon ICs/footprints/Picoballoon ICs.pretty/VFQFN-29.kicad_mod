@@ -1628,7 +1628,7 @@
 		(uuid "af026567-fde1-4209-bed0-6010ac0af1ae")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VFQFN-29.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VFQFN-29.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

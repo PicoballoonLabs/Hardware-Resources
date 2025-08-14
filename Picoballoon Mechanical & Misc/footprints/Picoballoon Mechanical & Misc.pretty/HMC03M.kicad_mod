@@ -29,7 +29,7 @@
     (thermal_bridge_angle 45) (tstamp 509a80e6-590b-4f9e-ab33-668b7da6f0a4))
   (pad "4" smd roundrect (at 2.585 -0.715) (size 0.47 1.15) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 015e2d27-3afb-41e3-8b8b-61233569fd82))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/HMC03M.step"
+  (model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/HMC03M.step"
     (offset (xyz 0 0 0))
     (scale (xyz 0.04 0.04 0.04))
     (rotate (xyz -90 0 0))

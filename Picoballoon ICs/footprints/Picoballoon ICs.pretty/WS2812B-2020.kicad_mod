@@ -232,7 +232,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e6e3b1bc-4064-4031-9b80-d1df61337d0a")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WS2812B-2020.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/WS2812B-2020.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

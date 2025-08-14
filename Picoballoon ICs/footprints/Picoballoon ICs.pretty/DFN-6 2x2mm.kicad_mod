@@ -273,7 +273,7 @@
 		(uuid "2c26b8cd-b8e0-4a5d-9e50-7fad39c255ab")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DFN-6 2x2mm.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN-6 2x2mm.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

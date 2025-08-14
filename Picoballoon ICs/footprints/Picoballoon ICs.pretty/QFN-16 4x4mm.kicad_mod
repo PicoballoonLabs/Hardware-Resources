@@ -360,7 +360,7 @@
 		(uuid "504d9f08-2179-46ae-b434-7d1df605e0f8")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN-16 4x4mm.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN-16 4x4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
