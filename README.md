@@ -14,8 +14,6 @@ Our goal is to ensure consistency, reusability, and efficiency in hardware desig
 *   **`Templates/`**: KiCad drawing sheet templates.
 *   **`repository.json`**: Index file for the KiCad Plugin and Content Manager.
 
----
-
 ## 🛠️ KiCad Integration Guide
 
 Follow these steps to integrate Picoballoon's hardware resources into your KiCad environment.
@@ -51,8 +49,6 @@ This setup is crucial for internal team members to directly work with and contri
 6.  Set `Value` to the path where you cloned this repository (e.g., `/path/to/your/desired/location/Hardware-Resources`).
 7.  Click `OK` to save the path.
 8.  Now, in `Preferences` > `Manage Symbol Libraries` and `Preferences` > `Manage Footprint Libraries`, you must add all Picoballoon libraries using this path variable as a global library. For example, add `${PICOBALLOON_LIBRARY}/Picoballoon ICs/Picoballoon_ICs.kicad_sym` and `${PICOBALLOON_LIBRARY}/Picoballoon ICs/Picoballoon_ICs.pretty`. Add all other necessary libraries similarly from the `Contents` section above.
-
----
 
 ## 💡 Contributing to Hardware Resources
 
