@@ -790,7 +790,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Crystal_Pad"
+	(symbol "Crystal grounded"
 		(pin_numbers
 			(hide yes)
 		)
@@ -865,7 +865,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Crystal_Pad_0_1"
+		(symbol "Crystal grounded_0_1"
 			(rectangle
 				(start -1.778 0.635)
 				(end 1.778 -0.635)
@@ -879,7 +879,7 @@
 				)
 			)
 		)
-		(symbol "Crystal_Pad_1_1"
+		(symbol "Crystal grounded_1_1"
 			(polyline
 				(pts
 					(xy -2.794 0) (xy -2.286 0)
