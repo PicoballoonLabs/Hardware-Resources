@@ -1,4 +1,4 @@
-(footprint "QFN4_MS5637_TEC"
+(footprint "QFN-4 3x3mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN4_MS5637_TEC"
+	(property "Value" "QFN-4 3x3mm"
 		(at 0 2.9 0)
 		(unlocked yes)
 		(layer "F.Fab")

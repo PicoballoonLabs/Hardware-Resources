@@ -1,7 +1,7 @@
 (footprint "ATSLP-10-50"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "BGSX22G5A10E6327XTSA1-1")
 	(tags "Integrated Circuit")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "ATSLP-10-50"
-		(at -0.175 3.3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1f36e458-9d1f-4e77-8b98-a1b97181ae7f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,63 +181,64 @@
 	(pad "1" smd rect
 		(at 0.4 0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3701672f-942b-4dfe-af67-2cfad6cad5be")
 	)
 	(pad "2" smd rect
 		(at 0.4 0.2 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c9982fb9-4c4b-4fa3-bf6c-c104e88cac8c")
 	)
 	(pad "3" smd rect
 		(at 0.4 -0.2 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "17b7ae62-b452-4e70-b8d1-3e676dd03ad0")
 	)
 	(pad "4" smd rect
 		(at 0.4 -0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5acbc0f9-6d84-4eb7-84a0-92aa221667f3")
 	)
 	(pad "5" smd rect
 		(at 0 -0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8cba3397-8e28-4190-a98e-40900946bc23")
 	)
 	(pad "6" smd rect
 		(at -0.4 -0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4bc1f958-d1ae-4308-97a1-349176781e24")
 	)
 	(pad "7" smd rect
 		(at -0.4 -0.2 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "718a16b1-5a5b-40da-a5d8-06db7e2add27")
 	)
 	(pad "8" smd rect
 		(at -0.4 0.2 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2e2f6035-6810-49ea-bce8-10f47a1cdaab")
 	)
 	(pad "9" smd rect
 		(at -0.4 0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "089c39cd-8656-4f2e-a909-d58d8a28d3e8")
 	)
 	(pad "10" smd rect
 		(at 0 0.6 90)
 		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "41354a48-39e5-42b2-8c3a-f5256fb04947")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/ATSLP-10-50.stp"
 		(offset
 			(xyz 0 0 0)

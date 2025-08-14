@@ -705,7 +705,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Crystal_Pad"
+	(symbol "Crystal grounded"
 		(pin_numbers
 			(hide yes)
 		)
@@ -780,7 +780,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Crystal_Pad_0_1"
+		(symbol "Crystal grounded_0_1"
 			(rectangle
 				(start -1.778 0.635)
 				(end 1.778 -0.635)
@@ -794,7 +794,7 @@
 				)
 			)
 		)
-		(symbol "Crystal_Pad_1_1"
+		(symbol "Crystal grounded_1_1"
 			(polyline
 				(pts
 					(xy -2.794 0) (xy -2.286 0)
@@ -1941,7 +1941,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "PT"
+	(symbol "Platinum RTD"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1959,7 +1959,7 @@
 				)
 			)
 		)
-		(property "Value" "PT"
+		(property "Value" "Platinum RTD"
 			(at 0 -11.811 0)
 			(effects
 				(font
@@ -2013,7 +2013,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PT_1_1"
+		(symbol "Platinum RTD_1_1"
 			(arc
 				(start -2.8826 0.9399)
 				(mid -2.7581 0.8434)

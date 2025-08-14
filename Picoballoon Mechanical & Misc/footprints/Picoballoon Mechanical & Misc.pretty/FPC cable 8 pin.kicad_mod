@@ -3,10 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "J"
 		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "b7840dc3-db93-4594-a5c7-97ae0f634928")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 		(at 0 -4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "899c0c8e-09ec-4f80-a48c-b43fa55ebbd9")
 		(effects
 			(font
@@ -110,18 +112,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "cd296f08-b6fd-4cc7-bb68-c815041f1a00")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -3 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "35e6b6c5-e3bc-4978-9cf7-d40094a5cb54")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" connect rect
 		(at -1.75 0 90)
