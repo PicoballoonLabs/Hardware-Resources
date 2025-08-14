@@ -1,0 +1,223 @@
+(footprint "WSON-8 2.5x2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Integrated Circuit")
+	(property "Reference" "U"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5e17e898-6763-41f7-9556-5e8f49b6e7b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c665e1ba-ec5f-4725-8151-863e793a7a36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6141995-98ed-4391-b21f-651e529c4a38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66c33615-fd64-4800-881f-1e2f5c3fcd4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.875 -1.55)
+		(end 1.875 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85569c7e-ff4b-4cb6-a031-0fb13319786f")
+	)
+	(fp_line
+		(start -1.875 1.55)
+		(end -1.875 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d64e3b61-e9ea-49d8-beb1-dbace12b9795")
+	)
+	(fp_line
+		(start 1.875 -1.55)
+		(end 1.875 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96bdc50f-18d0-4752-995c-3c0132a5fa59")
+	)
+	(fp_line
+		(start 1.875 1.55)
+		(end -1.875 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dacb127d-b70b-4a7d-af34-7ff3a2943d44")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end 1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "053d3415-7c9f-473c-acf1-88d6ec5556f0")
+	)
+	(fp_line
+		(start -1.25 -0.625)
+		(end -0.625 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9bb4b6a-b546-4a7c-84e2-3b7e5cbc26a9")
+	)
+	(fp_line
+		(start -1.25 1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8097515-323d-4cd7-a229-6c36ebcf1ecc")
+	)
+	(fp_line
+		(start 1.25 -1.25)
+		(end 1.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7fe6124-4508-49cb-a271-8459bf8867f5")
+	)
+	(fp_line
+		(start 1.25 1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48d11e72-5c7c-4a25-9026-43f8899ce408")
+	)
+	(fp_circle
+		(center -1.65 -1.4)
+		(end -1.65 -1.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b402a361-1829-477c-af2d-705b44b8c8ac")
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ba7ece2-a842-4a68-babc-fed93c53d5be")
+	)
+	(pad "2" smd rect
+		(at -1.25 -0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f3c2f4d-9b57-40dd-bbff-76d6ff514101")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "beef700e-fc86-4868-aace-b127b420fbfd")
+	)
+	(pad "4" smd rect
+		(at -1.25 0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6231be4-308d-498d-930c-4c80e8de66f0")
+	)
+	(pad "5" smd rect
+		(at 1.25 0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d4c8c5e-b04e-410f-8ecc-18ac5021bf95")
+	)
+	(pad "6" smd rect
+		(at 1.25 0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3aa37400-e53e-4fc7-bc50-5effa71cfdb7")
+	)
+	(pad "7" smd rect
+		(at 1.25 -0.25 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4b79da9-c360-4380-9d93-50b8d5f47a7c")
+	)
+	(pad "8" smd rect
+		(at 1.25 -0.75 90)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "48b7a707-9f15-4661-94b6-68ca508e33e3")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.3 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f207ec4-5efb-4282-81e3-4c5e8ffaa8e4")
+	)
+	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/3D Models/WSON-8 2.5x2.5mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

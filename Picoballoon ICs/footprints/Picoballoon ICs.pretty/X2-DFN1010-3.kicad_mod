@@ -1,7 +1,7 @@
 (footprint "X2-DFN1010-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "X2-DFN1010-3")
 	(tags "MOSFET (N-Channel)")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0.2 0.1 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -26,18 +26,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" "X2-DFN1010-3"
-		(at 0 3.2 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5202220e-9ace-4cba-9548-eab127aa882c")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,27 +181,28 @@
 	(pad "1" smd rect
 		(at -0.25 0.427)
 		(size 0.33 0.445)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3186b4ae-d9bf-4218-aa60-0ddaefb8b0c7")
 	)
 	(pad "2" smd rect
 		(at 0.25 0.427)
 		(size 0.33 0.445)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "591ddb77-5edc-4fdb-a7ca-0b17a43faadf")
+	)
+	(pad "3" smd rect
+		(at 0 -0.55 90)
+		(size 0.2 0.33)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07ccc3c2-0639-432c-b8cc-40fc609fbd34")
 	)
 	(pad "3" smd rect
 		(at 0 -0.198 90)
 		(size 0.505 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "beb2705b-389e-4f78-9a17-5f9f7717700d")
 	)
-	(pad "4" smd rect
-		(at 0 -0.55 90)
-		(size 0.2 0.33)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "07ccc3c2-0639-432c-b8cc-40fc609fbd34")
-	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/X2-DFN1010-3.stp"
 		(offset
 			(xyz 0 0 0)
