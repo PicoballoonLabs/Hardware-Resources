@@ -1,7 +1,7 @@
 (footprint "Button GT-TC029B-H025-L1N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "None Without bracket 50mA 3.9mm 100000 Times 12V 250gf 2.9mm 2.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS")
 	(tags "SMD SMT button")
@@ -20,23 +20,12 @@
 	(property "Value" "Button GT-TC029B-H025-L1N"
 		(at 0 3.4 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f986b248-cc1f-44a5-9790-ffff301168f2")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Button GT-TC029B-H025-L1N"
-		(at 0 5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1985df2c-abd6-457e-a5b8-a643a90f3762")
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
 		)
 	)
@@ -49,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -212,24 +203,25 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4352d0f7-5fe9-467a-a2cc-7a0b49e9af8a")
 	)
 	(pad "1" smd roundrect
 		(at -2.1 0)
 		(size 1.15 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "326c8e35-c807-4874-ba94-75c4bfafa144")
 	)
 	(pad "2" smd roundrect
 		(at 2.1 0)
 		(size 1.15 1.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/Button GT_TC029B-H025-L1N.stp"
 		(offset
 			(xyz 0 0 -1.6)

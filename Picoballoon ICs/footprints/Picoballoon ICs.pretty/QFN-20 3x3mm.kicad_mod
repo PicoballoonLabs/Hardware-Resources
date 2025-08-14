@@ -20,6 +20,7 @@
 	(property "Value" "QFN-20 3x3mm"
 		(at 0 3 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "1f7cff6f-3a40-4634-a30d-d88e3f72524d")
 		(effects
 			(font

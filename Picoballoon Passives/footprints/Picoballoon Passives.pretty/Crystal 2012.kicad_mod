@@ -1,7 +1,7 @@
-(footprint "SMD2012-2P"
-	(version 20240108)
+(footprint "Crystal 2012"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "Y"
 		(at 0 1.8 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SMD2012-2P"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cfe9168d-b082-4378-b34e-2125056a3b83")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -147,17 +137,18 @@
 	(pad "1" smd rect
 		(at -0.75 0)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "1b6d8fbc-de82-4b48-94f5-837df71dfc1a")
 	)
 	(pad "2" smd rect
 		(at 0.75 0)
 		(size 0.8 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "af153459-faed-42cc-a195-0647bd11399d")
 	)
+	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/3D Models/SMD2012-2P.STEP"
 		(offset
 			(xyz 0 0 0)
