@@ -263,7 +263,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cb8f9249-cc06-4b73-acc2-4802ffe21243")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/FTSH-105-01-L-DV-K-TR.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/FTSH-105-01-L-DV-K-TR.step"
 		(offset
 			(xyz -6 -2.5 0)
 		)

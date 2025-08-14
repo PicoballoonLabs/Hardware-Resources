@@ -201,7 +201,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a5f12578-0d1c-4cdd-9dda-4cd21d9fa5a0")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/EVQ-P7J01P.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/EVQ-P7J01P.stp"
 		(offset
 			(xyz 0 0 1.19)
 		)

@@ -192,7 +192,7 @@
 		(uuid "938409b0-6d5d-4ffe-9840-fa22127c7efc")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/B2B-XH-A (LF)(SN).STEP"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/B2B-XH-A (LF)(SN).STEP"
 		(offset
 			(xyz 0 0.5 0)
 		)

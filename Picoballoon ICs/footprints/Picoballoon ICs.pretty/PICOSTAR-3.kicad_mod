@@ -206,7 +206,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "abe886ae-ea7d-4ea0-9bc7-d395a0306239")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/PICOSTAR-3.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/PICOSTAR-3.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

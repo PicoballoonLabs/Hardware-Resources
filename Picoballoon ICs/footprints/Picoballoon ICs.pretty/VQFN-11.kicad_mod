@@ -349,7 +349,7 @@
 		(uuid "5c47da2b-caef-463d-85e9-9acc3bb0aaf6")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VQFN-11.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VQFN-11.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

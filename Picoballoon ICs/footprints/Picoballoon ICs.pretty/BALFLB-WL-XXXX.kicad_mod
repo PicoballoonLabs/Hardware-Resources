@@ -236,7 +236,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6f465048-7613-4f4e-a477-4c88e11d9e6e")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/BALFLB-WL-XXXX.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/BALFLB-WL-XXXX.stp"
 		(offset
 			(xyz 0.7 -0.49 0.2)
 		)

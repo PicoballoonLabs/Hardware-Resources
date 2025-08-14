@@ -195,7 +195,7 @@
 		(uuid "519e128e-beca-4c1a-b237-e162b0aeab47")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WAFER-XH2.54-2PWB.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/WAFER-XH2.54-2PWB.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

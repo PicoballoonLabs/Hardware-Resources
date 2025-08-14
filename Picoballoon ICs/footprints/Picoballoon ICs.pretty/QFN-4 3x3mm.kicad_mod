@@ -329,7 +329,7 @@
 		(uuid "1df0e4ea-dbc7-4948-bbee-d25fb87d463f")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/QFN4_MS5637_TEC.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/QFN4_MS5637_TEC.stp"
 		(offset
 			(xyz 0 0 1)
 		)

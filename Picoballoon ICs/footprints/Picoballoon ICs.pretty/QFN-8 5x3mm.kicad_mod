@@ -175,7 +175,7 @@
 		(uuid "d1bd9e95-f5fa-426b-a0c5-25cf3c863f27")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/MS561101BA03-50.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/MS561101BA03-50.stp"
 		(offset
 			(xyz 0 0 0.9)
 		)

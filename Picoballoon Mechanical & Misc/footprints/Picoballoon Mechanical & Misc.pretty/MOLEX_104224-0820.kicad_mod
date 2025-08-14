@@ -891,7 +891,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/104224-0820.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/104224-0820.step"
 		(offset
 			(xyz 0 -0.8 0)
 		)

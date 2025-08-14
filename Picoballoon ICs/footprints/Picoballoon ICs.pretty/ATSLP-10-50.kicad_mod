@@ -239,7 +239,7 @@
 		(uuid "41354a48-39e5-42b2-8c3a-f5256fb04947")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/ATSLP-10-50.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/ATSLP-10-50.stp"
 		(offset
 			(xyz 0 0 0)
 		)

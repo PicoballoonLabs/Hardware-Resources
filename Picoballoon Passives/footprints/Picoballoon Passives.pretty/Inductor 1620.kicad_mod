@@ -169,7 +169,7 @@
 		(uuid "1f3a00f4-a721-48b5-8908-7cf912e1ab01")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Inductor 1620.stp"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Inductor 1620.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

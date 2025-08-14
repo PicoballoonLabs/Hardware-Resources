@@ -183,7 +183,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "9a58061c-a78e-4d2c-8efb-2e3a312930ad")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/Diode 0201.STEP"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Diode 0201.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

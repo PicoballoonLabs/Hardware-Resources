@@ -191,7 +191,7 @@
 		(uuid "8c3f6bca-ccb7-4991-8e0c-8fb3b1dd7be0")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WSCP-8.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/WSCP-8.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

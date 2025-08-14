@@ -215,7 +215,7 @@
 		(uuid "509a80e6-590b-4f9e-ab33-668b7da6f0a4")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/HMC03M.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/HMC03M.step"
 		(offset
 			(xyz 0 0 0)
 		)

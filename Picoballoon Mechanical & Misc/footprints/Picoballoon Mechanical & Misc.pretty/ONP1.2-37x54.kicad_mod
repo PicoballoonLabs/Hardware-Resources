@@ -168,7 +168,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7a262be9-2c0f-45af-8f2c-9fed99eb879e")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/ONP1.2-37x54.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/ONP1.2-37x54.step"
 		(offset
 			(xyz 0 0 0)
 		)

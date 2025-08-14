@@ -137,7 +137,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "285010e7-2da4-428f-92af-a08c540f33e8")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/6530027.STEP"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/6530027.STEP"
 		(offset
 			(xyz 14.65 -43.5 -2.7)
 		)

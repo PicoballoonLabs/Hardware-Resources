@@ -340,7 +340,7 @@
 		(layers "F.Cu")
 		(uuid "b86441d4-f7f3-4f04-9577-c10d640de25f")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/TSNP-6-10.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/TSNP-6-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

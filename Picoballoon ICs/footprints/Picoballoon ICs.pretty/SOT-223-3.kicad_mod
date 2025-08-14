@@ -47,7 +47,7 @@
   (pad "2" smd rect (at -3.1 0 90) (size 0.9 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 213286de-8b0a-4f7d-aa81-b4ca70d64940))
   (pad "3" smd rect (at -3.1 2.3 90) (size 0.9 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b6b7f984-8146-4c4f-9f37-a4ebfa11a808))
   (pad "4" smd rect (at 3.1 0) (size 1.85 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 00bc0f94-eec0-406a-a4b6-8bb6af201c16))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/AZ1117CH2-3.3TRG1.stp"
+  (model "../../3dmodels/Picoballoon ICs.3dshapes/AZ1117CH2-3.3TRG1.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

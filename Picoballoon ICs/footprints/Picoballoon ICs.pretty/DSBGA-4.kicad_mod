@@ -182,7 +182,7 @@
 		(uuid "eb043057-57e3-4a4e-a0ae-31f9d475cd11")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DSBGA-4.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA-4.stp"
 		(offset
 			(xyz 0 0 0)
 		)

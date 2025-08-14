@@ -44,7 +44,7 @@
   (pad "1" thru_hole oval (at 6.1 0) (size 2 4) (drill oval 0.8 3) (layers "*.Cu" "*.Mask") (tstamp f771f3fb-a6d7-4a7b-b71f-41be6b996c21))
   (pad "2" thru_hole oval (at 3.3 4.6) (size 4 2) (drill oval 3 0.8) (layers "*.Cu" "*.Mask") (tstamp d80a7372-5ad3-41a2-afd2-8ffa5f36c251))
   (pad "3" thru_hole oval (at 0 0) (size 2 4) (drill oval 0.8 3) (layers "*.Cu" "*.Mask") (tstamp fbd2d434-8bc5-48b4-95aa-9978c90c6774))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/CON-SOCJ-2155--3DModel-STEP-56544.STEP"
+  (model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/CON-SOCJ-2155--3DModel-STEP-56544.STEP"
     (offset (xyz -0.75 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

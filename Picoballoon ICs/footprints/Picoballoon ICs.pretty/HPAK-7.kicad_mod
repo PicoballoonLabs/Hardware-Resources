@@ -342,7 +342,7 @@
 		(uuid "547ed4dc-cbd0-4d5d-b944-cfa98fd598b1")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/HPAK-7.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/HPAK-7.step"
 		(offset
 			(xyz 0 0 0)
 		)

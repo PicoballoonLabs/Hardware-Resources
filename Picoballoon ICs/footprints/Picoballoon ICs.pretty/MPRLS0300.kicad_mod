@@ -69,7 +69,7 @@
   (pad "10" smd rect (at 2.1 -1.52) (size 0.65 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 93357c19-8fa3-4c65-bb63-8ce27a37043e))
   (pad "11" smd rect (at 2.1 -0.25) (size 0.65 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d31e1d17-48bc-408c-96ed-f4cfe875a55c))
   (pad "12" smd rect (at 2.1 1.02) (size 0.65 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6497112e-6523-493d-9e94-74e26d198e33))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/MPRLS0300YG00001B.STEP"
+  (model "../../3dmodels/Picoballoon ICs.3dshapes/MPRLS0300YG00001B.STEP"
     (offset (xyz 0 0.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

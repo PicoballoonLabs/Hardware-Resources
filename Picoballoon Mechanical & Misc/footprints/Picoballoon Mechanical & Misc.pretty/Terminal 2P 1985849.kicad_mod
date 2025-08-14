@@ -41,7 +41,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 04e0c152-13e7-4d70-bc01-56cfce858d21))
   (pad "1" thru_hole rect (at 0 0) (size 2.25 2.25) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp ca2bc9a4-e4e3-435e-953d-b4d8f18b551a))
   (pad "2" thru_hole circle (at 5 0) (size 2.25 2.25) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp d0949ea9-febb-4f19-b78c-ad759fb7e4c0))
-  (model "${PICOBALLOON_LIBRARY}/3D Models/1985849.stp"
+  (model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/1985849.stp"
     (offset (xyz -3 -3.45 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

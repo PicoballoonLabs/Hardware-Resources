@@ -618,7 +618,7 @@
 		(uuid "37804468-8917-42f1-882b-4c090c61f694")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VSON-HR-10.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VSON-HR-10.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -237,7 +237,7 @@
 		(uuid "48505bd0-bd05-4b7d-8843-375c9d55cf6a")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/MAX17048G+T10.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/MAX17048G+T10.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

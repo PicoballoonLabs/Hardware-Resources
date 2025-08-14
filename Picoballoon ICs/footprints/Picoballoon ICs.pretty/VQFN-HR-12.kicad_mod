@@ -394,7 +394,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ddafbc6b-6d66-4964-a950-8424a130763b")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VQFN-HR-12.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VQFN-HR-12.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -305,7 +305,7 @@
 		(uuid "35aaaeff-2025-4532-8e9d-6be42cf6f068")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/TSDSON-8.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/TSDSON-8.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

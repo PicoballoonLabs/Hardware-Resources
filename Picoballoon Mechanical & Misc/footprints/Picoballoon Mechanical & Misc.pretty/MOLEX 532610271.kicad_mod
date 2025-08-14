@@ -252,7 +252,7 @@
 		(uuid "a0e79ba2-a015-4a34-9cd2-f63c44a42125")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/MOLEX 532610271.STEP"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/MOLEX 532610271.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

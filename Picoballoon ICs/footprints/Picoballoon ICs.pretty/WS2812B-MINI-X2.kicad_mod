@@ -141,7 +141,7 @@
 		(uuid "19ff1e90-56ef-461a-889c-61ffea674474")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/WS2812B-MINI-X2.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/WS2812B-MINI-X2.stp"
 		(offset
 			(xyz 0 0 -1.6)
 		)

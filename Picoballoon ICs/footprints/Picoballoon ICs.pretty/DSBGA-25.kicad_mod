@@ -1471,7 +1471,7 @@
 		(layers "F.Cu")
 		(uuid "acc07ccd-0ce6-4063-ba2d-44981ddd519a")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/DSBGA-25.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA-25.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

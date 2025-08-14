@@ -401,7 +401,7 @@
 		)
 		(uuid "50decbfc-bf61-40f3-b957-022f62d61482")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/MM8030-2610RK0.step"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/MM8030-2610RK0.step"
 		(offset
 			(xyz 0 0 0)
 		)

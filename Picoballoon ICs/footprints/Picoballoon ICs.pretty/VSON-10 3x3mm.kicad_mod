@@ -374,7 +374,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c9057838-1bce-4494-9ad2-72d86467ccd4")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/VSON-10 3x3mm.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/VSON-10 3x3mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

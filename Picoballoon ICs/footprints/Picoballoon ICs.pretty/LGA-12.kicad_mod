@@ -910,7 +910,7 @@
 		(uuid "8e568f0d-cc41-4992-8930-dd9af0f5ab52")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/LGA-12.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/LGA-12.step"
 		(offset
 			(xyz 0 0 0)
 		)

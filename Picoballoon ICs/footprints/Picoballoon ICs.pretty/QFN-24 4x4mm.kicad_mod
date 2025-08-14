@@ -403,7 +403,7 @@
 		(uuid "d4a916ee-dd00-4ed4-8097-554a5f6ba619")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/CP2102N-A02-GQFN24R.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/CP2102N-A02-GQFN24R.stp"
 		(offset
 			(xyz 0 0 0)
 		)

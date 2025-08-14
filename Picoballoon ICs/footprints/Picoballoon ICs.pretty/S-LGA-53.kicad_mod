@@ -630,7 +630,7 @@
 		(solder_mask_margin 0.05)
 		(uuid "6906d0da-3d4b-47f0-bace-0411c02d5299")
 	)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/S-LGA 53.STEP"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/S-LGA 53.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -316,7 +316,7 @@
 		(uuid "e18fd33f-be34-4a66-a5ae-cfc11eff5687")
 	)
 	(embedded_fonts no)
-	(model "${PICOBALLOON_LIBRARY}/3D Models/BWSMA-KE-P001.stp"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/BWSMA-KE-P001.stp"
 		(offset
 			(xyz -3.2 8.44 -1.6)
 		)
