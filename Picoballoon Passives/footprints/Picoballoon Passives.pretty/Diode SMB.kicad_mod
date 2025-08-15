@@ -241,7 +241,7 @@
 		(uuid "5eaf5a49-7165-4f57-975c-242c3a4d2fd0")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/Picoballoon Passives.3dshapes/Diode SMB.step"
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Diode SMBF.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -249,7 +249,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
