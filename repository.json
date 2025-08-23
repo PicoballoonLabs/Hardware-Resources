@@ -8,15 +8,15 @@
     },
     "name": "Hardware Resources repository by Project Picoballoon",
     "packages": {
-        "sha256": "3481803e92985bb5575d32f57ea24a1812838a488e5fcdf0d3702b2b42bc37bb",
-        "update_time_utc": "2025-08-23 23:25:37",
-        "update_timestamp": 1755991537,
+        "sha256": "9e0f18a2450fa5eae88e7467f8f58c5289f2da4acae5f3caca0329b30f4fcd84",
+        "update_time_utc": "2025-08-23 23:27:33",
+        "update_timestamp": 1755991653,
         "url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/packages.json"
     },
     "resources": {
         "sha256": "57b16f3571ef6833f9ec22bfe82674f04b7ec09804c375484172439b79c823b7",
-        "update_time_utc": "2025-08-23 23:25:37",
-        "update_timestamp": 1755991537,
+        "update_time_utc": "2025-08-23 23:27:33",
+        "update_timestamp": 1755991653,
         "url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/resources.zip"
     }
 }
