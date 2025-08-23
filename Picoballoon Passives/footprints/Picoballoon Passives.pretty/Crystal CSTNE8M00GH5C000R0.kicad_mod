@@ -1,0 +1,134 @@
+(footprint "Crystal CSTNE8M00GH5C000R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.78 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f11c407c-4625-405e-8145-1126cebdbcc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal CSTNE8M00GH5C000R0"
+		(at 0 2.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "28532bfa-f2d9-4eb2-ae75-82bbdfce9b7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "701be9e2-63a9-4aad-9da0-12713067f026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89e60b6e-9153-47e6-897d-8980c4c3b17e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.9 -1.1)
+		(end 1.9 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "29f2ea3f-1055-445a-9164-f157d9b94f3b")
+	)
+	(fp_line
+		(start 1.51 -0.65)
+		(end 1.51 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "00a57ce1-acf5-4c3a-ae62-fef026abd41f")
+	)
+	(fp_rect
+		(start -1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ed4ee02a-5f0a-4179-b1a4-04f6954ae851")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef4a70ef-a319-4d17-8652-1d95616537db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3c49d449-2d0e-4977-b0e9-8a811c60af48")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c4bd4930-9002-484f-9221-c4bd059c2932")
+	)
+	(pad "3" smd rect
+		(at -1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "309e4ede-a057-4228-86bf-789ba327067c")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/Crystal CSTNE8M00GH5C000R0.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
