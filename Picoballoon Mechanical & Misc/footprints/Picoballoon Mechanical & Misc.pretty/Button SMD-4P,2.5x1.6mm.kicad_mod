@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "SW"
 		(at 0 -1.84 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -139,4 +139,15 @@
 		(uuid "e9189909-1e53-4889-9825-02ec736d0635")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/HX TS152605A 160gf.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

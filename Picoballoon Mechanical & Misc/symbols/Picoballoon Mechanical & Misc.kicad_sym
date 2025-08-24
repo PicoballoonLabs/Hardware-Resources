@@ -7234,7 +7234,7 @@
 			)
 		)
 		(property "Value" "20021521-00010T1LF"
-			(at -8.89 -9.525 0)
+			(at -8.89 -12.065 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -7291,7 +7291,7 @@
 		(symbol "Picoballoon connector 2x5_1_1"
 			(rectangle
 				(start -8.89 8.89)
-				(end 8.89 -8.89)
+				(end 8.89 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -7337,27 +7337,8 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -6.35 0)
+				(at -11.43 -8.89 0)
 				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -6.35 0)
-				(length 2.54)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -7474,6 +7455,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -8.89 180)
+				(length 2.54)
+				(name "TDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
