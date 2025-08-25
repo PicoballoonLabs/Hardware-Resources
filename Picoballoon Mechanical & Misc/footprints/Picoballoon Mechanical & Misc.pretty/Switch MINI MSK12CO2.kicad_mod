@@ -3,11 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "SW"
 		(at 0 -3.97 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "3b712af3-3c12-4628-acca-6e9f94ef8961")
+		(hide yes)
+		(uuid "c692a68a-a15a-4ba6-9ad3-4aedcca1188b")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,8 @@
 		(at 0 5.18 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "18948e64-eb4f-4561-afa2-1d01986e9cd9")
+		(hide yes)
+		(uuid "1b23c69b-f1db-4b7f-9962-ebf436c0cd40")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e05025bb-25f6-4e76-a0db-429d5316db71")
+		(uuid "3b788e47-a821-4eef-b3bf-76760fe85492")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5317cfba-a529-4f4d-825c-7a110b8422d8")
+		(uuid "352de2ea-4d06-48bd-a160-46230a154909")
 		(effects
 			(font
 				(size 1 1)
@@ -98,18 +100,6 @@
 		(layer "F.Fab")
 		(uuid "6bfbc2f8-0895-4864-a528-d84eae88b4c0")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 6.68 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "7a3b2e68-dc36-4062-8e0b-14d6b74edf39")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" smd rect
 		(at -1.85 1)
 		(size 1.5 0.7)
@@ -156,4 +146,15 @@
 		(uuid "0fbf164c-8fb8-4c6b-a72f-cd813d703412")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/MINI MSK12CO2.stp"
+		(offset
+			(xyz -0.33 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

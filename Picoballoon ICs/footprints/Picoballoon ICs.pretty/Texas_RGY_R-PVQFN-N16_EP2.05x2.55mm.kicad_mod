@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.33 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1e8ab15f-04b7-4bfe-b955-c6f3801c06d9")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm"
 		(at 0 3.33 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "4417a202-a5de-4007-8809-5a0c8d75265d")
 		(effects
 			(font
@@ -154,18 +156,6 @@
 		(layer "F.SilkS")
 		(uuid "1ce92e92-86f8-4801-87f3-12251d6ec67c")
 	)
-	(fp_poly
-		(pts
-			(xy -1.86 -2.11) (xy -2.1 -2.44) (xy -1.62 -2.44) (xy -1.86 -2.11)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "48b49fa2-5d66-4f02-b7b2-419e7995e2dd")
-	)
 	(fp_line
 		(start -2.4 -2.65)
 		(end -2.4 2.65)
@@ -255,17 +245,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "b2179d8d-9456-4243-afed-41339cbbc42a")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "96696fd7-2c7a-4c5e-aeee-a6746cb6414c")
-		(effects
-			(font
-				(size 0.88 0.88)
-				(thickness 0.13)
-			)
-		)
 	)
 	(pad "" smd rect
 		(at -0.56 -0.685)
