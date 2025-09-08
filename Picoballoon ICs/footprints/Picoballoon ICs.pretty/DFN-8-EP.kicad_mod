@@ -10,7 +10,7 @@
 		(effects
 			(font
 				(size 0.314961 0.314961)
-				(thickness 0.15)
+				(thickness 0.07874)
 			)
 		)
 	)
@@ -21,7 +21,7 @@
 		(effects
 			(font
 				(size 0.314961 0.314961)
-				(thickness 0.15)
+				(thickness 0.07874)
 			)
 		)
 	)
@@ -257,4 +257,15 @@
 		(uuid "656979fc-8cb2-41da-bdce-33d8c2caa2ab")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN8N_65.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
