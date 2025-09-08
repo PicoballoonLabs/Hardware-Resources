@@ -8043,7 +8043,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -5.08 13.97 0)
+			(at -6.35 13.97 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8053,8 @@
 			)
 		)
 		(property "Value" "RJ45"
-			(at 2.54 13.97 0)
+			(at -7.62 -13.97 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8072,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0.635 90)
+			(at 0 -27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8081,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
-			(at 0 -16.51 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8090,7 @@
 			)
 		)
 		(property " Mfr. Part # " "RJ-064-1"
-			(at 0 0 0)
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8099,7 @@
 			)
 		)
 		(property " LCSC Part # " "C7205199"
-			(at 0 0 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

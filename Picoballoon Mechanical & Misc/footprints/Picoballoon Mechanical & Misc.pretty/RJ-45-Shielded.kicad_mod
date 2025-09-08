@@ -6,6 +6,7 @@
 	(property "Reference" "<Designator>?"
 		(at 0 -7.85 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f8a9df40-00da-4850-be7f-b867b1415f11")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "RJ-45-Shielded"
 		(at 0 11.402 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "f8af8355-f30c-4cff-98ad-9536abfca7e8")
 		(effects
 			(font

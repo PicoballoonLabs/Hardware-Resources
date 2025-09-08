@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at -0.9558 -1.8024 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "8702e05e-6384-49a9-869d-6ad5b93e5edd")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "DFN-8-EP"
 		(at -1.89 2.2 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "9e2381fb-1c3e-40c4-8ed3-9ca416a844a6")
 		(effects
 			(font
