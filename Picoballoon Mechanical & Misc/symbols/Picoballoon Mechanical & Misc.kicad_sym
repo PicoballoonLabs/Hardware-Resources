@@ -8079,6 +8079,24 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Mfr. Part # " "RJ-064-1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " LCSC Part # " "C7205199"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8106,6 +8124,17 @@
 			)
 		)
 		(symbol "RJ45_0_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
@@ -8216,17 +8245,6 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 7.62 12.7)
-				(end -7.62 -10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 		)
 		(symbol "RJ45_1_1"
 			(pin passive line
@@ -8239,7 +8257,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8257,7 +8275,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8275,7 +8293,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8293,7 +8311,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8311,7 +8329,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8329,7 +8347,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8347,7 +8365,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8365,7 +8383,25 @@
 						)
 					)
 				)
-				(number "1"
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name "Shield"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
