@@ -19384,6 +19384,7 @@
 			(pin passive line
 				(at 25.4 -8.89 180)
 				(length 2.54)
+				(hide yes)
 				(name "EPAD"
 					(effects
 						(font
@@ -19510,7 +19511,7 @@
 				)
 			)
 			(pin input line
-				(at 25.4 -3.81 180)
+				(at 25.4 -6.35 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -19528,7 +19529,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -6.35 180)
+				(at 25.4 -8.89 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22844,7 +22845,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.27 15.24 0)
+			(at -12.7 6.985 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -22854,13 +22855,13 @@
 			)
 		)
 		(property "Value" "TPS61170DRVR"
-			(at 1.27 -3.81 0)
+			(at -12.7 -6.985 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "TPS61170DRVR:SON65P200X200X80-7N"
@@ -22873,8 +22874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C15163.pdf"
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,8 +22912,8 @@
 		)
 		(symbol "TPS61170DRVR_0_0"
 			(rectangle
-				(start 1.27 13.97)
-				(end 26.67 -1.27)
+				(start -12.7 6.35)
+				(end 12.7 -6.35)
 				(stroke
 					(width 0.41)
 					(type default)
@@ -22922,7 +22923,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 10.16 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -22940,7 +22941,7 @@
 				)
 			)
 			(pin input line
-				(at -1.27 6.35 0)
+				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "CTRL"
 					(effects
@@ -22958,7 +22959,7 @@
 				)
 			)
 			(pin output line
-				(at -1.27 2.54 0)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -22976,7 +22977,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 11.43 180)
+				(at 15.24 3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -22994,7 +22995,7 @@
 				)
 			)
 			(pin input line
-				(at 29.21 7.62 180)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -23011,26 +23012,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 29.21 3.81 180)
-				(length 2.54)
-				(name "THERMALPAD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 29.21 1.27 180)
+				(at 15.24 -3.81 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -23040,6 +23023,25 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -3.81 180)
+				(length 2.54)
+				(hide yes)
+				(name "THERMALPAD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
