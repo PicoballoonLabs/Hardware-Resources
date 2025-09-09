@@ -778,4 +778,15 @@
 		(uuid "ee2a4daa-32ea-44b3-a412-782e3b08c609")
 	)
 	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/RJ-064-1.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
