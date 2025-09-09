@@ -3773,7 +3773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C969151.pdf"
 			(at 0 -33.02 0)
 			(effects
 				(font
@@ -22915,7 +22915,7 @@
 				(start -12.7 6.35)
 				(end 12.7 -6.35)
 				(stroke
-					(width 0.41)
+					(width 0.254)
 					(type default)
 				)
 				(fill
