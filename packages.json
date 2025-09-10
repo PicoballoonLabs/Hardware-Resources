@@ -25,13 +25,13 @@
             },
             "versions": [
                 {
-                    "version": "1.1",
+                    "version": "1.1.1",
                     "status": "stable",
                     "kicad_version": "5.99",
-                    "download_sha256": "fffdd34fd1334b5eef1b6420b7157090cb66b7519f18b4ccd6505a72d176ddc4",
-                    "download_size": 3826694,
-                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/Picoballoon%20ICs/org.picoballoon.libs.ic_v1.1_pcm.zip",
-                    "install_size": 23831435
+                    "download_sha256": "f0f395a856a853cd42d6fe0caf0131962d246513391f3dc56ff206eea7ad9abc",
+                    "download_size": 3972413,
+                    "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/Picoballoon%20ICs/org.picoballoon.libs.ic_v1.1.1_pcm.zip",
+                    "install_size": 24858765
                 }
             ]
         },
@@ -63,10 +63,10 @@
                     "version": "1.1",
                     "status": "stable",
                     "kicad_version": "5.99",
-                    "download_sha256": "06d4acc66fbcab7b3d92425557d4c57d089364d1e0492327163e68d1cee8dc2d",
-                    "download_size": 6628318,
+                    "download_sha256": "726a0ef1bd98ae3e37a24f5745c4b33b9bb803849dc9713762ddf704e0a95ac8",
+                    "download_size": 7119824,
                     "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/Picoballoon%20Mechanical%20%26%20Misc/org.picoballoon.libs.mmisc_v1.1_pcm.zip",
-                    "install_size": 39702434
+                    "install_size": 42456470
                 }
             ]
         },
@@ -98,10 +98,10 @@
                     "version": "1.1",
                     "status": "stable",
                     "kicad_version": "5.99",
-                    "download_sha256": "22263b9de33456da8c06fc4850e6454096c9a419d9558c624f18df684c05956e",
-                    "download_size": 1149706,
+                    "download_sha256": "12e65ad02566ff5d28af6881ae23ea82e3086c8e36005b642be566507d203e04",
+                    "download_size": 1186740,
                     "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/Picoballoon%20Passives/org.picoballoon.libs.passives_v1.1_pcm.zip",
-                    "install_size": 6741863
+                    "install_size": 6981792
                 }
             ]
         },
@@ -133,10 +133,10 @@
                     "version": "1",
                     "status": "stable",
                     "kicad_version": "5.99",
-                    "download_sha256": "fd29eee3acb145329f1a81ce19909164c9e03da057369e99723a3c35dfbdcf98",
-                    "download_size": 2196,
+                    "download_sha256": "33ed4c50f39a7639da5bae5ea046cdc9c841c6afb994bf1163084bb1d0f187e6",
+                    "download_size": 2244,
                     "download_url": "https://raw.githubusercontent.com/PicoballoonLabs/Hardware-Resources/main/Picoballoon%20Power%20Symbols/org.picoballoon.libs.power_v1_pcm.zip",
-                    "install_size": 8608
+                    "install_size": 10271
                 }
             ]
         },
