@@ -23473,14 +23473,14 @@
 			(pin input line
 				(at -17.78 -1.27 0)
 				(length 2.54)
-				(name "SS/TR"
+				(name "MODE/S-CONF"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23491,14 +23491,14 @@
 			(pin input line
 				(at -17.78 -6.35 0)
 				(length 2.54)
-				(name "MODE/S-CONF"
+				(name "SS/TR"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
