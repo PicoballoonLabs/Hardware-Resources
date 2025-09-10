@@ -6334,7 +6334,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48"
-			(at 0 0 0)
+			(at -6.35 -44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,42 +6462,6 @@
 			(pin power_in line
 				(at 20.32 2.54 180)
 				(length 2.54)
-				(name "VDDA3P3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 0 180)
-				(length 2.54)
-				(name "VDDA3P3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -3.81 180)
-				(length 2.54)
 				(name "VDD3P3_RTC"
 					(effects
 						(font
@@ -6514,7 +6478,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -6.35 180)
+				(at 20.32 0 180)
 				(length 2.54)
 				(name "VDD3P3_CPU"
 					(effects
@@ -6524,6 +6488,42 @@
 					)
 				)
 				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 -3.81 180)
+				(length 2.54)
+				(name "VDDA3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -6.35 180)
+				(length 2.54)
+				(name "VDDA3P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
