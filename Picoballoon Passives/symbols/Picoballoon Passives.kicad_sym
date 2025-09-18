@@ -908,7 +908,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.651) (xy 0 1.143)
+					(xy 0 2.54) (xy 0 1.143)
 				)
 				(stroke
 					(width 0)
@@ -921,7 +921,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.143) (xy 0 -1.651)
+					(xy 0 -1.143) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -933,7 +933,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 4.445 270)
+				(at 0 5.08 270)
 				(length 2.794)
 				(name "~"
 					(effects
@@ -951,7 +951,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -4.445 90)
+				(at 0 -5.08 90)
 				(length 2.794)
 				(name "~"
 					(effects
