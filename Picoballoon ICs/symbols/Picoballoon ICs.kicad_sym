@@ -9316,8 +9316,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LGA-12_STM"
-			(at 24.638 -21.59 0)
+		(property "Footprint" "Picoballoon ICs:LGA-12"
+			(at 0.508 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis2dh12.pdf"
-			(at 25.654 -23.622 0)
+			(at 1.524 -23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9346,7 @@
 			)
 		)
 		(property "MPN" "LIS2DH12TR"
-			(at 24.13 -16.51 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9355,7 @@
 			)
 		)
 		(property "LCSC Part #" "C110926"
-			(at 24.13 -19.05 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
