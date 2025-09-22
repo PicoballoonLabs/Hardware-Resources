@@ -1,0 +1,218 @@
+(footprint "X2-SON-8-1x1.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DQE (R-PX2SON-N8)")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "330dd979-e7e1-4c7a-8858-e6f2eb22cadf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "X2-SON-8-1x1.4mm"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c1ca500f-901c-4f85-af7c-3d31dce38bba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a337d09-8dd0-49ce-bf4a-724d277f9458")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c8d4b2c-5c02-48fc-9f33-46db037dc61c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.3 -0.525)
+		(end -1.2 -0.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4b3d5f5b-df2a-42f8-9d76-00d1b2fb33f7")
+	)
+	(fp_line
+		(start -1.1 -0.975)
+		(end 1.1 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2825920-27aa-462c-bed8-7c8f9fa5d44f")
+	)
+	(fp_line
+		(start -1.1 0.975)
+		(end -1.1 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc9d41c3-42ee-4e07-bc5d-5db772c8ab83")
+	)
+	(fp_line
+		(start 1.1 -0.975)
+		(end 1.1 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca957f49-5a3a-4d5d-b09c-d3250c601702")
+	)
+	(fp_line
+		(start 1.1 0.975)
+		(end -1.1 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ce4413f-5c66-45c2-9d1a-af17b8615665")
+	)
+	(fp_line
+		(start -0.5 -0.7)
+		(end 0.5 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "318d55d9-10f2-4c22-8097-caf23ba0d9d9")
+	)
+	(fp_line
+		(start -0.5 -0.45)
+		(end -0.25 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c341e556-069b-4d81-98de-91bc3d0d8323")
+	)
+	(fp_line
+		(start -0.5 0.7)
+		(end -0.5 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9854254-1f85-44ab-a151-cf90efba97ef")
+	)
+	(fp_line
+		(start 0.5 -0.7)
+		(end 0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acfd4148-5745-4c72-9740-cabfedc4c51e")
+	)
+	(fp_line
+		(start 0.5 0.7)
+		(end -0.5 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6affa69-01e6-46f3-8a94-277057df92e1")
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.525 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fd1bc28f-d91f-44fc-98cf-701372c25119")
+	)
+	(pad "2" smd rect
+		(at -0.5 -0.175 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7227fedd-8f82-409e-93cb-d3b71a81efe3")
+	)
+	(pad "3" smd rect
+		(at -0.5 0.175 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dc8c830a-038d-404d-866f-8af94b03d414")
+	)
+	(pad "4" smd rect
+		(at -0.5 0.525 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffe3a46e-4ea9-4593-9539-2aede59a8d40")
+	)
+	(pad "5" smd rect
+		(at 0.5 0.525 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b18e9391-784a-4af3-aef6-a141adc0f681")
+	)
+	(pad "6" smd rect
+		(at 0.5 0.175 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44109ad2-4289-4d98-8097-7c43d82bfecf")
+	)
+	(pad "7" smd rect
+		(at 0.5 -0.175 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3139b56-e073-4223-b514-c6b76bbc94f2")
+	)
+	(pad "8" smd rect
+		(at 0.5 -0.525 90)
+		(size 0.15 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77b1b702-a433-40ec-a0ec-dfe92e753226")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/TXS0102DQER.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
