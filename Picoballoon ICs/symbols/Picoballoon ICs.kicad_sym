@@ -11633,6 +11633,169 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MLPF-WL-01D3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -8.89 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MLPF-WL-01D3"
+			(at -8.89 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon ICs:MLPFWL01D3"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/mlpf-wl-01d3.pdf"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Matched filter dedicated to STM32WL3"
+			(at 1.27 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLPF-WL-01D3"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MLPF-WL-01D3_1_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -13.97 2.54 0)
+				(length 5.08)
+				(name "TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -2.54 0)
+				(length 5.08)
+				(name "RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 2.54 180)
+				(length 5.08)
+				(name "GND_TX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "ANT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -2.54 180)
+				(length 5.08)
+				(name "GND_RX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MS563702BA03-50"
 		(pin_names
 			(offset 0.254)
@@ -21293,7 +21456,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 36.83 0)
+			(at -19.05 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21302,7 +21465,7 @@
 			)
 		)
 		(property "Value" "STM32WLE5CCU6"
-			(at -7.62 -31.75 0)
+			(at -19.05 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21311,17 +21474,16 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:QFN-48 7x7mm"
-			(at 30.48 -57.15 0)
+			(at 0 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wle5cc.pdf"
-			(at 0 -59.69 0)
+			(at 0 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21330,7 +21492,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 48 MHz, 1.8-3.6V, 29 GPIO, UFQFPN48"
-			(at 0 -54.61 0)
+			(at 0 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,7 +21501,7 @@
 			)
 		)
 		(property "MPN" "STM32WLE5CCU6"
-			(at 0 -27.94 0)
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21348,7 +21510,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2888218"
-			(at 0 -24.13 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
