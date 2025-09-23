@@ -1,0 +1,241 @@
+(footprint "SMD-4P 4.2x3.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U?"
+		(at 0 -2.439 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "73a81499-78f9-4d89-aef4-3a367a7633fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD-4P 4.2x3.2mm"
+		(at 0 2.427 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0f6a424-19bd-4dd1-ae87-2cc73ddec49e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83599cb6-08e8-422a-a0be-c146fb0eb82f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4600532-8e52-4f85-83f2-4e1d947a27c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba085cd-0fd9-41b8-b4c8-4faf0525bcfd")
+	)
+	(fp_line
+		(start -2.1 -0.494)
+		(end -2.1 0.494)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "769ffeb7-816e-4597-a890-5f8781222abb")
+	)
+	(fp_line
+		(start -2.1 -0.494)
+		(end -2.0995 -0.4945)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee046eb8-e576-4229-b7b6-4976c3c964a0")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e931e73a-e8c2-4139-991a-11035a5c067e")
+	)
+	(fp_line
+		(start 2.1 0.494)
+		(end 2.1 -0.494)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a866fa6-fe3a-428e-862f-90d2b5db7e84")
+	)
+	(fp_poly
+		(pts
+			(xy -2.25 -1.35) (xy -1.75 -1.35) (xy -1.75 -0.8) (xy -2.25 -0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "e2cba737-9408-4d4a-be08-91dc3a13ac88")
+	)
+	(fp_poly
+		(pts
+			(xy -2.25 0.8) (xy -1.75 0.8) (xy -1.75 1.35) (xy -2.25 1.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "554a4820-884d-42f2-bb1e-a3a3990639bc")
+	)
+	(fp_poly
+		(pts
+			(xy 1.75 -1.35) (xy 2.25 -1.35) (xy 2.25 -0.8) (xy 1.75 -0.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "687d85bd-572a-432e-a6fc-af12afa8da59")
+	)
+	(fp_poly
+		(pts
+			(xy 1.75 0.8) (xy 2.25 0.8) (xy 2.25 1.35) (xy 1.75 1.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.1")
+		(uuid "ac96a40a-ed00-44ef-8d94-2f4d518d426f")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f763004a-8a76-4d1a-badb-f9627ef9cc4e")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "516be5fa-53dc-4884-8f03-aa95962d5cbb")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "97310a76-a45d-4ffe-9ea8-494d3559b44e")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f1165118-fe50-4ef1-8656-7d04846a2dc5")
+	)
+	(fp_poly
+		(pts
+			(xy -2.194567 -1.622961) (xy -2.227039 -1.655433) (xy -2.272961 -1.655433) (xy -2.305433 -1.622961)
+			(xy -2.305433 -1.577039) (xy -2.272961 -1.544567) (xy -2.227039 -1.544567) (xy -2.194567 -1.577039)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "User.3")
+		(uuid "3224b517-ce1a-4c8c-9d22-a3c965caa0ad")
+	)
+	(pad "1" smd rect
+		(at -2 -1.075 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07448ae4-c4a0-4c36-8afc-ac9a14171a30")
+	)
+	(pad "2" smd rect
+		(at 2 -1.075 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4d77952-2dc4-469a-8d8d-5ef4022912c3")
+	)
+	(pad "3" smd rect
+		(at -2 1.075 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85a98796-4264-479f-b21c-53c6c454de74")
+	)
+	(pad "4" smd rect
+		(at 2 1.075 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c4bc592-44ad-43cb-85af-2a02c08ac2be")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/G-Switch GT-TC048D-H025-L1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
