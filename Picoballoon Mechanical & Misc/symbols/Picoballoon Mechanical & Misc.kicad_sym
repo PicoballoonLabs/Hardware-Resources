@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "ANT"
-			(at -16.51 12.7 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,6 +22,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:ANT161575ST1202A1"
@@ -60,25 +61,112 @@
 				(hide yes)
 			)
 		)
-		(symbol "ANT161575ST-1202A1_1_1"
-			(rectangle
-				(start -16.51 11.43)
-				(end 17.78 -7.62)
+		(symbol "ANT161575ST-1202A1_0_1"
+			(arc
+				(start -1.27 -0.127)
+				(mid -2.1185 0.4368)
+				(end -1.778 1.397)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 7.62) (xy -1.27 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(pin passive line
-				(at -19.05 6.35 0)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.762 1.397)
+				(mid -0.4654 0.4515)
+				(end -1.27 -0.127)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.508 0.635)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.635) (xy 1.27 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy -1.27 2.54) (xy -2.54 7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 1.27 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ANT161575ST-1202A1_1_1"
+			(pin no_connect line
+				(at -5.08 -2.54 90)
 				(length 2.54)
-				(name "DUMMY_PAD_1"
+				(hide yes)
+				(name "D1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -90,31 +178,14 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -19.05 -2.54 0)
+			(pin no_connect line
+				(at -5.08 -2.54 90)
 				(length 2.54)
-				(name "RADIATOR_ELECTRODE"
+				(hide yes)
+				(name "D2"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 20.32 6.35 180)
-				(length 2.54)
-				(name "DUMMY_PAD_2"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -126,17 +197,35 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 20.32 -2.54 180)
+			(pin input line
+				(at -1.27 -2.54 90)
 				(length 2.54)
-				(name "FEED_POINT"
+				(name "A"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+			)
+			(pin input line
+				(at 1.27 -2.54 90)
+				(length 2.54)
+				(name "Rad"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -507,7 +596,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 0 0 0)
+			(at 1.27 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
