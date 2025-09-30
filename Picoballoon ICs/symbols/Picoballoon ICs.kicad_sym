@@ -8799,7 +8799,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
@@ -8817,7 +8817,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 -7.62 90)
 				(length 3.81)
 				(name "GND"
@@ -8835,7 +8835,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 2.54 -7.62 90)
 				(length 6.35)
 				(name "REF"
@@ -8853,7 +8853,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "~"
@@ -19874,7 +19874,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "IN"
@@ -19892,7 +19892,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "OUT"
@@ -25227,7 +25227,7 @@
 			)
 		)
 		(symbol "TPS61099YFFR_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "VI"
@@ -25237,7 +25237,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25245,7 +25245,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "EN"
@@ -25255,25 +25255,7 @@
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
+				(number "C1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25300,7 +25282,25 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 7.62 5.08 180)
 				(length 2.54)
 				(name "SW"
@@ -25310,7 +25310,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25318,7 +25318,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VOUT"
@@ -25328,7 +25328,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "B2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25346,7 +25346,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -25987,7 +25987,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "EN"
@@ -26042,7 +26042,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 11.43 6.35 180)
 				(length 2.54)
 				(name "SW"
@@ -26060,7 +26060,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 11.43 -1.27 180)
 				(length 2.54)
 				(name "PG"
@@ -26078,7 +26078,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "FB"
