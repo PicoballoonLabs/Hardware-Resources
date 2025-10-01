@@ -1,0 +1,96 @@
+(footprint "Battery holder BH-LI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery holder lisocl no silk")
+	(property "Reference" "BT"
+		(at 0.16 16.94 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3483d0e7-1bf8-4e29-be1d-a33981fec054")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery holder BH-AAA-LI"
+		(at 0 12.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e92b8f7e-4eb2-4f0e-94f5-ce50820fbcdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121938_MYOUNG-BH-18650-B1BA002_C2988620.pdf"
+		(at 0.16 19.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a73b556c-faa9-4bff-b2bf-6c1e65676824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8e79fe3-2aa7-4f91-86d3-d1b5c124d691")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.2)
+	(attr smd)
+	(pad "1" thru_hole circle
+		(at -5.08 12.8 270)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46705295-1f60-4250-b17d-5afb8e2e0bc3")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 12.8)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92827e5b-7332-4649-8e31-0619cde2ba71")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -12.8 270)
+		(size 2.4 2.4)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "268b207b-8193-4b5a-8a4f-addd2834bc4c")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery holder BH-18650-B1BA002.stp"
+		(offset
+			(xyz -2.4 8.425 -1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
