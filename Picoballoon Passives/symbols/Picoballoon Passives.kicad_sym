@@ -2381,7 +2381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:XSON-6"
 			(at 7.62 -1.27 0)
 			(effects
 				(font
