@@ -3287,6 +3287,222 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "BATT_Double"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BT"
+			(at 3.81 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BATT_Double_0_1"
+			(rectangle
+				(start 5.334 -4.572)
+				(end 9.906 -4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 6.096 -5.334)
+				(end 9.144 -5.842)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -4.572) (xy 7.62 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.588) (xy 7.62 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 -3.302) (xy 9.398 -3.302)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -2.794) (xy 8.89 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BATT_Double_1_1"
+			(pin passive line
+				(at 7.62 -1.27 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 0.127 0.127)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.127 0.127)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 270)
+				(length 2.54)
+				(hide yes)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 270)
+				(length 2.54)
+				(hide yes)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -8.89 90)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 0.127 0.127)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.127 0.127)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -8.89 90)
+				(length 2.54)
+				(hide yes)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Battery holder"
 		(pin_numbers
 			(hide yes)
@@ -3317,7 +3533,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:Battery holder BH-18650-B1BA002"
-			(at 0 1.524 90)
+			(at 0 1.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3551,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
