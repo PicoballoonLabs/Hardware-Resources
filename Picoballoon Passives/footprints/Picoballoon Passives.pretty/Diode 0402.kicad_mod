@@ -1,4 +1,4 @@
-(footprint "Inductor 0402_copy"
+(footprint "Diode 0402"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -55,6 +55,17 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -1.05 0)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7a8d224b-1d7e-45b6-b803-2b5a96e61124")
+	)
 	(fp_line
 		(start -0.91 -0.46)
 		(end 0.91 -0.46)

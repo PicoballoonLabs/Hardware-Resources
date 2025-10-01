@@ -67,6 +67,17 @@
 		(layer "F.SilkS")
 		(uuid "95514515-f257-4536-b7f1-08bf5750ecab")
 	)
+	(fp_circle
+		(center -3 6.6)
+		(end -2.8 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "08547082-62d9-4258-b09f-fc94e3800d7b")
+	)
 	(fp_rect
 		(start -4 -5.5)
 		(end 4 5.5)
@@ -271,4 +282,15 @@
 		(uuid "ceb38f20-fe22-4108-8715-a63e7bc99e96")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/RYS8833.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.1 0.1 0.1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
