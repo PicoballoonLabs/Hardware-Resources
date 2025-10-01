@@ -4087,6 +4087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" " Coaxial Switch RF testpoint"

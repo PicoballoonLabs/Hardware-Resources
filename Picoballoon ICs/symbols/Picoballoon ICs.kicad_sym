@@ -10547,8 +10547,8 @@
 		)
 		(symbol "LSF0204DYZPR_1_1"
 			(rectangle
-				(start -8.89 8.89)
-				(end 8.89 -6.35)
+				(start -8.89 10.16)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
