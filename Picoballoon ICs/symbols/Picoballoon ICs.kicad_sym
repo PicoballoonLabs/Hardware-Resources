@@ -25149,7 +25149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:DSBGA-6_0.855x1.255mm"
 			(at 1.27 -3.81 0)
 			(effects
 				(font
