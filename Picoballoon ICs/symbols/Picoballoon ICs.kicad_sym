@@ -25,7 +25,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:SOT-363_SC-70-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8703,7 +8703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "Picoballoon ICs:SOT-363_SC-70-6"
 			(at 1.27 1.27 0)
 			(effects
 				(font
@@ -9915,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Accelerometer, low pwr"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19791,7 +19791,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "REF3312AIDBZR"
+	(symbol "REF3330AIDBZR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19805,7 +19805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "REF3312AIDBZR"
+		(property "Value" "REF3330AIDBZR"
 			(at -7.62 -5.08 0)
 			(do_not_autoplace)
 			(effects
@@ -19844,7 +19844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "REF3312AIDBZR"
+		(property "MPN" "REF3330AIDBZR"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -19853,7 +19853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C183104"
+		(property "LCSC Part #" "C140329"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -19862,7 +19862,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "REF3312AIDBZR_1_1"
+		(property "ki_keywords" "3V0 reference"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "REF3330AIDBZR_1_1"
 			(rectangle
 				(start -7.62 3.81)
 				(end 7.62 -3.81)
