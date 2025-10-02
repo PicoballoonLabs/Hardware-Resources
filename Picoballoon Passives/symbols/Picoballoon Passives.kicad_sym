@@ -1420,7 +1420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Picoballoon Passives:SOD-523"
 			(at 0 -4.445 0)
 			(effects
 				(font
@@ -1439,6 +1439,15 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C82044"
 			(at 0 0 0)
 			(effects
 				(font
