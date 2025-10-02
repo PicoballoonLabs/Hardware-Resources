@@ -10500,7 +10500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:DSBGA-12_1.5x2mm"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -20213,7 +20213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "-"
+		(property "Footprint" "Picoballoon ICs:RYS8833"
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -20247,14 +20247,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "RYS8833_1_0"

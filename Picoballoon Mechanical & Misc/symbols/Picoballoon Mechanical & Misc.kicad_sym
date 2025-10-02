@@ -3287,36 +3287,27 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "BATT_Double"
+	(symbol "BATT_AA/2"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "BT"
-			(at 3.81 -5.08 0)
+			(at -3.81 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "3V6"
+			(at 2.794 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Picoballoon Mechanical & Misc:Battery holder BH-LI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3325,7 +3316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "https://www.tme.eu/Document/82fc0fe90ce3826781055257e55a0a33/EVE-ER14250_S.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3334,10 +3325,28 @@
 				(hide yes)
 			)
 		)
-		(symbol "BATT_Double_0_1"
+		(property "Description" "3V6 lisocl 1/2AA battery"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BATT LISOCL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BATT_AA/2_0_1"
 			(rectangle
-				(start 5.334 -4.572)
-				(end 9.906 -4.826)
+				(start -2.286 -3.302)
+				(end 2.286 -3.556)
 				(stroke
 					(width 0)
 					(type default)
@@ -3347,8 +3356,8 @@
 				)
 			)
 			(rectangle
-				(start 6.096 -5.334)
-				(end 9.144 -5.842)
+				(start -1.524 -4.064)
+				(end 1.524 -4.572)
 				(stroke
 					(width 0)
 					(type default)
@@ -3359,7 +3368,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -4.572) (xy 7.62 -3.81)
+					(xy 0 -3.302) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -3371,7 +3380,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -5.588) (xy 7.62 -6.35)
+					(xy 0 -4.318) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -3383,7 +3392,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.382 -3.302) (xy 9.398 -3.302)
+					(xy 0.762 -2.032) (xy 1.778 -2.032)
 				)
 				(stroke
 					(width 0.254)
@@ -3395,7 +3404,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -2.794) (xy 8.89 -3.81)
+					(xy 1.27 -1.524) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -3406,9 +3415,9 @@
 				)
 			)
 		)
-		(symbol "BATT_Double_1_1"
+		(symbol "BATT_AA/2_1_1"
 			(pin passive line
-				(at 7.62 -1.27 270)
+				(at 0 0 270)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -3426,10 +3435,10 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 270)
+				(at 0 0 270)
 				(length 2.54)
 				(hide yes)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3445,10 +3454,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 270)
+				(at 0 -7.62 90)
 				(length 2.54)
-				(hide yes)
-				(name "+"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3456,43 +3464,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -8.89 90)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 0.127 0.127)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.127 0.127)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -8.89 90)
-				(length 2.54)
-				(hide yes)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3680,7 +3651,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Battery_Cell"
+	(symbol "Battery_AAA"
 		(pin_numbers
 			(hide yes)
 		)
@@ -3700,7 +3671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
+		(property "Value" "1V5"
 			(at 2.54 0 0)
 			(effects
 				(font
@@ -3709,7 +3680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon Mechanical & Misc:Battery holder BH-AAA"
 			(at 0 1.524 90)
 			(effects
 				(font
@@ -3736,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "battery cell"
+		(property "ki_keywords" "single AAA 1cell"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3745,7 +3716,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Battery_Cell_0_1"
+		(symbol "Battery_AAA_0_1"
 			(rectangle
 				(start -2.286 1.778)
 				(end 2.286 1.524)
@@ -3817,7 +3788,7 @@
 				)
 			)
 		)
-		(symbol "Battery_Cell_1_1"
+		(symbol "Battery_AAA_1_1"
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
