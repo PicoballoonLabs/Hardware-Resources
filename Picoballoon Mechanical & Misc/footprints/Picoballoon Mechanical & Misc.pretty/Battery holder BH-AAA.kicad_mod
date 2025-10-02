@@ -222,26 +222,26 @@
 		(uuid "c63d5d6c-97ee-4909-886e-5f964cedd186")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/orgo/Downloads/Battery_Holder_MYOUNG MY-AAA-20-J.stp"
+	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery_Holder_MYOUNG MY-AAA-19-J.stp"
 		(offset
-			(xyz 0 -15 -1)
+			(xyz 0 14.5 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 -180)
+		)
+	)
+	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery_Holder_MYOUNG MY-AAA-20-J.stp"
+		(offset
+			(xyz 0 -14.5 -1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 90 90 -0)
-		)
-	)
-	(model "C:/Users/orgo/Downloads/Battery_Holder_MYOUNG MY-AAA-19-J.stp"
-		(offset
-			(xyz 0 15 -1)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 90 -0)
 		)
 	)
 )
