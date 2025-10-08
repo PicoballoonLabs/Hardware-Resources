@@ -88,17 +88,6 @@
 		(uuid "d9bbcd68-cb76-4d02-b0be-2c85a3c6d125")
 	)
 	(fp_rect
-		(start 0.7 -0.4)
-		(end 1.6 0.25)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "9463e218-621c-4e37-8000-b368c6a508ad")
-	)
-	(fp_rect
 		(start -4.7 -0.7)
 		(end -4.1 2.8)
 		(stroke
@@ -332,10 +321,22 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7778b291-4ca2-4b4f-a5b2-280b7c64634a")
 	)
-	(pad "4" smd rect
+	(pad "4" smd custom
 		(at 0.625 0)
 		(size 0.35 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.025 -0.4)
+				(end 0.975 0.25)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "7d29a38a-c172-4ba3-b0e4-db20b58b28a0")
 	)
 	(pad "D1" smd rect
