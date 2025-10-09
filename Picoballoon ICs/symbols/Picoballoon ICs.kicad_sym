@@ -30188,7 +30188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:USON-8 1.5x1.5mm"
+		(property "Footprint" "Picoballoon ICs:USON-8-1EP_3x2mm"
 			(at 0 -22.86 0)
 			(effects
 				(font
