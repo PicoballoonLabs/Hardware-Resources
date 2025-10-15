@@ -239,7 +239,7 @@
 	(pad "1" smd custom
 		(at -2.75 -0.45)
 		(size 0.5 0.5)
-		(layers "F.Mask" "B.Cu" "F.Paste")
+		(layers "F.Mask" "B.Cu")
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -298,7 +298,7 @@
 	(pad "1" smd custom
 		(at -0.65 0 90)
 		(size 0.35 0.35)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -325,10 +325,16 @@
 		)
 		(uuid "f39c80d4-b0c2-4e3f-810a-8e2a2e80489b")
 	)
+	(pad "1" smd rect
+		(at -0.625 0 90)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f2504a4-b4d3-4e0d-a3aa-afc7dcd5a738")
+	)
 	(pad "4" smd custom
 		(at 0.625 0)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -354,6 +360,12 @@
 		(size 0.26 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "531f2256-5c02-4c61-a668-c8c8bfec3a83")
+	)
+	(pad "D4" smd rect
+		(at 0.625 0 90)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8368f6e-ea0e-40c8-bd53-0b233982f2d4")
 	)
 	(zone
 		(net 0)
