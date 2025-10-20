@@ -25267,25 +25267,6 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
 				(name "GND"
 					(effects
 						(font
