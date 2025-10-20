@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "2d463409-9799-4225-b553-3920c427a73c")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "Texas_DSBGA-12_1.5x2mm_Layout3x4_P0.5mm"
 		(at 0 1.93 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "8acdc668-a272-4577-b3c6-87b785498e91")
 		(effects
 			(font
@@ -95,21 +97,9 @@
 		(layer "F.SilkS")
 		(uuid "7dca51d7-6725-46f6-a2db-12db5b98011f")
 	)
-	(fp_poly
-		(pts
-			(xy 0.8725 -1.1225) (xy 0.8725 -1.6225) (xy 1.3725 -1.1225) (xy 0.8725 -1.1225)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "44f120d5-c79a-417a-9948-856d3ee8ee31")
-	)
 	(fp_line
-		(start -1.69 -1.94)
-		(end -1.69 1.94)
+		(start -1.1 -1.3)
+		(end -1.1 1.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,8 +108,8 @@
 		(uuid "99ba6e84-1c5b-4894-85d3-5e583b5308b5")
 	)
 	(fp_line
-		(start -1.69 1.94)
-		(end 1.69 1.94)
+		(start -1.1 1.3)
+		(end 1.1 1.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,8 +118,8 @@
 		(uuid "9e4a276e-8b89-49c6-9195-2bc9689e8be5")
 	)
 	(fp_line
-		(start 1.69 -1.94)
-		(end -1.69 -1.94)
+		(start 1.1 -1.3)
+		(end -1.1 -1.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,8 +128,8 @@
 		(uuid "ed92a203-34af-4ca8-bf80-78cc4000b3c3")
 	)
 	(fp_line
-		(start 1.69 1.94)
-		(end 1.69 -1.94)
+		(start 1.1 1.3)
+		(end 1.1 -1.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -197,28 +187,16 @@
 		(layer "F.Fab")
 		(uuid "520a4aad-49b6-4ea6-be6b-51d735bcc3ee")
 	)
-	(fp_text user "A1"
-		(at -1.3 -0.75 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7e6f2c01-c4db-4095-b687-8bc879c49a36")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-			)
+	(fp_circle
+		(center 1 -1.2)
+		(end 1.1 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
 		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 270)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "512b0632-478a-4b9f-ab5d-072130218618")
-		(effects
-			(font
-				(size 0.43 0.43)
-				(thickness 0.0645)
-			)
-		)
+		(uuid "edbc9f84-f898-4405-866f-d2d0f82cbad2")
 	)
 	(pad "" smd roundrect
 		(at -0.5 -0.75)

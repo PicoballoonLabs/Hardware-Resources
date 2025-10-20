@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0.35 -2.5 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0bdeb10e-fd34-4cc9-93e3-60b222381bcf")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "DSBGA-6_0.855x1.255mm_Layout2x3_P0.4mm_LevelC"
 		(at 0 1.744 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "56b4a1c2-8b5f-4ef2-a93a-1cb708ff1128")
 		(effects
 			(font
@@ -93,18 +95,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c484998d-9076-4803-9893-b6b676484bfd")
-	)
-	(fp_poly
-		(pts
-			(xy -0.55 -0.75) (xy -1.05 -0.75) (xy -0.55 -1.25) (xy -0.55 -0.75)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "e88b7af4-7f77-4717-8458-9d22539a29cf")
 	)
 	(fp_rect
 		(start -0.275 -0.475)
@@ -262,16 +252,16 @@
 		(layer "F.Fab")
 		(uuid "7cdf5b44-130a-4439-859a-20f7c59dbbc8")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 270)
-		(layer "F.Fab")
-		(uuid "eb22d96d-124e-423b-9715-9c2bd2c953e2")
-		(effects
-			(font
-				(size 0.3 0.3)
-				(thickness 0.045)
-			)
+	(fp_circle
+		(center -0.7 -0.9)
+		(end -0.6 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
 		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1858d259-218b-4c04-978d-9a407e91c4b9")
 	)
 	(pad "A1" smd circle
 		(at -0.2 -0.4)
@@ -316,7 +306,7 @@
 		(uuid "b8f59582-1bec-44c8-b295-87b392f44cde")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Texas_DSBGA-6_0.855x1.255mm_Layout2x3_P0.4mm_LevelC.step"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA-6_0.855x1.255mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -324,7 +314,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
