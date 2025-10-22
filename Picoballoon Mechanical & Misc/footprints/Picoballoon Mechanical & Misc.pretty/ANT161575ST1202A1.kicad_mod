@@ -376,6 +376,43 @@
 			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
 			"In29.Cu" "In30.Cu"
 		)
+		(uuid "f6ee22da-67c1-4063-bd3c-609c43b8000e")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.3 -0.7) (xy -0.3 -0.5) (xy 1.1 -0.5) (xy 1.1 -0.7)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "0d48bb92-d1c0-4657-bc12-c162926d992f")
 		(hatch edge 0.5)
 		(connect_pads
@@ -400,8 +437,8 @@
 		)
 		(polygon
 			(pts
-				(xy 1.14121 0.55) (xy -1.2 0.55) (xy -1.2 -0.05) (xy -4 -0.05) (xy -4 2.9) (xy -4.7 2.9) (xy -4.7 4.05)
-				(xy -4 4.0575) (xy 1.1 4.1)
+				(xy 1.1 0.55) (xy -1.2 0.55) (xy -1.2 -0.05) (xy -4 -0.05) (xy -4 2.9) (xy -4.7 2.9) (xy -4.7 4.05)
+				(xy -4 4.0575) (xy 1.1 4.05)
 			)
 		)
 	)
