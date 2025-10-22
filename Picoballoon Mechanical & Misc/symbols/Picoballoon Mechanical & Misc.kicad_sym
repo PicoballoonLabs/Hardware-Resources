@@ -2012,6 +2012,46 @@
 				(hide yes)
 			)
 		)
+		(symbol "B2B GT-B0353MSV04-08B0201_1_0"
+			(pin power_in line
+				(at -6.35 -5.08 0)
+				(length 2.54)
+				(hide yes)
+				(name "Pin_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "Pin_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P2_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "B2B GT-B0353MSV04-08B0201_1_1"
 			(polyline
 				(pts
@@ -2343,25 +2383,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -6.35 -5.08 0)
-				(length 3.81)
-				(hide yes)
-				(name "Pin_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P1_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 6.35 5.08 180)
 				(length 3.81)
@@ -2445,25 +2466,6 @@
 					)
 				)
 				(number "P2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 6.35 -5.08 180)
-				(length 3.81)
-				(hide yes)
-				(name "Pin_10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P2_2"
 					(effects
 						(font
 							(size 1.27 1.27)
