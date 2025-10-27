@@ -331,7 +331,7 @@
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA_15.STEP"
 		(offset
-			(xyz 0 0 0.1)
+			(xyz 0 0 0.25)
 		)
 		(scale
 			(xyz 1 1 1)
