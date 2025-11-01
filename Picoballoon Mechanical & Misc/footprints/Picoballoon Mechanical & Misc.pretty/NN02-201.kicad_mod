@@ -54,6 +54,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy -9.6 9.3) (xy -10.7 9.3) (xy -10.7 -1.15) (xy -3.25 -1.15) (xy -3.25 0.05) (xy -9.6 0.047666)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "67a0d3d1-1902-4349-8392-248debf4f786")
+	)
 	(fp_rect
 		(start -3.554803 -1.452334)
 		(end 3.445197 1.547666)
@@ -90,7 +102,7 @@
 	(pad "1" smd rect
 		(at -10.142847 9.047666 180)
 		(size 0.8 0.8)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(solder_mask_margin 0.102)
 		(teardrops
 			(best_length_ratio 0.5)
@@ -126,7 +138,7 @@
 	(pad "1" smd custom
 		(at -2.379803 0.047666 180)
 		(size 1.65 2.3)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu")
 		(solder_mask_margin 0.102)
 		(options
 			(clearance outline)
