@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -4.3012 -1.5762)
-		(end -2.0488 1.5762)
+		(start -4.3012 -4.4762)
+		(end -2.0488 -1.3238)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "ded6c6bf-f1c1-426c-8881-52dd7fd3ca8a")
 	)
 	(fp_rect
-		(start -1.1012 2.0238)
-		(end -0.1488 3.7762)
+		(start -1.1012 -0.8762)
+		(end -0.1488 0.8762)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "278355ec-36a1-4388-9f75-3d22d15f811e")
 	)
 	(fp_rect
-		(start 0.1488 2.0238)
-		(end 1.1012 3.7762)
+		(start 0.1488 -0.8762)
+		(end 1.1012 0.8762)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "12dac775-e401-4415-a1d4-9b8b71fe4153")
 	)
 	(fp_rect
-		(start 2.0488 -1.5762)
-		(end 4.3012 1.5762)
+		(start 2.0488 -4.4762)
+		(end 4.3012 -1.3238)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "e9488ad4-2958-42ce-aa31-e4a81cf79b36")
 	)
 	(fp_line
-		(start -2.2 1.8)
-		(end -2.2 2.2)
+		(start -2.2 -1.1)
+		(end -2.2 -0.7)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "7f79bb3f-0167-48ae-811a-cafd1d67edd1")
 	)
 	(fp_line
-		(start -2.2 2.2)
-		(end -1.36 2.2)
+		(start -2.2 -0.7)
+		(end -1.36 -0.7)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "9d40a13e-824a-4e64-b5bd-dc1544939767")
 	)
 	(fp_line
-		(start 2.1 -2.1)
-		(end -2.1 -2.1)
+		(start 2.1 -5)
+		(end -2.1 -5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "b48866ca-104e-466a-b39a-6be359e26d45")
 	)
 	(fp_line
-		(start 2.2 1.8)
-		(end 2.2 2.2)
+		(start 2.2 -1.1)
+		(end 2.2 -0.7)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -138,8 +138,8 @@
 		(uuid "45aa2174-7720-45f9-880f-b73f95b4a429")
 	)
 	(fp_line
-		(start 2.2 2.2)
-		(end 1.36 2.2)
+		(start 2.2 -0.7)
+		(end 1.36 -0.7)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "8bef0be4-819b-4c05-aacb-6447d36122e6")
 	)
 	(fp_line
-		(start -4.25 -2.1)
-		(end 4.25 -2.1)
+		(start -4.25 -5)
+		(end 4.25 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "71f51576-086c-424b-9084-a37ce9df174e")
 	)
 	(fp_line
-		(start -4.25 2.5)
-		(end -4.25 -2.1)
+		(start -4.25 -0.4)
+		(end -4.25 -5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "20268635-bbb1-4630-8c4d-32bbb16ed817")
 	)
 	(fp_line
-		(start -4.25 2.5)
-		(end 4.25 2.5)
+		(start -4.25 -0.4)
+		(end 4.25 -0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "abf9cc7b-57b2-41ef-8116-4c2ff0df6a54")
 	)
 	(fp_line
-		(start 4.25 -2.1)
-		(end 4.25 2.5)
+		(start 4.25 -5)
+		(end 4.25 -0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -188,8 +188,8 @@
 		(uuid "ff63c0f3-0c83-48ce-8f6d-eaaa9c6b6c1a")
 	)
 	(fp_line
-		(start -3.825 -2.1)
-		(end 3.825 -2.1)
+		(start -3.825 -5)
+		(end 3.825 -5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -198,8 +198,8 @@
 		(uuid "046c71ab-9d87-4de4-aa32-9a75fbf8e1f3")
 	)
 	(fp_line
-		(start -3.825 2.1)
-		(end -3.825 -2.1)
+		(start -3.825 -0.8)
+		(end -3.825 -5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -208,8 +208,8 @@
 		(uuid "ace23ef7-136c-413b-9971-82f1718011bf")
 	)
 	(fp_line
-		(start 3.825 -2.1)
-		(end 3.825 2.1)
+		(start 3.825 -5)
+		(end 3.825 -0.8)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -218,8 +218,8 @@
 		(uuid "a127e3ac-eb7f-468d-9a81-a4c258863da2")
 	)
 	(fp_line
-		(start 3.825 2.1)
-		(end -3.825 2.1)
+		(start 3.825 -0.8)
+		(end -3.825 -0.8)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -228,25 +228,25 @@
 		(uuid "daaa8a11-242c-4f0a-b7b9-da756e43c6e4")
 	)
 	(pad "1" smd rect
-		(at 0.625 2.9 180)
+		(at 0.625 0 180)
 		(size 0.8 1.6)
 		(layers "F.Cu" "F.Paste")
 		(uuid "20a2ee8e-1298-4bfb-a7c8-10be284033d2")
 	)
 	(pad "2" smd rect
-		(at -0.625 2.9 180)
+		(at -0.625 0 180)
 		(size 0.8 1.6)
 		(layers "F.Cu" "F.Paste")
 		(uuid "43fc62a0-66ba-42b1-8c11-aa9c58ce95cd")
 	)
 	(pad "S1" smd rect
-		(at 3.175 0 180)
+		(at 3.175 -2.9 180)
 		(size 2.1 3)
 		(layers "F.Cu" "F.Paste")
 		(uuid "72f111a0-45d6-48cc-ac5d-166c63e969b3")
 	)
 	(pad "S2" smd rect
-		(at -3.175 0 180)
+		(at -3.175 -2.9 180)
 		(size 2.1 3)
 		(layers "F.Cu" "F.Paste")
 		(uuid "a0e79ba2-a015-4a34-9cd2-f63c44a42125")

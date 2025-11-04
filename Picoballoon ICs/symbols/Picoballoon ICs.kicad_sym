@@ -22152,7 +22152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "Picoballoon ICs:QFN-48 7x7mm"
 			(at -15.24 -38.1 0)
 			(effects
 				(font
@@ -27667,7 +27667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGY_R-PVQFN-N16_EP2.05x2.55mm"
+		(property "Footprint" "Picoballoon ICs:PVQFN-N16"
 			(at 0 -19.05 0)
 			(effects
 				(font
