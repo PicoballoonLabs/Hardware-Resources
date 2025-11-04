@@ -1,4 +1,4 @@
-(footprint "Crystal CSTNE8M00GH5C000R0"
+(footprint "Crystal 3213-3P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -7,6 +7,7 @@
 		(at 0 -1.78 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "f11c407c-4625-405e-8145-1126cebdbcc4")
 		(effects
 			(font
@@ -15,10 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Crystal CSTNE8M00GH5C000R0"
+	(property "Value" "Crystal 3213-3P"
 		(at 0 2.02 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "28532bfa-f2d9-4eb2-ae75-82bbdfce9b7f")
 		(effects
 			(font
@@ -85,18 +87,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "ed4ee02a-5f0a-4179-b1a4-04f6954ae851")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 3.52 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "ef4a70ef-a319-4d17-8652-1d95616537db")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at 1.2 0)

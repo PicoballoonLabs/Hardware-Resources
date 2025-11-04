@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 1.175 -3.135 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "d12d51df-995b-4993-82b1-11385f90df1e")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "Inductor 3.9x3.9mm"
 		(at 9.43 3.115 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "887e1fd7-728f-4fce-94c8-39d7d349fc5c")
 		(effects
 			(font

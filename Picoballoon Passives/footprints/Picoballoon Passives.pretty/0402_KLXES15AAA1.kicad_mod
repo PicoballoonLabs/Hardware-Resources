@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.05 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "8a0d5192-82fa-47dc-8b50-55ce428327ed")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "0402_KLXES15AAA1"
 		(at 0 1.09 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7a5828b8-8dad-4836-84a9-0cd2056ba1e9")
 		(effects
 			(font
@@ -173,17 +175,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "c6a2d53a-4d7e-4637-b989-7a7b1cb053fd")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -0.68 0)
-		(layer "F.Fab")
-		(uuid "fea5e9fc-4f98-4dc2-ac41-d0f9d169131d")
-		(effects
-			(font
-				(size 0.25 0.25)
-				(thickness 0.04)
-			)
-		)
 	)
 	(pad "1" smd roundrect
 		(at -0.45 0)

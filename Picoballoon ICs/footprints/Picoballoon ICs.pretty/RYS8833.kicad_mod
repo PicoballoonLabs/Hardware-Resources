@@ -9,6 +9,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "8117a53b-4a74-4ddd-928a-313de1685c8a")
 		(effects
 			(font
@@ -21,6 +22,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "22a2f9e0-a8ee-44cf-bfa2-aa1d519dfa5d")
 		(effects
 			(font
@@ -88,18 +90,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "6eeecd6f-cb30-4dee-aee9-817a414c2740")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "e012fce3-3434-41ae-bfa1-3c0f56c752c8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" smd oval
 		(at -3 5.5 90)
