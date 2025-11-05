@@ -215,7 +215,7 @@
 		(uuid "5a12d883-4faf-433a-aa04-96a6ab237693")
 	)
 	(embedded_fonts no)
-	(model "../../3dmodels/Picoballoon ICs.3dshapes/UQFN-10.stp"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/XSON-6.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -223,7 +223,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 90)
 		)
 	)
 )
