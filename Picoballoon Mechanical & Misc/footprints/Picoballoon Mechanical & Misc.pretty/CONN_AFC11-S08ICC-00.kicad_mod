@@ -1,0 +1,273 @@
+(footprint "CONN_AFC11-S08ICC-00"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Slide Lock 8P 0.5mm Single-side Contact/Vertical Surface Mount,Vertical SMD,P=0.5mm FFC, FPC ")
+	(tags "FFC vertical connector")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "a7c14c81-960f-456f-b318-b7952b4d494a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2Rows-08Pins-P1.0mm_Vertical"
+		(at 0 3.9 0)
+		(layer "F.Fab")
+		(uuid "33951116-6195-4c60-8d64-198f5efe8377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C262301.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b41e585-d873-473e-a170-b764c52885e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Slide Lock 8P 0.5mm Single-side Contact/Vertical Surface Mount,Vertical SMD,P=0.5mm FFC, FPC "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a24e559-f378-4f9b-8b6d-ddc552e25e7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -1.6)
+		(end -5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efa2e044-4a1f-472f-86b2-d1527f7e850d")
+	)
+	(fp_line
+		(start -5 1.6)
+		(end -4 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f96927e0-124a-4018-88d8-9e0955de7ff0")
+	)
+	(fp_line
+		(start -3.06 -1.61)
+		(end -4.995 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad40b6cf-2439-4b76-a9da-d8b5c0dc8794")
+	)
+	(fp_line
+		(start 3 1.6)
+		(end 5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb2aa97e-d65b-468c-9738-d0ef80104c51")
+	)
+	(fp_line
+		(start 5 -1.6)
+		(end 3 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f2890b8-91e9-4f18-acab-ad4a2af23998")
+	)
+	(fp_line
+		(start 5 1.6)
+		(end 5 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16888a03-9a97-4c9d-9fe5-7982997ffba9")
+	)
+	(fp_poly
+		(pts
+			(xy -1.76 2.19) (xy -1.42 2.66) (xy -2.1 2.66)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9587075d-47c3-4dc9-9fb9-615632a1fd51")
+	)
+	(fp_rect
+		(start -5.05 -2.1)
+		(end 5.05 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "888b33a3-b227-457f-a560-33320adb4442")
+	)
+	(fp_line
+		(start -4 2.3)
+		(end -3.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf2f5052-1aba-4775-899b-124d7597021c")
+	)
+	(fp_line
+		(start -4 2.3)
+		(end -3 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5202492-08cc-47da-800a-662b37980847")
+	)
+	(fp_line
+		(start -3.5 1.5)
+		(end -3 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed792629-f1bc-41f3-89f4-179abbfbf684")
+	)
+	(fp_poly
+		(pts
+			(xy -5 -1.5) (xy -5 1.5) (xy 5 1.5) (xy 5 -1.5) (xy -5 -1.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9dbda150-d96d-41d9-bc2b-30e86dd51f5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9ec7a074-2b0e-4501-90a6-02666175b81e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.75 1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "179e2fd8-0cb6-4003-9253-429d5727354d")
+	)
+	(pad "2" smd roundrect
+		(at -1.25 -1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0b4aec79-1c73-42f2-b922-e81146c04043")
+	)
+	(pad "3" smd roundrect
+		(at -0.75 1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "463ff54f-a4b6-400f-8725-dbdca011ffc7")
+	)
+	(pad "4" smd roundrect
+		(at -0.25 -1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4af83b68-c006-4f0b-af0a-a2b24e66059d")
+	)
+	(pad "5" smd roundrect
+		(at 0.25 1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "875fe7f4-492c-4b0f-a020-37d1d4b5b1c3")
+	)
+	(pad "6" smd roundrect
+		(at 0.75 -1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "85088939-a53e-42fa-b529-efb6d8ebf228")
+	)
+	(pad "7" smd roundrect
+		(at 1.25 1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "47100bfa-adbe-484b-b2ef-3ac72711d913")
+	)
+	(pad "8" smd roundrect
+		(at 1.75 -1.075)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "33af1692-e31c-42f0-9a3e-7d9ffcdad217")
+	)
+	(pad "S1" smd roundrect
+		(at -3.5 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "641a3ee5-7075-4632-9d0b-40c5f29eb25e")
+	)
+	(pad "S2" smd roundrect
+		(at 3.5 0)
+		(size 2.4 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0619df23-4279-48e0-97ca-2f74e8c29399")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_84982-8_2Rows-08Pins-P1.0mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
