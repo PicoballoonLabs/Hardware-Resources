@@ -110,8 +110,8 @@
 		(uuid "27cb8f14-316b-4853-b716-9de08fac7740")
 	)
 	(fp_line
-		(start -7.5 -23.5)
-		(end -7.5 23.5)
+		(start -7.5 -24.5)
+		(end -7.5 24.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -120,8 +120,8 @@
 		(uuid "9c82e053-b02b-4d49-a31a-74a2dcfb743d")
 	)
 	(fp_line
-		(start 4.9 23.5)
-		(end -7.5 23.5)
+		(start 4.9 24.5)
+		(end -7.5 24.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -130,8 +130,8 @@
 		(uuid "bf631a5d-cb29-41cf-aa63-5d93c7ec6474")
 	)
 	(fp_line
-		(start 4.9 23.5)
-		(end 7.5 21.05)
+		(start 4.9 24.5)
+		(end 7.5 22)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -140,8 +140,8 @@
 		(uuid "8004b9ca-c111-41d2-ba96-bf492f014253")
 	)
 	(fp_line
-		(start 7.5 -23.5)
-		(end -7.5 -23.5)
+		(start 7.5 -24.5)
+		(end -7.5 -24.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -150,8 +150,8 @@
 		(uuid "547f68db-282e-42fd-a6eb-9f2ba833ca0f")
 	)
 	(fp_line
-		(start 7.5 -23.5)
-		(end 7.5 21.05)
+		(start 7.5 -24.5)
+		(end 7.5 22)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -160,13 +160,13 @@
 		(uuid "83902181-60f3-4167-a550-00221cc5baab")
 	)
 	(pad "1" smd rect
-		(at 0 18.5 270)
+		(at 0 19.5 270)
 		(size 9 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
 	(pad "2" smd rect
-		(at 0 -18.5 270)
+		(at 0 -19.5 270)
 		(size 9 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c63d5d6c-97ee-4909-886e-5f964cedd186")
@@ -174,7 +174,7 @@
 	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery_Holder_MYOUNG MY-AAA-19-J.stp"
 		(offset
-			(xyz 0 14.5 -1)
+			(xyz 0 15.5 -1)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -185,7 +185,7 @@
 	)
 	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery_Holder_MYOUNG MY-AAA-20-J.stp"
 		(offset
-			(xyz 0 -14.5 -1)
+			(xyz 0 -15.5 -1)
 		)
 		(scale
 			(xyz 1 1 1)
