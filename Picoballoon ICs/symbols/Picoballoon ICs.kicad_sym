@@ -27032,7 +27032,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 10.16 0)
+			(at -8.89 12.7 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -27098,7 +27098,7 @@
 		)
 		(symbol "TPS62821DLCR_1_1"
 			(rectangle
-				(start -8.89 8.89)
+				(start -8.89 11.43)
 				(end 8.89 -6.35)
 				(stroke
 					(width 0.254)
@@ -27128,7 +27128,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 6.35 0)
+				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -27146,7 +27146,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 3.81 0)
+				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -27201,7 +27201,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 6.35 180)
+				(at 11.43 8.89 180)
 				(length 2.54)
 				(name "SW"
 					(effects
