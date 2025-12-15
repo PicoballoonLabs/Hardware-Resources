@@ -198,7 +198,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 6.35 0)
+			(at -6.35 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +207,7 @@
 			)
 		)
 		(property "Value" "74LVC1T45"
-			(at -5.08 -6.35 0)
+			(at -6.35 -6.35 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Footprint" "X2-DFN1010-6"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Description" "SINGLEBIT DUAL POWER SUPPLY TRANSLATING TRANSCEIVER WITH 3 STATE OUTPUTS"
-			(at 0 0 0)
+			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +285,7 @@
 			(pin power_in line
 				(at -8.89 2.54 0)
 				(length 2.54)
-				(name "VccA"
+				(name "VCCA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,26 +336,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 8.89 2.54 180)
-				(length 2.54)
-				(name "VccB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 8.89 0 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -365,6 +347,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "VCCB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8614,7 +8614,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 6.35 0)
+			(at -6.35 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8623,7 @@
 			)
 		)
 		(property "Value" "GT0102"
-			(at -5.08 -6.35 0)
+			(at -6.35 -7.62 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 			)
 		)
 		(property "Description" "24Mbps 2 DFN-8L(1x1.4) Translators, Level Shifters RoHS"
-			(at 0 2.54 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,8 +8688,8 @@
 		)
 		(symbol "GT0102_1_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -5.08)
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
@@ -8701,7 +8701,7 @@
 			(pin power_in line
 				(at -8.89 3.81 0)
 				(length 2.54)
-				(name "VccA"
+				(name "VCCA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8773,7 +8773,7 @@
 			(pin power_in line
 				(at 8.89 3.81 180)
 				(length 2.54)
-				(name "VccB"
+				(name "VCCB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11949,6 +11949,221 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "LTR-308ALS-01"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTR-308ALS-01"
+			(at -7.62 -6.35 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Picoballoon ICs:WFDFN-6"
+			(at 17.018 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C492382.pdf"
+			(at -3.556 -14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTR-308ALS-01"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C492382"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LTR-308ALS-01"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN4_MS5637_TEC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LTR-308ALS-01_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "M24C08-FMH6TG"
 		(pin_names
 			(offset 0.762)
@@ -12944,7 +13159,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "RTC_I"
 					(effects
@@ -13034,7 +13249,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -2.54 180)
+				(at 11.43 0 180)
 				(length 2.54)
 				(name "VCC_RF"
 					(effects
@@ -14329,17 +14544,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 6.35 0)
+			(at -6.35 6.35 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "MS563702BA03-50"
-			(at -8.89 -6.35 0)
+			(at -6.35 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,8 +14629,8 @@
 		)
 		(symbol "MS563702BA03-50_1_1"
 			(rectangle
-				(start -8.89 5.08)
-				(end 8.89 -5.08)
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -14425,7 +14640,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 2.54 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -14443,7 +14658,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -2.54 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -14461,7 +14676,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 2.54 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -14479,7 +14694,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -2.54 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -26308,7 +26523,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 8.89 0)
+			(at -7.62 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26317,7 +26532,7 @@
 			)
 		)
 		(property "Value" "TPS61099"
-			(at -5.08 -3.81 0)
+			(at -7.62 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26326,7 +26541,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:DSBGA-6_0.855x1.255mm"
-			(at 1.27 -3.81 0)
+			(at -15.875 -18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26392,8 +26607,8 @@
 		)
 		(symbol "TPS61099YFFR_0_1"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -2.54)
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -26405,7 +26620,7 @@
 		)
 		(symbol "TPS61099YFFR_1_1"
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "VI"
 					(effects
@@ -26423,7 +26638,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -26441,7 +26656,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -26459,7 +26674,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 10.16 3.81 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -26477,7 +26692,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -26495,7 +26710,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -27032,7 +27247,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -8.89 10.16 0)
+			(at -8.89 12.7 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -27098,7 +27313,7 @@
 		)
 		(symbol "TPS62821DLCR_1_1"
 			(rectangle
-				(start -8.89 8.89)
+				(start -8.89 11.43)
 				(end 8.89 -6.35)
 				(stroke
 					(width 0.254)
@@ -27128,7 +27343,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 6.35 0)
+				(at -11.43 8.89 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -27146,7 +27361,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 3.81 0)
+				(at -11.43 -1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -27201,7 +27416,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 6.35 180)
+				(at 11.43 8.89 180)
 				(length 2.54)
 				(name "SW"
 					(effects

@@ -6528,7 +6528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:FPC 8 pin"
+		(property "Footprint" "Picoballoon Mechanical & Misc:FPC cable 8 pin"
 			(at 0 -14.605 0)
 			(effects
 				(font
