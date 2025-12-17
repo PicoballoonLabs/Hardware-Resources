@@ -216,7 +216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X2-DFN1010-6"
+		(property "Footprint" "Picoballoon ICs:DFN 1010-6"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:DFN1.4x1-8L"
 			(at 0 0 0)
 			(effects
 				(font
