@@ -1,0 +1,180 @@
+(footprint "DFN 1010-6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN 6 1x1")
+	(tags "dfn 6 ")
+	(property "Reference" "U?"
+		(at 0 -1.235 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b3755184-b45f-450d-883b-25cf614a81b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN 1010-6"
+		(at 0 1.58 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aa44cd4-85cc-4478-8f70-195371c50417")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C441821.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42e265b-eedb-46ba-ba27-e0a15dd897b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "74lvc1t45"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "999375a0-55fe-47e6-aacc-7c3104e4e5a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.7 -0.35)
+		(end -0.7 0.35)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0380277e-721b-4897-92de-5f1d9b6325f9")
+	)
+	(fp_line
+		(start 0.7 -0.35)
+		(end 0.7 0.35)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45aa645c-0f09-43bb-aa32-862f68a1e033")
+	)
+	(fp_circle
+		(center -0.35 0.762)
+		(end -0.282 0.762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "86799fae-6b69-4631-a37b-1aa6289ab37d")
+	)
+	(fp_line
+		(start -0.55 -0.35)
+		(end 0.55 -0.35)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "569324e8-ab29-4c41-899c-3780182a05c7")
+	)
+	(fp_line
+		(start -0.55 0.35)
+		(end -0.55 -0.35)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "fdd9dfe7-e024-48eb-916f-e4b59f2eeef1")
+	)
+	(fp_line
+		(start 0.55 -0.35)
+		(end 0.55 0.35)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "c08c260a-6720-4d30-b75f-60a170f7fe68")
+	)
+	(fp_line
+		(start 0.55 0.35)
+		(end -0.55 0.35)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "24e4b5b2-4e46-4a10-ba72-9942bf577bb8")
+	)
+	(pad "1" smd rect
+		(at -0.35 0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca624482-697d-4f2e-87eb-939af23c4aec")
+	)
+	(pad "2" smd roundrect
+		(at 0 0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fea65652-5989-4bc8-a697-e7a326a3f16d")
+	)
+	(pad "3" smd roundrect
+		(at 0.35 0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dde46f3a-941b-4f7c-9bbd-f3ccd20a1c4c")
+	)
+	(pad "4" smd roundrect
+		(at 0.35 -0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bee44db2-cc07-466a-856a-d67451801854")
+	)
+	(pad "5" smd roundrect
+		(at 0 -0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3b19d8f1-6ed1-46da-96e6-886a0ab93e20")
+	)
+	(pad "6" smd roundrect
+		(at -0.35 -0.35 90)
+		(size 0.55 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6d2ce8f5-fa65-416d-8c0f-b1505efc765e")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN-6 0.7x1.1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
