@@ -26540,7 +26540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Picoballoon ICs:WSON-6_1.5x1.5mm_P0.5mm"
 			(at -15.875 -18.415 0)
 			(effects
 				(font
@@ -26571,7 +26571,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TPS610986DSET"
 			(at 1.27 -16.51 0)
 			(effects
 				(font
@@ -26580,7 +26580,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2650318"
 			(at 1.27 -16.51 0)
 			(effects
 				(font
