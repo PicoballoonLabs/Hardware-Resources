@@ -1,4 +1,4 @@
-(footprint "FPC-05F-8PH15"
+(footprint "FPC connector 05F-8PH15"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "FPC-05F-8PH15"
+	(property "Value" "FPC connector 05F-8PH15"
 		(at 0 4.227 0)
 		(layer "F.Fab")
 		(hide yes)
