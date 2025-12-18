@@ -430,17 +430,17 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f05f19b3-046f-4433-9aa8-4da67226ef87")
 	)
-	(pad "S1" smd rect
-		(at 3.9 1.35)
-		(size 1.1 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "987d2385-e067-424e-bb24-952110f63868")
-	)
-	(pad "S2" smd rect
+	(pad "9" smd rect
 		(at -3.9 1.35)
 		(size 1.1 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "61d071a6-b8f2-48ef-83d7-ae282ad72219")
+	)
+	(pad "10" smd rect
+		(at 3.9 1.35)
+		(size 1.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "987d2385-e067-424e-bb24-952110f63868")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/FPC-05F-8PH15.step"
