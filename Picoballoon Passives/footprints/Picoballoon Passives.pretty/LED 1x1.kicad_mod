@@ -1,4 +1,4 @@
-(footprint "LED_LiteOn_1x1"
+(footprint "LED 1x1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -18,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_LiteOn_1x1"
+	(property "Value" "LED 1x1"
 		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -236,4 +236,15 @@
 		(uuid "c3227b9b-92e0-4681-91e6-1523723af8a8")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Passives.3dshapes/LTST-B32JEGBK-AT.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

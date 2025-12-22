@@ -174,19 +174,19 @@
 		(layer "F.Fab")
 		(uuid "fde37f16-48ee-4d22-8804-f28cbd6d333b")
 	)
-	(pad "A" smd oval
-		(at 0.75 0)
-		(size 0.63 0.4)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
-		(uuid "24b72a16-d32e-4671-b7ce-2c49be3411af")
-	)
-	(pad "C" smd oval
+	(pad "1" smd oval
 		(at -0.75 0)
 		(size 0.63 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "6fa9389f-74d4-4638-a3f4-4dd57be2c3df")
+	)
+	(pad "2" smd oval
+		(at 0.75 0)
+		(size 0.63 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "24b72a16-d32e-4671-b7ce-2c49be3411af")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon Passives.3dshapes/SOD-523.step"

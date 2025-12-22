@@ -129,7 +129,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0.7528 -1.7196) (xy 0.0028 -2.7196) (xy -0.7472 -1.7196)
+			(xy 0.75 -1.7196) (xy 0.75 -1.8) (xy -0.75 -1.8) (xy -0.75 -1.7196)
 		)
 		(stroke
 			(width 0.15)
@@ -160,7 +160,7 @@
 		(uuid "fe710e2d-93e8-4bb5-a642-eaccd35c19c9")
 	)
 	(fp_line
-		(start -0.75 -2.75)
+		(start -0.75 -1.925)
 		(end -0.75 -1.25)
 		(stroke
 			(width 0.05)
@@ -180,8 +180,8 @@
 		(uuid "d459b331-456f-4f2b-a4a3-0eb8550eb17c")
 	)
 	(fp_line
-		(start 0.75 -2.75)
-		(end -0.75 -2.75)
+		(start 0.75 -1.925)
+		(end -0.75 -1.925)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -190,7 +190,7 @@
 		(uuid "07b582fc-fa8f-49b4-91b2-d43b878a1300")
 	)
 	(fp_line
-		(start 0.75 -2.75)
+		(start 0.75 -1.925)
 		(end 0.75 -1.25)
 		(stroke
 			(width 0.05)

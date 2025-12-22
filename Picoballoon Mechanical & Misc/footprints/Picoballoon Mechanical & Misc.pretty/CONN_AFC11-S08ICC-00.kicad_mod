@@ -250,4 +250,15 @@
 		(uuid "0619df23-4279-48e0-97ca-2f74e8c29399")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/AFC11-S08ICC-00.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

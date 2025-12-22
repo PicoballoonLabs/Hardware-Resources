@@ -1,4 +1,4 @@
-(footprint "DFN1.4x1-8L"
+(footprint "DFN-8 1.4x1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "DFN1.4x1-8L"
+	(property "Value" "DFN-8 1.4x1"
 		(at 0 1.8 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -75,18 +75,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b10d4584-854d-4953-b231-79b2716aadca")
-	)
-	(fp_poly
-		(pts
-			(xy -0.725 -0.9) (xy -0.91 -0.9) (xy -0.725 -1.1) (xy -0.725 -0.9)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "27535a9d-b190-4b3c-939a-ba34714eb74d")
 	)
 	(fp_line
 		(start -0.75 -0.975)
@@ -234,4 +222,15 @@
 		(uuid "f510a02e-7138-4e1f-9801-946e0bf2688a")
 	)
 	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN-8 1.4x1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
