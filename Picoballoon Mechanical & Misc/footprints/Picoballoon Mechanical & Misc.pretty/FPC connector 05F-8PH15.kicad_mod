@@ -55,7 +55,7 @@
 		(start -4 -1)
 		(end -2.131 -1)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -65,7 +65,7 @@
 		(start -4 0.219)
 		(end -4 -1)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -75,7 +75,7 @@
 		(start -4 2.6)
 		(end -4 2.481)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -85,7 +85,7 @@
 		(start -3.3 2.6)
 		(end -4 2.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -95,7 +95,7 @@
 		(start -3.3 3.4)
 		(end -3.3 2.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -105,7 +105,7 @@
 		(start 2.131 -1)
 		(end 4 -1)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -115,7 +115,7 @@
 		(start 3.4 2.6)
 		(end 3.4 3.4)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -125,7 +125,7 @@
 		(start 3.4 3.4)
 		(end -3.3 3.4)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -135,7 +135,7 @@
 		(start 4 -1)
 		(end 4 0.219)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -145,7 +145,7 @@
 		(start 4 2.481)
 		(end 4 2.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -155,7 +155,7 @@
 		(start 4 2.6)
 		(end 3.4 2.6)
 		(stroke
-			(width 0.254)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -169,7 +169,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "0d54e706-c2ee-4788-b126-7682e26aadfc")
 	)
 	(fp_poly
