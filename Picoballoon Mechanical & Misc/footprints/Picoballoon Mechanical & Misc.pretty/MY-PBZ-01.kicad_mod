@@ -1,0 +1,206 @@
+(footprint "MY-PBZ-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Laird Technologies BMI-S-101 Shielding Cabinet One Piece SMD 13.66x12.70mm, http://cdn.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf")
+	(tags "Shielding Cabinet")
+	(property "Reference" "REF**"
+		(at 0 -8.18 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03638059-f8b2-4994-9506-56dab2e4ce41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MY-PBZ-01"
+		(at 0 8.18 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35b1d728-20fc-4325-9141-891b731d4a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c0047e6-0a72-4d07-a801-2a92291663e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7ef8c39-0d2a-47a9-894d-838f2ba2d694")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.25 -3.84)
+		(end -5.25 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05391a4a-25f1-4ecc-93e8-154c7b8e9aff")
+	)
+	(fp_line
+		(start -5.25 2.16)
+		(end -5.25 3.84)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1dc4b76-2a53-47e6-b8ac-23f8d19500c3")
+	)
+	(fp_line
+		(start -3.85 6.95)
+		(end -2.17 6.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67a9f10c-1c2c-401e-bc41-a9204c0a17d0")
+	)
+	(fp_line
+		(start -3.84 -6.95)
+		(end -2.16 -6.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c67f1d15-3d00-4de3-abf8-f9184ab33f9b")
+	)
+	(fp_line
+		(start 2.15 6.95)
+		(end 3.83 6.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59241028-1a05-45bf-a1af-3f7aad4a657a")
+	)
+	(fp_line
+		(start 2.16 -6.95)
+		(end 3.84 -6.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9caef7ff-d587-4672-8999-b13cb4257b8a")
+	)
+	(fp_line
+		(start 5.25 -3.84)
+		(end 5.25 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0614a7f8-0805-452c-8ab2-7fb2367383c8")
+	)
+	(fp_line
+		(start 5.25 2.16)
+		(end 5.25 3.84)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cea1e6fa-86a2-4212-a84b-11b3c84783bd")
+	)
+	(fp_rect
+		(start -5.5 -7.18)
+		(end 5.5 7.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "535c9bab-fb9f-49e2-a066-01d1467b431a")
+	)
+	(fp_rect
+		(start -4.75 -6.43)
+		(end 4.7 6.43)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "853e5ca5-e929-456a-8374-200a7197fa54")
+	)
+	(fp_rect
+		(start -5.15 -6.83)
+		(end 5.15 6.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e4afde87-5c21-47a6-85c2-81214fbc37d6")
+	)
+	(pad "1" smd rect
+		(at -5.11 0)
+		(size 0.5 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "605e09ce-befc-41aa-838a-0125422bc7dd")
+	)
+	(pad "1" smd rect
+		(at 0 -6.795)
+		(size 3.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68e6b807-30b5-4557-97ac-534c6251f46d")
+	)
+	(pad "1" smd rect
+		(at 0 6.795)
+		(size 3.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d8924ec-a6e2-4b99-b72f-27295f7bdb8c")
+	)
+	(pad "1" smd rect
+		(at 5.11 0)
+		(size 0.5 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "011dbb1d-9b2b-4a01-b471-b51f8b1f256a")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/MY-PBZ-01.stp"
+		(offset
+			(xyz 0 0 2.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+)
