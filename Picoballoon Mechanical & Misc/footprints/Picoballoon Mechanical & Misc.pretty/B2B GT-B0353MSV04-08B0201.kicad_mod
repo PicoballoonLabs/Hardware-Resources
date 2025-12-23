@@ -149,7 +149,7 @@
 		(uuid "fe710e2d-93e8-4bb5-a642-eaccd35c19c9")
 	)
 	(fp_line
-		(start -0.75 -1.925)
+		(start -0.75 -1.625)
 		(end -0.75 -1.25)
 		(stroke
 			(width 0.05)
@@ -169,8 +169,8 @@
 		(uuid "d459b331-456f-4f2b-a4a3-0eb8550eb17c")
 	)
 	(fp_line
-		(start 0.75 -1.925)
-		(end -0.75 -1.925)
+		(start 0.75 -1.625)
+		(end -0.75 -1.625)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -179,7 +179,7 @@
 		(uuid "07b582fc-fa8f-49b4-91b2-d43b878a1300")
 	)
 	(fp_line
-		(start 0.75 -1.925)
+		(start 0.75 -1.625)
 		(end 0.75 -1.25)
 		(stroke
 			(width 0.05)
