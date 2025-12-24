@@ -58,18 +58,8 @@
 	(clearance 0.2)
 	(attr smd)
 	(fp_line
-		(start -0.75 12.25)
-		(end 0.75 12.25)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "48c21f13-f2de-448c-8ea8-d1d1897d7287")
-	)
-	(fp_line
-		(start 0 11.5)
-		(end 0 13)
+		(start -8.5 0)
+		(end -7 0)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -77,9 +67,19 @@
 		(layer "F.SilkS")
 		(uuid "4ee739e8-7d23-44ba-80ff-35a7883c16b7")
 	)
+	(fp_line
+		(start -7.75 0.75)
+		(end -7.75 -0.75)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48c21f13-f2de-448c-8ea8-d1d1897d7287")
+	)
 	(fp_circle
-		(center 0 12.25)
-		(end 1.5 12.25)
+		(center -7.75 0)
+		(end -7.75 -1.5)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -89,38 +89,8 @@
 		(uuid "27cb8f14-316b-4853-b716-9de08fac7740")
 	)
 	(fp_line
-		(start -7.5 -24.5)
-		(end -7.5 24.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "9c82e053-b02b-4d49-a31a-74a2dcfb743d")
-	)
-	(fp_line
-		(start 4.9 24.5)
-		(end -7.5 24.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "bf631a5d-cb29-41cf-aa63-5d93c7ec6474")
-	)
-	(fp_line
-		(start 4.9 24.5)
-		(end 7.5 22)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "8004b9ca-c111-41d2-ba96-bf492f014253")
-	)
-	(fp_line
-		(start 7.5 -24.5)
-		(end -7.5 -24.5)
+		(start -44.5 -7.5)
+		(end -44.5 7.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -129,8 +99,8 @@
 		(uuid "547f68db-282e-42fd-a6eb-9f2ba833ca0f")
 	)
 	(fp_line
-		(start 7.5 -24.5)
-		(end 7.5 22)
+		(start -44.5 -7.5)
+		(end 2 -7.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -138,23 +108,53 @@
 		(layer "F.Fab")
 		(uuid "83902181-60f3-4167-a550-00221cc5baab")
 	)
+	(fp_line
+		(start -44.5 7.5)
+		(end 4.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c82e053-b02b-4d49-a31a-74a2dcfb743d")
+	)
+	(fp_line
+		(start 4.5 -4.9)
+		(end 2 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8004b9ca-c111-41d2-ba96-bf492f014253")
+	)
+	(fp_line
+		(start 4.5 -4.9)
+		(end 4.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf631a5d-cb29-41cf-aa63-5d93c7ec6474")
+	)
 	(pad "1" smd roundrect
-		(at 0 19 270)
+		(at -1 0)
 		(size 9 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1)
+		(roundrect_rratio 0.05)
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
 	(embedded_fonts no)
 	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/Battery_Holder_MYOUNG MY-AAA-20-J.stp"
 		(offset
-			(xyz 0 -15.5 -1)
+			(xyz -4.5 0 -1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 90 -0)
+			(xyz 90 90 -90)
 		)
 	)
 )
