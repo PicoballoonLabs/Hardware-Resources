@@ -58,8 +58,8 @@
 	(clearance 0.2)
 	(attr smd)
 	(fp_line
-		(start 4.25 18.5)
-		(end 5.75 18.5)
+		(start -0.75 12.25)
+		(end 0.75 12.25)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -68,8 +68,8 @@
 		(uuid "48c21f13-f2de-448c-8ea8-d1d1897d7287")
 	)
 	(fp_line
-		(start 5 -19.25)
-		(end 5 -17.75)
+		(start 0 -13)
+		(end 0 -11.5)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "5f416668-a5e1-483d-90a4-b3bc84a205b6")
 	)
 	(fp_line
-		(start 5 17.75)
-		(end 5 19.25)
+		(start 0 11.5)
+		(end 0 13)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "4ee739e8-7d23-44ba-80ff-35a7883c16b7")
 	)
 	(fp_circle
-		(center 5 -18.5)
-		(end 6.5 -18.5)
+		(center 0 -12.25)
+		(end 1.5 -12.25)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -99,8 +99,8 @@
 		(uuid "f93ac1ca-821e-47cc-a10d-8148163d63e7")
 	)
 	(fp_circle
-		(center 5 18.5)
-		(end 6.5 18.5)
+		(center 0 12.25)
+		(end 1.5 12.25)
 		(stroke
 			(width 0.3)
 			(type default)
@@ -163,14 +163,14 @@
 		(at 0 19 270)
 		(size 9 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2)
+		(roundrect_rratio 0.1)
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
 	(pad "2" smd roundrect
 		(at 0 -19 270)
 		(size 9 5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2)
+		(roundrect_rratio 0.1)
 		(uuid "c63d5d6c-97ee-4909-886e-5f964cedd186")
 	)
 	(embedded_fonts no)
