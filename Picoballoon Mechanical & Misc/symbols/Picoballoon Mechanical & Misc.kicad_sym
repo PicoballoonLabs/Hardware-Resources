@@ -8829,7 +8829,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -7.62 3.81 0)
 				(length 5.08)
 				(name "1"
@@ -8847,7 +8847,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -7.62 -1.27 0)
 				(length 5.08)
 				(name "3"
@@ -8865,7 +8865,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 3.81 180)
 				(length 5.08)
 				(name "2"
@@ -8883,7 +8883,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 -1.27 180)
 				(length 5.08)
 				(name "4"
