@@ -31823,7 +31823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ZD25WQ80CNIGR"
+		(property "MPN" "ZD25WQ80CEIGR"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -31832,7 +31832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C42412960"
+		(property "LCSC Part #" "C16197313"
 			(at 0 -12.7 0)
 			(effects
 				(font
