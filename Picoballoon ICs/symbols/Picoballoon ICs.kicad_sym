@@ -1163,7 +1163,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1220.pdf"
-			(at -1.27 -8.89 0)
+			(at -1.016 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1172,16 @@
 			)
 		)
 		(property "Description" "24 Bit Analog to Digital Converter 2 Input Sigma-Delta VQFN-16-EP(3.5x3.5)"
-			(at -1.27 -8.89 0)
+			(at -0.254 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2651338"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,6 +1217,27 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "ADS1220_1_0"
+			(pin power_in line
+				(at -15.24 -8.89 0)
+				(length 2.54)
+				(hide yes)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -24818,6 +24848,15 @@
 		)
 		(property "Description" "Arm Cortex-M0+ 32-bit MCU, up to 64 KB Flash, 8 KB RAM, 2x USART, timers, ADC, comm. I/Fs, 1.7-3.6V"
 			(at -1.27 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C432211"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
