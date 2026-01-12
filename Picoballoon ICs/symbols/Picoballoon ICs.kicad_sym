@@ -676,6 +676,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Honeywell pressure sensor"
 			(at 0 0 0)
 			(effects
@@ -1631,6 +1640,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -2483,6 +2501,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BALFLB-WL-XXXX_0_0"
 			(rectangle
 				(start -10.16 5.08)
@@ -2698,6 +2725,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3135,6 +3171,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BGS12WN6_0_0"
 			(rectangle
 				(start -10.16 7.62)
@@ -3312,6 +3357,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3561,6 +3615,15 @@
 		)
 		(property "Description" ""
 			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,6 +4152,15 @@
 		)
 		(property "Description" "I²C controlled, 1-4-cell, 5-A buck-boost solar battery charger with dual-input selector and MPPT"
 			(at 0 -45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,6 +4770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Battery Charger BQ2517_0_0"
 			(rectangle
 				(start -10.16 10.16)
@@ -4923,6 +5004,15 @@
 		)
 		(property "Description" "USB Interface IC USBXpress - USB to UART Bridge QFN20"
 			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,6 +5985,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "USB UART bridge"
 			(at 0 0 0)
 			(effects
@@ -6349,6 +6448,15 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -6899,6 +7007,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7757,6 +7874,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "ENS212_0_0"
 			(rectangle
 				(start -5.08 5.08)
@@ -7906,6 +8032,15 @@
 		)
 		(property "Description" "RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48"
 			(at -6.35 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,6 +9270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 			(at 0 0 0)
 			(effects
@@ -9445,6 +9589,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,6 +10124,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "HYT.R411_1_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -10102,6 +10264,15 @@
 			)
 		)
 		(property "Description" "INA199 26-V, Bidirectional, Zero-Drift, Low- or High-Side, Voltage-Output, Current-Shunt Monitor, SOT-363, SC-70"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -10318,6 +10489,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10916,6 +11096,15 @@
 			)
 		)
 		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -11619,6 +11808,15 @@
 		)
 		(property "Description" "The DA7280 high-definition (HD) haptic driver combines custom drive sequences, on- and off-resonance, at up to 1kHz. The DA7280 can drive both ERM and LRA (narrow and wideband) actuators and track resonance up to 300Hz to drive the most complex click/vibration touch effects in a wide range of applications.The DA7280 combines very low idle current consumption (360nA) with low-latency trigger inputs to minimize the delay after button presses when an application process is in deep sleep.Benefits	Constant reson"
 			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,6 +12872,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "M24C08-FMH6TG_0_0"
 			(pin passive line
 				(at -10.16 2.54 0)
@@ -12844,6 +13051,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13815,6 +14031,15 @@
 		)
 		(property "Description" ""
 			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14896,6 +15121,15 @@
 		)
 		(property "MPN" "MLPF-WL-01D3"
 			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,6 +16375,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "NMOS DMN2991UDA-7B_0_1"
 			(polyline
 				(pts
@@ -16738,6 +16981,15 @@
 		)
 		(property "Description" "Multiprotocol Modules SiP (System-in-Package) for LTE-M, NB-IoT, GNSS and DECT NR+"
 			(at 0 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20268,6 +20520,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_fp_filters" "SiliconLabs*QFN*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
@@ -20785,6 +21046,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "PI3CSW12ZUAEX_0_0"
 			(rectangle
 				(start -10.16 10.16)
@@ -21025,6 +21295,15 @@
 		)
 		(property "Description" "30V 220mA 360mW 10Ω@1.5V,0.15A 1V@0.25mA 2 P-Channel X2-DFN0806-6 MOSFETs ROHS"
 			(at 0 -18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22351,6 +22630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "-"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "RYS8833_1_0"
 			(pin bidirectional line
 				(at -15.24 12.7 0)
@@ -22974,6 +23262,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
 			(at 0 0 0)
 			(effects
@@ -23139,6 +23436,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -23761,6 +24067,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, UFQFPN48"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -27815,6 +28130,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TPS22914BYFPR_1_1"
 			(rectangle
 				(start -6.35 3.81)
@@ -28383,7 +28707,7 @@
 				(hide yes)
 			)
 		)
-		(property " Mfr. Part # " "TPS61170DRVR"
+		(property " Mfr. Part #" "TPS61170DRVR"
 			(at 0 -26.67 0)
 			(effects
 				(font
@@ -28392,7 +28716,7 @@
 				(hide yes)
 			)
 		)
-		(property " LCSC Part # " "C15163"
+		(property " LCSC Part #" "C15163"
 			(at 0 -24.13 0)
 			(effects
 				(font
@@ -28900,7 +29224,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part # " "C469860"
+		(property "LCSC Part #" "C469860"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -29125,7 +29449,7 @@
 				(hide yes)
 			)
 		)
-		(property " Mfr. Part # " "TPS62902RPJR"
+		(property " Mfr. Part #" "TPS62902RPJR"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -29134,7 +29458,7 @@
 				(hide yes)
 			)
 		)
-		(property " LCSC Part # " "C2870154"
+		(property " LCSC Part #" "C2870154"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -30006,6 +30330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "TS5A3157_0_0"
 			(rectangle
 				(start -10.16 7.62)
@@ -30171,6 +30504,15 @@
 			)
 		)
 		(property "Description" "6-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, VQFN-16"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -30648,6 +30990,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "usb ethernet video"
 			(at 0 0 0)
 			(effects
@@ -31094,6 +31445,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_fp_filters" "SOT?223* SOT?89* TO?220* TO?252* TO?263*"
 			(at 0 0 0)
 			(effects
@@ -31258,6 +31618,15 @@
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
 			(at 30.48 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31513,6 +31882,15 @@
 		)
 		(property "Description" "RGB LED with integrated controller, 2.1 x 2.1 mm, 12 mA"
 			(at 30.48 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32053,6 +32431,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
 			(at 0 0 0)
 			(effects
@@ -32341,6 +32728,15 @@
 		)
 		(property "Description" "SMD,2.2x2.2mm RGB LEDs(Built-in IC) ROHS"
 			(at 20.32 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32825,6 +33221,15 @@
 		)
 		(property "Description" "EXAR XR21V1410IL16-F Universal Asynchronous Receiver & Transmitter, 16-Pin, QFN"
 			(at 22.225 -44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
