@@ -58,7 +58,7 @@
 		(start -1.1 -1.8)
 		(end -1.1 1.800001)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -68,7 +68,7 @@
 		(start -0.6 -2.3)
 		(end 0.6 -2.3)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -78,7 +78,7 @@
 		(start 0.6 2.3)
 		(end -0.6 2.3)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -88,7 +88,7 @@
 		(start 1.1 -1.8)
 		(end 1.1 1.8)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -99,7 +99,7 @@
 		(mid -0.953553 -2.153553)
 		(end -0.6 -2.3)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -110,7 +110,7 @@
 		(mid -0.953553 2.153554)
 		(end -1.1 1.800001)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -121,7 +121,7 @@
 		(mid 0.953553 -2.153553)
 		(end 1.1 -1.8)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -132,7 +132,7 @@
 		(mid 0.953553 2.153553)
 		(end 0.6 2.3)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
