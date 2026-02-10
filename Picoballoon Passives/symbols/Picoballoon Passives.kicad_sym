@@ -2719,7 +2719,7 @@
 			)
 		)
 		(property "Description" "698MHz~960MHz 0.8dB SMD-6P,1.6x0.8mm RF Filters RoHS"
-			(at 0 0 0)
+			(at 1.27 -12.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "LCSC Part #" "C491705"
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2768,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy 2.54 3.81)
+					(xy -2.54 2.54) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -2780,7 +2780,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy 2.54 1.27)
+					(xy -2.54 0) (xy 2.54 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -2791,9 +2791,9 @@
 				)
 			)
 			(arc
-				(start -2.54 2.54)
-				(mid -1.27 3.8045)
-				(end 0 2.54)
+				(start -2.54 3.81)
+				(mid -1.27 5.0745)
+				(end 0 3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2803,9 +2803,9 @@
 				)
 			)
 			(arc
-				(start -2.54 0)
-				(mid -1.27 1.2645)
-				(end 0 0)
+				(start -2.54 1.27)
+				(mid -1.27 2.5345)
+				(end 0 1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2815,9 +2815,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -2.54)
-				(mid -1.27 -1.2755)
-				(end 0 -2.54)
+				(start -2.54 -1.27)
+				(mid -1.27 -0.0055)
+				(end 0 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2827,9 +2827,9 @@
 				)
 			)
 			(arc
-				(start 2.54 2.54)
-				(mid 1.27 1.2755)
-				(end 0 2.54)
+				(start 2.54 3.81)
+				(mid 1.27 2.5455)
+				(end 0 3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2839,9 +2839,9 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 1.27 -1.2645)
-				(end 0 0)
+				(start 2.54 1.27)
+				(mid 1.27 0.0055)
+				(end 0 1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2851,9 +2851,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -2.54)
-				(mid 1.27 -3.8045)
-				(end 0 -2.54)
+				(start 2.54 -1.27)
+				(mid 1.27 -2.5345)
+				(end 0 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2867,7 +2867,7 @@
 			(pin input line
 				(at -10.16 0 0)
 				(length 3.81)
-				(name "IN"
+				(name "I"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			(pin output line
 				(at 10.16 0 180)
 				(length 3.81)
-				(name "OUT"
+				(name "O"
 					(effects
 						(font
 							(size 1.27 1.27)
