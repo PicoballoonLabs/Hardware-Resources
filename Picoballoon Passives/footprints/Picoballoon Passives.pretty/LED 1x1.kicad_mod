@@ -215,25 +215,25 @@
 		(uuid "ebe668ee-c2ae-4f0d-b512-9055f2104b26")
 	)
 	(pad "2" smd roundrect
-		(at -0.425 -0.425)
-		(size 0.45 0.45)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "e0548805-85d9-474b-80be-54e54554d7d1")
-	)
-	(pad "3" smd roundrect
 		(at 0.425 0.425)
 		(size 0.45 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f00b3084-0e80-4ec3-a8bf-5f1ebcf374f0")
 	)
-	(pad "4" smd roundrect
+	(pad "3" smd roundrect
 		(at -0.425 0.425)
 		(size 0.45 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c3227b9b-92e0-4681-91e6-1523723af8a8")
+	)
+	(pad "4" smd roundrect
+		(at -0.425 -0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e0548805-85d9-474b-80be-54e54554d7d1")
 	)
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon Passives.3dshapes/LTST-B32JEGBK-AT.stp"
