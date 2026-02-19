@@ -226,6 +226,40 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6f465048-7613-4f4e-a477-4c88e11d9e6e")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "5956ab57-8f02-486d-8c31-d5f751e20f8f")
+		(name "BAL_copper_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.13 -0.94) (xy -0.25 -0.94) (xy -0.25 -0.94) (xy -0.25 1.1) (xy -0.25 1.28) (xy -0.925 1.28)
+				(xy -1.13 1.28)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon ICs.3dshapes/BALFLB-WL-XXXX.stp"
 		(offset
