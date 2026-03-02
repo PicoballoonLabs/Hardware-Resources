@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.65V~5.5V 4uA SOT-363-6 Signal Switches, Multiplexers, Decoders RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,6 +63,15 @@
 		)
 		(property "LCSC Part #" "C135822"
 			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "MUX 74LVC1G157"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/honeywell_01292021_abp2%20series%20datasheet%20-%20issue%20c.pdf?_gl=1*tmit88*_gcl_aw*R0NMLjE3Njk3MjIwNTcuQ2owS0NRaUFwLXpMQmhEa0FSSXNBQmNZYzZ2bFFCUEJlYVZXTmJrSWNNQ1Q5TkhndTJXcnpsbTZ6WTRnQkpKSk81MC1PbENfQndlUHBkTWFBblFaRUFMd193Y0I.*_gcl_au*MTQzMDkyMTQ0OS4xNzY1Mjc5NzkyLjM4MzQxODA1OC4xNzY5NzIyMDU5LjE3Njk3MjIwNzI.*_ga*ODI0OTA5NzU0LjE3NTY4MDU1MzQ.*_ga_15W4STQT4T*czE3NzI0NTA4MDIkbzYyJGcwJHQxNzcyNDUwODAyJGo2MCRsMCRoMA.."
 			(at 0 0 0)
 			(effects
 				(font
@@ -667,7 +676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board Mount Pressure Sensors"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2479,7 +2488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/balfhb-wl-05d3.pdf"
 			(at -10.16 -6.35 0)
 			(do_not_autoplace)
 			(effects
@@ -2490,7 +2499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Signal Conditioning Integrated filter matched balun to QFN STM32WL low power, 862-928 MHz, 4 layer"
 			(at -10.16 -6.35 0)
 			(do_not_autoplace)
 			(effects
@@ -3160,7 +3169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DFN-6(0.7x1.1) RF Switches RoHS"
 			(at -10.16 -8.89 0)
 			(do_not_autoplace)
 			(effects
@@ -3171,7 +3180,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C27749420"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RF Switch BGS12WN6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3349,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100MHz~6GHz UFQFN-10 RF Switches RoHS"
 			(at -10.16 -8.89 0)
 			(do_not_autoplace)
 			(effects
@@ -3361,6 +3379,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BGSX22G5A10 RF Switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3604,7 +3631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/bq25120a"
 			(at 3.81 1.27 0)
 			(effects
 				(font
@@ -3613,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Low-profile integrated battery charging management solutions for wearables and IoT"
 			(at 3.81 1.27 0)
 			(effects
 				(font
@@ -3622,7 +3649,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2866577"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "battery charging management BQ25120AYFPR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4094,6 +4130,264 @@
 					)
 				)
 				(number "E5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BQ2517"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 11.049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BQ2517"
+			(at -10.16 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Picoballoon ICs:WSON-8 2X2mm"
+			(at 0 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5189434.pdf"
+			(at 0 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Charger"
+			(at 0 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ25170DSGR"
+			(at 0 -17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Battery Charger  BQ2517"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BQ2517_0_0"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -15.24 7.62 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "VSET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "TS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "~{PG}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "STAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "EXP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4697,255 +4991,6 @@
 					)
 				)
 				(number "27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Battery Charger BQ2517"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -10.16 11.049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Battery Charger BQ2517"
-			(at -10.16 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Picoballoon ICs:WSON-8 2X2mm"
-			(at 0 -14.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 -17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BQ25170DSGR"
-			(at 0 -17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Battery Charger BQ2517_0_0"
-			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -10.16)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -15.24 7.62 0)
-				(length 5.08)
-				(name "IN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 2.54 0)
-				(length 5.08)
-				(name "VSET"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 0 0)
-				(length 5.08)
-				(name "ISET"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -2.54 0)
-				(length 5.08)
-				(name "TS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 7.62 180)
-				(length 5.08)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 2.54 180)
-				(length 5.08)
-				(name "~{PG}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 0 180)
-				(length 5.08)
-				(name "STAT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -5.08 180)
-				(length 5.08)
-				(name "EXP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -7.62 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -12638,7 +12683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "I2C 1.7V~3.6V SMD Ambient Light, IR, UV Sensors RoHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12665,7 +12710,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "LTR-308ALS-01"
+		(property "ki_keywords" "LTR-308ALS-01 Ambient Light"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13026,7 +13071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2682616.pdf"
 			(at -4.445 -22.225 0)
 			(effects
 				(font
@@ -13035,7 +13080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Lithium Battery I2C DFN-8-EP(2x2) Battery Management RoHS"
 			(at -4.445 -22.225 0)
 			(effects
 				(font
@@ -13054,7 +13099,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C2682616"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "MAX17048G Battery Management"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13781,7 +13835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C150772.pdf"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -13790,7 +13844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.75V~6V Lithium Battery 1 550mA TDFN-8-EP(2x3) Battery Chargers ICs RoHS"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -14029,7 +14083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard precision GNSS module"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -14053,6 +14107,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_keywords" "Standard precision GNSS module MIA-M10Q"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "MIA-M10Q_1_1"
