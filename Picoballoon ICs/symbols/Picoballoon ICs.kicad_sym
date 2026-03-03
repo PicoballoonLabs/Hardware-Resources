@@ -13317,7 +13317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:SOT-563"
+		(property "Footprint" "Picoballoon ICs:uDFN6"
 			(at -15.875 -18.415 0)
 			(effects
 				(font
