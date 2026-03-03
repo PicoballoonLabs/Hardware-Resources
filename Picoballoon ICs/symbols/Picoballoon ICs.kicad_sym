@@ -11141,7 +11141,7 @@
 			)
 		)
 		(property "Description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"
-			(at 0 0 0)
+			(at 1.27 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,17 +13416,17 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 0 0)
 				(length 2.54)
-				(name "GND"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13437,14 +13437,14 @@
 			(pin input line
 				(at -10.16 -3.81 0)
 				(length 2.54)
-				(name "SEL"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13470,17 +13470,17 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "VIN"
+				(name "SEL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13488,17 +13488,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 10.16 -3.81 180)
 				(length 2.54)
-				(name "EN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22445,7 +22445,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 5.08 0)
+			(at -5.08 4.445 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -22454,14 +22454,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "REF3330AIDBZR"
-			(at -7.62 -5.08 0)
+		(property "Value" "REF333"
+			(at 5.08 4.445 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:SOT-23"
@@ -22520,10 +22520,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "REF3330AIDBZR_1_1"
+		(symbol "REF3330AIDBZR_0_1"
 			(rectangle
-				(start -7.62 3.81)
-				(end 7.62 -3.81)
+				(start -5.08 3.175)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -22532,8 +22532,10 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "REF3330AIDBZR_1_1"
 			(pin input line
-				(at -10.16 1.27 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -22550,26 +22552,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -10.16 -1.27 0)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 10.16 0 180)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22579,6 +22563,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -28508,23 +28510,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -6.35 5.715 0)
+			(at -5.08 5.08 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS22916"
-			(at -6.35 -4.445 0)
+			(at -5.08 -5.08 0)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:DSBGA-4"
@@ -28566,7 +28568,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2680319"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28585,8 +28587,8 @@
 		)
 		(symbol "TPS22916CYFPR_1_1"
 			(rectangle
-				(start -6.35 3.81)
-				(end 6.35 -3.81)
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -28596,7 +28598,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 1.27 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -28614,7 +28616,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -1.27 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
 				(name "ON"
 					(effects
@@ -28632,9 +28634,9 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 1.27 180)
+				(at 7.62 1.27 180)
 				(length 2.54)
-				(name "VOUT"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -28650,7 +28652,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -1.27 180)
+				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "GND"
 					(effects

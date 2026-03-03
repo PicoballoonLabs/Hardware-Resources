@@ -2710,7 +2710,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C491705.pdf"
-			(at 0 10.16 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2719,7 @@
 			)
 		)
 		(property "Description" "698MHz~960MHz 0.8dB SMD-6P,1.6x0.8mm RF Filters RoHS"
-			(at 1.27 -12.446 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2728,7 @@
 			)
 		)
 		(property "LCSC Part #" "C491705"
-			(at 0 1.27 0)
+			(at 0 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,8 +2756,8 @@
 		)
 		(symbol "LPF-868MHz_0_1"
 			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -6.35)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2768,7 +2768,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy 2.54 5.08)
+					(xy -1.27 1.905) (xy 1.27 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -2780,7 +2780,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy 2.54 2.54)
+					(xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2791,9 +2791,9 @@
 				)
 			)
 			(arc
-				(start -2.54 3.81)
-				(mid -1.27 5.0745)
-				(end 0 3.81)
+				(start -1.27 2.54)
+				(mid -0.635 3.175)
+				(end 0 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2803,9 +2803,9 @@
 				)
 			)
 			(arc
-				(start -2.54 1.27)
-				(mid -1.27 2.5345)
-				(end 0 1.27)
+				(start -1.27 0.635)
+				(mid -0.635 1.27)
+				(end 0 0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2815,8 +2815,8 @@
 				)
 			)
 			(arc
-				(start -2.54 -1.27)
-				(mid -1.27 -0.0055)
+				(start -1.27 -1.27)
+				(mid -0.635 -0.635)
 				(end 0 -1.27)
 				(stroke
 					(width 0.254)
@@ -2827,9 +2827,9 @@
 				)
 			)
 			(arc
-				(start 2.54 3.81)
-				(mid 1.27 2.5455)
-				(end 0 3.81)
+				(start 1.27 2.54)
+				(mid 0.635 1.905)
+				(end 0 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2839,9 +2839,9 @@
 				)
 			)
 			(arc
-				(start 2.54 1.27)
-				(mid 1.27 0.0055)
-				(end 0 1.27)
+				(start 1.27 0.635)
+				(mid 0.635 0)
+				(end 0 0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2851,8 +2851,8 @@
 				)
 			)
 			(arc
-				(start 2.54 -1.27)
-				(mid 1.27 -2.5345)
+				(start 1.27 -1.27)
+				(mid 0.635 -1.905)
 				(end 0 -1.27)
 				(stroke
 					(width 0.254)
@@ -2865,8 +2865,8 @@
 		)
 		(symbol "LPF-868MHz_1_1"
 			(pin input line
-				(at -10.16 0 0)
-				(length 3.81)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "I"
 					(effects
 						(font
@@ -2883,8 +2883,9 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -5.08 0)
-				(length 3.81)
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -2901,9 +2902,9 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 -10.16 90)
-				(length 3.81)
-				(name "GND"
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2919,8 +2920,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -10.16 90)
-				(length 3.81)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -2938,8 +2939,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -10.16 90)
-				(length 3.81)
+				(at 0 -7.62 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -2957,8 +2958,8 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
-				(length 3.81)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "O"
 					(effects
 						(font
