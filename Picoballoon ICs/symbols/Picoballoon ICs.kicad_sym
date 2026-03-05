@@ -1265,43 +1265,6 @@
 			(pin bidirectional line
 				(at -13.97 8.89 0)
 				(length 2.54)
-				(name "REFP0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -13.97 6.35 0)
-				(length 2.54)
-				(name "REFN0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "RCC_OSC_OUT" bidirectional line)
-			)
-			(pin bidirectional line
-				(at -13.97 3.81 0)
-				(length 2.54)
 				(name "AIN0"
 					(effects
 						(font
@@ -1318,7 +1281,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 1.27 0)
+				(at -13.97 6.35 0)
 				(length 2.54)
 				(name "AIN1"
 					(effects
@@ -1336,7 +1299,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -1.27 0)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "AIN2"
 					(effects
@@ -1355,7 +1318,7 @@
 				(alternate "RCC_OSC_IN" bidirectional line)
 			)
 			(pin power_in line
-				(at -13.97 -3.81 0)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "AIN3"
 					(effects
@@ -1374,6 +1337,43 @@
 				(alternate "ADC1_EXTI15" bidirectional line)
 				(alternate "ADC2_EXTI15" bidirectional line)
 				(alternate "RCC_OSC32_OUT" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -13.97 -1.27 0)
+				(length 2.54)
+				(name "REFP0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -13.97 -3.81 0)
+				(length 2.54)
+				(name "REFN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "RCC_OSC_OUT" bidirectional line)
 			)
 			(pin power_in line
 				(at -13.97 -6.35 0)
