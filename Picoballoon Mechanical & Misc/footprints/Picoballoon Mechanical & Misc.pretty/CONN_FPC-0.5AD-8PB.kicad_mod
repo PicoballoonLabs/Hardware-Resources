@@ -1,0 +1,184 @@
+(footprint "CONN_FPC-0.5AD-8PB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "8pin vertical molex")
+	(tags "525590853 MOLEX")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6f534a7-c0ff-4d3f-86cd-79d7e70b6d4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_MOLEX_525590853"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee0de06c-85fe-4f2f-9e63-6a8f6ad43fdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/525/52559/525590853_sd.pdf?inline"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "784dd108-c0f6-4008-8dcc-b1ed133067a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "8pin vertical molex connector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00832387-7541-4920-b2e8-c054ceb9b1b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 -1.25)
+		(end -3.6 1.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99718001-3008-4943-9700-59c46b9adaed")
+	)
+	(fp_line
+		(start 3.6 -1.25)
+		(end 3.6 1.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de957f3c-f1e3-4de8-8f69-ab9899eae664")
+	)
+	(fp_circle
+		(center -1.75 2.7)
+		(end -1.7 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0be9d509-8737-44c3-a66f-07d53bdc4863")
+	)
+	(fp_rect
+		(start -3.8 -2.1)
+		(end 3.8 2.1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "018dda1b-e13e-4418-93b2-b1845643709e")
+	)
+	(fp_rect
+		(start -3.5 -1.25)
+		(end 3.5 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0b2ebfd2-5bed-4c2e-8dab-7031b75eb396")
+	)
+	(pad "1" smd rect
+		(at -1.749996 1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd0e9fb1-2859-412c-860f-e62978b629fb")
+	)
+	(pad "2" smd rect
+		(at -1.249996 -1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ada3879-ad0e-43ef-966b-1bfb47f64774")
+	)
+	(pad "3" smd rect
+		(at -0.749996 1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82c0fe28-6f4f-44b8-bc18-24130a145211")
+	)
+	(pad "4" smd rect
+		(at -0.249996 -1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53112e89-a4df-41b7-b5af-d7f29919fe6d")
+	)
+	(pad "5" smd rect
+		(at 0.250004 1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90682873-8ca9-4db8-baf3-46e340963a57")
+	)
+	(pad "6" smd rect
+		(at 0.750004 -1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fb1a04e-5e5f-46a9-9682-c2bdaee828c6")
+	)
+	(pad "7" smd rect
+		(at 1.250004 1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09b5117c-ce2a-4c98-b987-973468b9a5ea")
+	)
+	(pad "8" smd rect
+		(at 1.750004 -1.2)
+		(size 0.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "041ae584-0aef-4517-968d-83b91b4d4d41")
+	)
+	(pad "S1" smd rect
+		(at -3 0)
+		(size 0.8 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8d9125f-8365-4965-9277-40c5aaf62367")
+	)
+	(pad "S1" smd rect
+		(at 3 0)
+		(size 0.8 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4228db1e-548a-4ef6-be82-3dc7cfe8c75d")
+	)
+	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/FPC-0.5AD-8PB.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
