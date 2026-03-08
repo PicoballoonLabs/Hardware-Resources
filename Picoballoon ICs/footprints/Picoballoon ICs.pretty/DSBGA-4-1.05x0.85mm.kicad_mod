@@ -1,0 +1,135 @@
+(footprint "DSBGA-4-1.05x0.85mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd7a38ba-e3c2-47e9-8d35-83f88dbe4193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DSBGA-4-1.05x0.85mm"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a11315c5-570d-4168-87ff-5def467ff710")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f5e937-725c-4a5c-a0e8-37e0d188512c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c5c7fe4-4812-4330-8dfe-c0387d16202a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -0.65 0.55)
+		(end -0.6 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9e130a19-8322-4edf-8ad8-7b2e8a9c439b")
+	)
+	(fp_rect
+		(start -0.725 -0.625)
+		(end 0.725 0.625)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eca98beb-bc82-4819-b029-f86c847d1238")
+	)
+	(fp_rect
+		(start -0.525 -0.425)
+		(end 0.525 0.425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "70e53361-0a22-465c-95e1-6a492ef1a139")
+	)
+	(fp_circle
+		(center -0.65 0.55)
+		(end -0.62 0.55)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "07c83623-de2c-48d8-b89a-198713902ad1")
+	)
+	(pad "A1" smd circle
+		(at -0.2 0.2)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5f3eaef2-3165-4bbb-a6ca-41cc84461555")
+	)
+	(pad "A2" smd circle
+		(at -0.2 -0.2)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3960d635-bd80-43a2-974b-2c2852536a1b")
+	)
+	(pad "B1" smd circle
+		(at 0.2 0.2)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "555c5883-bacb-49c3-b388-d9aa9260d7a1")
+	)
+	(pad "B2" smd circle
+		(at 0.2 -0.2)
+		(size 0.18 0.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bbc8da9d-6e97-49ef-b23a-e986b952132c")
+	)
+	(embedded_fonts no)
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/DSBGA-4-1.05x0.85mm.step"
+		(offset
+			(xyz 0 -0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

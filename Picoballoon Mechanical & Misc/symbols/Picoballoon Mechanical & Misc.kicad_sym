@@ -13581,7 +13581,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -10.16 19.05 0)
+			(at -10.16 20.955 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,12 +13591,13 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-12"
-			(at 19.05 19.05 0)
+			(at -10.16 19.05 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Picoballoon Mechanical & Misc:TYPE-C-31-M-12"
@@ -13689,6 +13691,17 @@
 				)
 			)
 			(rectangle
+				(start 10.16 5.334)
+				(end 9.144 4.826)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start 10.16 2.794)
 				(end 9.144 2.286)
 				(stroke
@@ -13700,8 +13713,8 @@
 				)
 			)
 			(rectangle
-				(start 10.16 0.254)
-				(end 9.144 -0.254)
+				(start 10.16 -7.366)
+				(end 9.144 -7.874)
 				(stroke
 					(width 0)
 					(type default)
@@ -13711,19 +13724,8 @@
 				)
 			)
 			(rectangle
-				(start 10.16 -2.286)
-				(end 9.144 -2.794)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 10.16 -4.826)
-				(end 9.144 -5.334)
+				(start 10.16 -9.906)
+				(end 9.144 -10.414)
 				(stroke
 					(width 0)
 					(type default)
@@ -13958,8 +13960,8 @@
 		)
 		(symbol "TYPE-C-31-M-12_1_1"
 			(pin passive line
-				(at -7.62 -22.86 90)
-				(length 5.08)
+				(at -7.62 -20.32 90)
+				(length 2.54)
 				(name "SHIELD"
 					(effects
 						(font
@@ -13976,8 +13978,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -22.86 90)
-				(length 5.08)
+				(at -7.62 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "SHIELD"
 					(effects
@@ -13995,8 +13997,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -22.86 90)
-				(length 5.08)
+				(at -7.62 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "SHIELD"
 					(effects
@@ -14014,8 +14016,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -22.86 90)
-				(length 5.08)
+				(at -7.62 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "SHIELD"
 					(effects
@@ -14033,8 +14035,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
-				(length 5.08)
+				(at 0 -20.32 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -14051,8 +14053,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
-				(length 5.08)
+				(at 0 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -14070,8 +14072,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
-				(length 5.08)
+				(at 0 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -14089,8 +14091,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
-				(length 5.08)
+				(at 0 -20.32 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -14108,8 +14110,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
+				(at 12.7 15.24 180)
+				(length 2.54)
 				(name "VBUS"
 					(effects
 						(font
@@ -14126,8 +14128,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
+				(at 12.7 15.24 180)
+				(length 2.54)
 				(hide yes)
 				(name "VBUS"
 					(effects
@@ -14145,8 +14147,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
+				(at 12.7 15.24 180)
+				(length 2.54)
 				(hide yes)
 				(name "VBUS"
 					(effects
@@ -14164,8 +14166,8 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 15.24 180)
-				(length 5.08)
+				(at 12.7 15.24 180)
+				(length 2.54)
 				(hide yes)
 				(name "VBUS"
 					(effects
@@ -14183,44 +14185,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 7.62 180)
-				(length 5.08)
-				(name "CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 15.24 2.54 180)
-				(length 5.08)
+				(at 12.7 10.16 180)
+				(length 2.54)
 				(name "D-"
 					(effects
 						(font
@@ -14237,8 +14203,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 0 180)
-				(length 5.08)
+				(at 12.7 7.62 180)
+				(length 2.54)
 				(name "D-"
 					(effects
 						(font
@@ -14255,8 +14221,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -2.54 180)
-				(length 5.08)
+				(at 12.7 5.08 180)
+				(length 2.54)
 				(name "D+"
 					(effects
 						(font
@@ -14273,8 +14239,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -5.08 180)
-				(length 5.08)
+				(at 12.7 2.54 180)
+				(length 2.54)
 				(name "D+"
 					(effects
 						(font
@@ -14291,8 +14257,44 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -12.7 180)
-				(length 5.08)
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -12.7 180)
+				(length 2.54)
 				(name "SBU1"
 					(effects
 						(font
@@ -14309,8 +14311,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -15.24 180)
-				(length 5.08)
+				(at 12.7 -15.24 180)
+				(length 2.54)
 				(name "SBU2"
 					(effects
 						(font

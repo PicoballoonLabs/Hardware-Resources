@@ -77,8 +77,8 @@
 		(uuid "de957f3c-f1e3-4de8-8f69-ab9899eae664")
 	)
 	(fp_circle
-		(center -1.75 2.7)
-		(end -1.7 2.7)
+		(center -3 2.3)
+		(end -2.95 2.3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -91,11 +91,11 @@
 		(start -3.8 -2.1)
 		(end 3.8 2.1)
 		(stroke
-			(width 0.15)
+			(width 0.05)
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "018dda1b-e13e-4418-93b2-b1845643709e")
 	)
 	(fp_rect
