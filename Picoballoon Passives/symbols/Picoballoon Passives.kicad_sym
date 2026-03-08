@@ -4803,7 +4803,7 @@
 			)
 		)
 		(property "Footprint" "Picoballoon ICs:XSON-6"
-			(at 7.62 -1.27 0)
+			(at -10.16 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4813,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C456091.pdf"
-			(at 3.175 3.175 0)
+			(at 3.175 -17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4822,7 @@
 			)
 		)
 		(property "Description" "TVS Diode Array, 3.3V Standoff, 5 Channels, XSON-6"
-			(at 0 0 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(property "LCSC Part #" "C456091"
-			(at 0 0 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -4982,7 +4982,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(circle
@@ -5076,7 +5076,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -5112,7 +5112,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(circle
@@ -5171,7 +5171,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 		)
