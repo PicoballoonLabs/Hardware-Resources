@@ -1,9 +1,9 @@
 (footprint "Capacitor 0201"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
+	(descr "Capacitor 0201")
 	(tags "capacitor")
 	(property "Reference" "REF**"
 		(at 0 -1.225 0)
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Capacitor 0201"
-		(at 0 1.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "785b413d-f3e5-4a65-9b46-e5a402cb860a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -172,6 +162,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "9a58061c-a78e-4d2c-8efb-2e3a312930ad")
 	)
+	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
 		(offset
 			(xyz 0 0 0)

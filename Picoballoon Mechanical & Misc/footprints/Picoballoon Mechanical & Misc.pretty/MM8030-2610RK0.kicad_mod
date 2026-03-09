@@ -335,17 +335,19 @@
 		(layer "F.Fab")
 		(uuid "51be1bc0-f196-4013-88cb-0ae650934d1f")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 0 0.95 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.102)
 		(uuid "ed7a9108-6883-4f5c-aebc-edcc8a8305cf")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 -0.95 90)
 		(size 0.4 0.5)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.102)
 		(uuid "8dacd387-abf6-48d3-8911-80f318570ee8")
 	)

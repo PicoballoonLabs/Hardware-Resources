@@ -277,40 +277,46 @@
 		(layer "F.Fab")
 		(uuid "9d8b38aa-44b0-491a-a3c0-82d874b8986a")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.4 0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "03b17c01-9b9f-41f5-a0eb-19116cf70a54")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "32c3b663-57e0-48a6-a815-23137361cfe7")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.4 0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "341743e7-8e73-4e68-be19-5ce56215af81")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at 0.4 -0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "c2cf36d4-5eb1-4675-ab34-1b303d2bc268")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0 -0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "372de1c2-6982-4f14-989b-72531db7dab7")
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at -0.4 -0.2 180)
 		(size 0.25 0.25)
 		(layers "F.Cu")
+		(roundrect_rratio 0.25)
 		(uuid "b86441d4-f7f3-4f04-9577-c10d640de25f")
 	)
 	(embedded_fonts no)

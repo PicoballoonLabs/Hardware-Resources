@@ -73,17 +73,6 @@
 		(layer "F.SilkS")
 		(uuid "45aa645c-0f09-43bb-aa32-862f68a1e033")
 	)
-	(fp_circle
-		(center -0.35 0.762)
-		(end -0.282 0.762)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "86799fae-6b69-4631-a37b-1aa6289ab37d")
-	)
 	(fp_rect
 		(start -0.75 -0.75)
 		(end 0.75 0.75)
@@ -102,7 +91,7 @@
 			(width 0.051)
 			(type default)
 		)
-		(layer "User.2")
+		(layer "F.Fab")
 		(uuid "569324e8-ab29-4c41-899c-3780182a05c7")
 	)
 	(fp_line
@@ -112,7 +101,7 @@
 			(width 0.051)
 			(type default)
 		)
-		(layer "User.2")
+		(layer "F.Fab")
 		(uuid "fdd9dfe7-e024-48eb-916f-e4b59f2eeef1")
 	)
 	(fp_line
@@ -122,7 +111,7 @@
 			(width 0.051)
 			(type default)
 		)
-		(layer "User.2")
+		(layer "F.Fab")
 		(uuid "c08c260a-6720-4d30-b75f-60a170f7fe68")
 	)
 	(fp_line
@@ -132,13 +121,25 @@
 			(width 0.051)
 			(type default)
 		)
-		(layer "User.2")
+		(layer "F.Fab")
 		(uuid "24e4b5b2-4e46-4a10-ba72-9942bf577bb8")
 	)
-	(pad "1" smd rect
+	(fp_circle
+		(center -0.7 0.7)
+		(end -0.65 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "210d293b-5f65-4208-b4b7-4697fdf1ce85")
+	)
+	(pad "1" smd roundrect
 		(at -0.35 0.35 90)
 		(size 0.55 0.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(uuid "ca624482-697d-4f2e-87eb-939af23c4aec")
 	)
 	(pad "2" smd roundrect
