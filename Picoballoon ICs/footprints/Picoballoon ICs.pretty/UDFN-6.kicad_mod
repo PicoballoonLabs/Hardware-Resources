@@ -188,7 +188,7 @@
 		(uuid "66fd6447-e964-4c54-a77f-2ef5a2b4d412")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.wrl"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/UDFN-6.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -196,7 +196,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )
