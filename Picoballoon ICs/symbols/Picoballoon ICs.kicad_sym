@@ -9256,7 +9256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Picoballoon ICs:HYT.R.411"
+		(property "Footprint" ""
 			(at -1.27 -15.24 0)
 			(effects
 				(font
@@ -9265,7 +9265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ist-ag.com/sites/default/files/downloads/DHHYTR411%20Humidity%20and%20Temperature%20Module_E_preliminary.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C48887140.pdf"
 			(at -22.86 -17.78 0)
 			(do_not_autoplace)
 			(effects
@@ -9287,7 +9287,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C48887140"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GXHT40AD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RHT heated"
 			(at 0 0 0)
 			(effects
 				(font
