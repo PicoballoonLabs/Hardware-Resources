@@ -11697,7 +11697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Picoballoon Mechanical & Misc:MOLEX_104224-0820"
+		(property "Footprint" "Picoballoon Mechanical & Misc:SIM-SMD_C7802-02"
 			(at 0 -17.78 0)
 			(effects
 				(font
