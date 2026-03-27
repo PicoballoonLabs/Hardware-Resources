@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -6.82 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "6099a398-90f6-42bb-9be7-22acc5ea9830")
 		(effects
 			(font
@@ -17,6 +18,7 @@
 	(property "Value" "FH28-10S-0.5SH(05)"
 		(at 0 6.82 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "7f81ab75-3bad-42d7-b002-58c0ddef4471")
 		(effects
 			(font
@@ -129,17 +131,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d6dc9689-a28e-426f-8613-92c0183bca60")
-	)
-	(fp_circle
-		(center -2.93 -2.98)
-		(end -2.78 -2.98)
-		(stroke
-			(width 0.3)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "1da9adb3-6407-46a6-8ec5-d2d73e182c17")
 	)
 	(pad "1" smd rect
 		(at -2.25 -2.82 180)

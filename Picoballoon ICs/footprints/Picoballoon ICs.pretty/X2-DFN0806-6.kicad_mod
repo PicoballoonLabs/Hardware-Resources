@@ -1,7 +1,7 @@
 (footprint "X2-DFN0806-6"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DMN2991UDA-7B")
 	(tags "MOSFET (N-Channel)")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" "X2-DFN0806-6"
-		(at 0 2.7 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2bee2a0c-efbb-44d9-b271-a4ae78051359")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,52 +51,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.75 0.242)
-		(end -0.75 0.242)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "06396c1c-b14d-4565-97be-ee3c140c07b9")
-	)
-	(fp_line
-		(start -0.65 0.242)
-		(end -0.65 0.242)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d94eda19-f9b0-42a5-9609-df247172b33b")
-	)
-	(fp_arc
-		(start -0.75 0.242)
-		(mid -0.7 0.192)
-		(end -0.65 0.242)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f2a79242-eeaf-4b3d-b27f-cb1e6f01f2fb")
-	)
-	(fp_arc
-		(start -0.65 0.242)
-		(mid -0.7 0.292)
-		(end -0.75 0.242)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "78debe5e-575f-4899-ad6a-55e618da1c5d")
-	)
 	(fp_line
 		(start -0.7 -0.6)
 		(end 0.7 -0.6)
@@ -191,39 +139,40 @@
 	(pad "1" smd rect
 		(at -0.35 0.242)
 		(size 0.15 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3f928d9a-eb62-4e67-bb8b-9dc39633280b")
 	)
 	(pad "2" smd rect
 		(at -0.05 0.242)
 		(size 0.15 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "797bb09a-71b5-4439-99ff-d333007da255")
 	)
 	(pad "3" smd rect
 		(at 0.275 0.207)
 		(size 0.2 0.345)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fa01172e-a46b-45bd-b292-99069f830748")
 	)
 	(pad "4" smd rect
 		(at 0.35 -0.242)
 		(size 0.15 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a5abd4cd-6cd3-4b7e-95b8-c161dae1f53f")
 	)
 	(pad "5" smd rect
 		(at 0.05 -0.242)
 		(size 0.15 0.275)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ed350b8e-f098-418d-af96-646a70c5d19c")
 	)
 	(pad "6" smd rect
 		(at -0.275 -0.207)
 		(size 0.2 0.345)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e2bd8fa4-bccb-406a-a6af-781965f874e1")
 	)
+	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon ICs.3dshapes/DFN0806-6.stp"
 		(offset
 			(xyz 0 0 0)
