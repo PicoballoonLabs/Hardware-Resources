@@ -177,7 +177,7 @@
 		(uuid "01ccb76e-ce83-4e2e-afa9-bd6170339f30")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/XSON-7_L2.2-W1.2-H0.5-P0.50-BL.wrl"
+	(model "../../3dmodels/Picoballoon ICs.3dshapes/XSON-7.step"
 		(offset
 			(xyz 0 0 -0)
 		)

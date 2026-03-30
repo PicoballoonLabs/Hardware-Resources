@@ -205,7 +205,7 @@
 		(uuid "c677016f-fad1-496f-bbe9-a4314c70f797")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/FFC-SMD_10P-P0.50_FH28-10S-0.5SH-05.wrl"
+	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/FH28-10S-0.5SH(05).step"
 		(offset
 			(xyz -0 -0.59 -0)
 		)
@@ -213,7 +213,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
