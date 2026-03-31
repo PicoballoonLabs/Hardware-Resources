@@ -427,4 +427,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${PICOBALLOON_LIBRARY}/Picoballoon Mechanical & Misc/3dmodels/Picoballoon Mechanical & Misc.3dshapes/C7802-02.stp"
+		(offset
+			(xyz 0 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

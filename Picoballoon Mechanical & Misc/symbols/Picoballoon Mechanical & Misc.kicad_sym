@@ -11708,7 +11708,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C20624830.pdf"
-			(at -1.27 0 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11717,7 +11717,7 @@
 			)
 		)
 		(property "Description" "Card Connector NANO SIM Hinged Lid Surface Mount"
-			(at -1.27 0 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,14 +11792,71 @@
 			(pin power_in line
 				(at -15.24 -1.27 0)
 				(length 2.54)
-				(name "VPP"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "C6"
+				(number "C5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "SW"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11828,71 +11885,14 @@
 			(pin power_in line
 				(at -15.24 -6.35 0)
 				(length 2.54)
-				(name "GND"
+				(name "VPP"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "C5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -6.35 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "MP1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -15.24 -6.35 0)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "MP1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 -6.35 0)
-				(length 2.54)
-				(hide yes)
-				(name "SW"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "SW"
+				(number "C6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -11989,7 +11989,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -6.35 0)
+				(at -15.24 -1.27 0)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
