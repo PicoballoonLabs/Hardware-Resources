@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.11 -2.285)
-		(end -1.06 -2.285)
+		(start -2.11 -1.665)
+		(end -1.06 -1.665)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -65,8 +65,8 @@
 		(uuid "8455ed93-6d15-4283-9e78-6ce9e296c972")
 	)
 	(fp_line
-		(start -2.11 0.215)
-		(end -2.11 -2.285)
+		(start -2.11 0.835)
+		(end -2.11 -1.665)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "d99050e4-5e52-48f5-b12f-0b76b6cf3136")
 	)
 	(fp_line
-		(start -1.06 -2.285)
-		(end -1.06 -3.275)
+		(start -1.06 -1.665)
+		(end -1.06 -2.655)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "424977d7-e3b3-49f8-b661-feec0795fd9c")
 	)
 	(fp_line
-		(start -0.94 2.185)
-		(end 0.94 2.185)
+		(start -0.94 2.805)
+		(end 0.94 2.805)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "c34c8bbf-e4a4-46da-8b2b-f007e983327e")
 	)
 	(fp_line
-		(start 2.11 -2.285)
-		(end 1.06 -2.285)
+		(start 2.11 -1.665)
+		(end 1.06 -1.665)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "5dcc5fe3-4a43-4f4e-ae0f-0ed23295617e")
 	)
 	(fp_line
-		(start 2.11 0.215)
-		(end 2.11 -2.285)
+		(start 2.11 0.835)
+		(end 2.11 -1.665)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "fe7b44ee-d0e1-405c-8ff2-11333379a24c")
 	)
 	(fp_line
-		(start -2.9 -3.78)
-		(end -2.9 2.78)
+		(start -2.9 -3.16)
+		(end -2.9 3.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "7811aa83-8269-44de-9a25-4b2aad28e860")
 	)
 	(fp_line
-		(start -2.9 2.78)
-		(end 2.9 2.78)
+		(start -2.9 3.4)
+		(end 2.9 3.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "1ce44e3b-6670-4903-a48a-b61056c71406")
 	)
 	(fp_line
-		(start 2.9 -3.78)
-		(end -2.9 -3.78)
+		(start 2.9 -3.16)
+		(end -2.9 -3.16)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "9a4757e3-a409-4438-87dd-c1a3fcc1faa7")
 	)
 	(fp_line
-		(start 2.9 2.78)
-		(end 2.9 -3.78)
+		(start 2.9 3.4)
+		(end 2.9 -3.16)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "f83a342d-af9a-452a-9e49-ea75e11e2202")
 	)
 	(fp_line
-		(start -2 -2.175)
-		(end -2 2.075)
+		(start -2 -1.555)
+		(end -2 2.695)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "521725f2-18c7-4276-811c-0d2791fd5ec5")
 	)
 	(fp_line
-		(start -2 -2.175)
-		(end 2 -2.175)
+		(start -2 -1.555)
+		(end 2 -1.555)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "a8515236-6741-4e75-afe5-eb773843a3fa")
 	)
 	(fp_line
-		(start -2 2.075)
-		(end 2 2.075)
+		(start -2 2.695)
+		(end 2 2.695)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "719d7aa6-f56f-4f0a-8610-263ee22d1602")
 	)
 	(fp_line
-		(start -1 -2.175)
-		(end -0.5 -1.467893)
+		(start -1 -1.555)
+		(end -0.5 -0.847893)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,8 +195,8 @@
 		(uuid "da09c41b-5c22-4efe-bf4b-10147f79cb45")
 	)
 	(fp_line
-		(start -0.5 -1.467893)
-		(end 0 -2.175)
+		(start -0.5 -0.847893)
+		(end 0 -1.555)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -205,8 +205,8 @@
 		(uuid "cf04b2ac-a319-415c-801c-f3aee1d2c3af")
 	)
 	(fp_line
-		(start 2 -2.175)
-		(end 2 2.075)
+		(start 2 -1.555)
+		(end 2 2.695)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -215,28 +215,28 @@
 		(uuid "ef55c52e-c48d-4e27-b9d7-93761e917353")
 	)
 	(pad "1" smd roundrect
-		(at -0.5 -2.5)
+		(at -0.5 -1.88)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c9fa39b4-7319-4166-aba9-de95d2eaa720")
 	)
 	(pad "2" smd roundrect
-		(at 0.5 -2.5)
+		(at 0.5 -1.88)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d13675e7-36c5-4b3f-a331-3bf117cd813d")
 	)
 	(pad "S1" smd roundrect
-		(at -1.8 1.375)
+		(at -1.8 1.995)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "5b3f4f05-de86-4910-971b-d7769ef57519")
 	)
 	(pad "S2" smd roundrect
-		(at 1.8 1.375)
+		(at 1.8 1.995)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
@@ -245,7 +245,7 @@
 	(embedded_fonts no)
 	(model "../../3dmodels/Picoballoon Mechanical & Misc.3dshapes/JST-SH-2P.step"
 		(offset
-			(xyz -0.5 0 0)
+			(xyz -0.5 -0.58 0)
 		)
 		(scale
 			(xyz 1 1 1)
