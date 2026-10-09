@@ -94,7 +94,7 @@
 			(size 0.8 0.8)
 		)
 	)
-	(tbtext "info@picoballoon.org"
+	(tbtext "hello@picoballoon.io"
 		(name "")
 		(pos 37.75 3.75)
 		(font

@@ -6,21 +6,28 @@ Our goal is to ensure consistency, reusability, and efficiency in hardware desig
 
 ## 📦 Contents
 
-*   **`Picoballoon Color Scheme/`**: KiCad theme files and color palette definitions.
-*   **`Picoballoon ICs/`**: KiCad symbol and footprint libraries specifically for Integrated Circuits.
-*   **`Picoballoon Mechanical & Misc/`**: KiCad symbol and footprint libraries for connectors, actuators, batteries and miscellaneous parts.
-*   **`Picoballoon Passives/`**: KiCad symbol and footprint libraries for passive components: resistors, capacitors, inductors...
-*   **`Picoballoon Power Symbols/`**: KiCad symbol library for schematic power symbols.
-*   **`Templates/`**: KiCad drawing sheet templates.
-*   **`repository.json`**: Index file for the KiCad Plugin and Content Manager.
+*   **`Picoballoon Color Scheme/`**: KiCad color theme (schematic and PCB editor), inspired by Altium.
+*   **`Picoballoon ICs/`**: Symbols, footprints and 3D models for integrated circuits: MCUs, radios, GNSS receivers, sensors, power and interface ICs.
+*   **`Picoballoon Mechanical & Misc/`**: Symbols, footprints and 3D models for connectors, switches, antennas, battery holders, solar panels and miscellaneous parts.
+*   **`Picoballoon Passives/`**: Symbols, footprints and 3D models for passive components: resistors, capacitors, inductors, crystals, diodes, LEDs...
+*   **`Picoballoon Power Symbols/`**: Symbol library with schematic power symbols.
+*   **`Templates/`**: KiCad drawing sheet templates and graphics used on them.
+*   **`repository.json`**, **`packages.json`**, **`resources.zip`**: Index, package list and icons for the KiCad Plugin and Content Manager.
+*   **`construct_repository.py`**: Script that builds the Plugin and Content Manager packages and regenerates the index files.
+
+Each library folder holds its `symbols/`, `footprints/` and `3dmodels/` together with the `metadata.json` and the packaged `*_pcm.zip` served to the Plugin and Content Manager.
+
+## 📄 Licence
+
+Assets authored by Noove s.r.o. are released under the MIT Licence, see [LICENSE](LICENSE). The libraries also contain third-party and supplier-provided assets that keep their original terms, see [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ## 🛠️ KiCad Integration Guide
 
 Follow these steps to integrate Picoballoon's hardware resources into your KiCad environment.
 
-### 1. Add to KiCad Plugin and Content Manager (Recommended for external users)
+### 1. Add to KiCad Plugin and Content Manager (Recommended)
 
-This is the easiest way for external users to access our official symbols, footprints, and 3D models for their KiCad projects.
+This is the easiest way to access our symbols, footprints, and 3D models for their KiCad projects.
 
 1.  Open KiCad.
 2.  Go to `Tools` > `Plugin and Content Manager`.
@@ -33,9 +40,9 @@ This is the easiest way for external users to access our official symbols, footp
 6.  Close the settings window and refresh the Content Manager if prompted.
 7.  You should now see "Hardware Resources" as an available repository. Select it and click `Install` to download and add all symbols, footprints, and 3D models managed by the Content Manager.
 
-### 2. Configure KiCad Global Libraries using Path Manager (Essential for Internal Team)
+### 2. Configure KiCad Global Libraries using Path Manager (For contributors)
 
-This setup is crucial for internal team members to directly work with and contribute to the libraries via Git.
+This setup lets you work with and contribute to the libraries directly via Git.
 
 1.  **Clone the repository:**
     ```bash
@@ -52,14 +59,8 @@ This setup is crucial for internal team members to directly work with and contri
 
 ## 💡 Contributing to Hardware Resources
 
-This repository uses a streamlined contribution model to ensure rapid updates and minimize merge conflicts.
-
-*   **No Branching for Contributions**: To prevent complex merge conflicts in library files, contributions are made directly to the `main` branch.
-*   **Pull/Push Directly**: After making local changes to library files (symbols, footprints, 3D models) in your cloned `Hardware-Resources` repository:
-    1.  Ensure your local repository is up-to-date: `git pull origin main`
-    2.  Commit your changes: `git commit -am "Your descriptive commit message"`
-    3.  Push your changes directly: `git push origin main`
-*   **Communication is Key**: For larger changes or new library sections, please communicate with the hardware team lead before pushing to coordinate and avoid simultaneous edits to the same files.
+*   **External contributions**: Open a pull request against `main`. Please state where any symbol, footprint or 3D model comes from so it can be recorded in [ATTRIBUTION.md](ATTRIBUTION.md).
+*   **Team members**: To prevent complex merge conflicts in library files, changes are pushed directly to `main`. Pull before you start, keep commits small, and coordinate larger changes or new library sections with the hardware team lead.
 *   **KiCad Cache Refresh**: After pulling updates, you may need to clear your KiCad symbol and footprint caches or restart KiCad to see the latest changes in your projects.
 
 Ensure all new assets meet our established naming conventions and quality standards.
